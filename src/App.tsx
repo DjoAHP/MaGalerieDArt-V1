@@ -98,7 +98,7 @@ const artworks: Artwork[] = [
     year: "1597",
     imageUrl:
       "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg",
-    link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
+    link: "https://fr.gallerix.ru/album/Caravaggio/pic/glrx-5197",
     description:
       "Méduse du Caravage, peinte vers 1597, est un bouclier en bois représentant la tête tranchée de la Gorgone au moment précis où elle réalise son sort. Son visage exprime une terreur figée, la bouche ouverte dans un cri muet et les yeux écarquillés d’effroi. Le réalisme saisissant, accentué par le clair-obscur caractéristique du Caravage, donne une impression de mouvement et de tridimensionnalité. Les serpents de sa chevelure semblent s’animer, tandis que le fond sombre met en valeur l’intensité dramatique de la scène. Cette œuvre, destinée aux Médicis, illustre la virtuosité du peintre et sa maîtrise des effets illusionnistes.",
   },
@@ -109,7 +109,7 @@ const artworks: Artwork[] = [
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Giovanni_Baglione_-_The_Divine_Eros_Defeats_the_Earthly_Eros_-_Google_Art_Project.jpg",
-    link: "https://fr.gallerix.ru/album/Caravaggio/pic/glrx-5197",
+    link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
     description:
       "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
   },
