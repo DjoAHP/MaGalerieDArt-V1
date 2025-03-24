@@ -88,7 +88,7 @@ const artworks: Artwork[] = [
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Inspiration_of_Saint_Matthew-Caravaggio_%281602%29.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=8d7aa256-99f9-4d32-8725-1f5e3a44cce0",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=4ff44b6e-f6f8-4bf3-a9dc-4e9f45676913",
     description:
       "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
   },
