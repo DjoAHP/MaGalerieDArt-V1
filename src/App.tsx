@@ -243,6 +243,16 @@ const artworks: Artwork[] = [
       "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
   },
   {
+    title: "Angélique sauvée par Ruggiero",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1819-1839",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1000px/Jean_Auguste_Dominique_Ingres_-_Angelica_saved_by_Ruggiero_1819-1839_-_(MeisterDrucke-784831).jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
+    description:
+      "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
+  },
+  {
     title: "Les Époux Arnolfini",
     artist: "Jan van Eyck",
     year: "1434",
@@ -271,6 +281,16 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/paolo-fiammingo-landscape-with-the-expulsion-of-the-harpies",
     description:
       "En guise de punition pour avoir révélé l'avenir à l'humanité, le roi Phinéas de Thrace fut aveuglé et sa nourriture fut continuellement volée par les harpies, mi-humaines, mi-oiseaux. L'histoire est racontée dans les Argonautes , un roman épique écrit par Apollonius de Rhode au IIIe siècle av. J.-C.",
+  },
+  {
+    title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
+    artist: "Atelier de Giulio Romano",
+    year: "1530",
+    imageUrl:
+      "https://images.grandpalaisrmn.fr/thumb.php/01022178.jpg?eJwljb0OwjAMhN_l5g5xSEjxhrKAREGiSMCEoiiZOhWYEO_ONQz2p7vzzwdxC61pepYOcQcFyBtUiHvDYQ91C49M65weLA4NVEaMtRL6RV7a8Ai17JErxPD3GL3mNx9cx2acocGYDidKlOx4IWyCrFzxuZdcjCsh-7V4U13C9wdnDSb0",
+    link: "https://www.nationalgallery.org.uk/paintings/workshop-of-giulio-romano-the-infancy-of-jupiter",
+    description:
+      "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
   },
 ];
 
