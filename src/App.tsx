@@ -222,6 +222,16 @@ const artworks: Artwork[] = [
     description:
       "Le Radeau de la Méduse, de Théodore Géricault dépeint le naufrage de la frégate française Méduse en 1816, où des survivants dérivent sur un radeau de fortune, confrontés à la faim, la soif et le désespoir. Le tableau illustre la tragédie humaine et la lutte pour la survie face à l'adversité. Géricault a choisi ce sujet contemporain pour critiquer l'incompétence du gouvernement, marquant une rupture avec le néoclassicisme et ouvrant la voie au romantisme.",
   },
+  {
+    title: "Jupiter et Thétis",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1811",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
+    link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
+    description:
+      "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
+  },
 ];
 
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
