@@ -292,6 +292,35 @@ const artworks: Artwork[] = [
     description:
       "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
   },
+  {
+    title: "Saint Joseph charpentier",
+    artist: "Georges de La Tour",
+    year: "1645",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg",
+    link: "https://fr.wikipedia.org/wiki/Saint_Joseph_charpentier",
+    description:
+      "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
+  },
+  {
+    title: "Le viol de Ganymède",
+    artist: "Damiano Mazza",
+    year: "1575",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Damiano_Mazza_-_The_Rape_of_Ganymede_ca_1575_-_%28MeisterDrucke-1196890%29.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/damiano-mazza-the-rape-of-ganymede",
+    description:
+      "Il faut prendre ici pour viol le sens d'enlèvement contraint (rapt), Ganymède étant enlevé dans les airs par un aigle (représentant les dieux ou Zeus lui-même) pour être soustrait à la vindicte d'Héra.",
+  },
+  {
+    title: "Vénus et Adonis",
+    artist: "Abraham Bloemaert",
+    year: "1632",
+    imageUrl:
+      "https://iip-thumb.smk.dk/iiif/jp2/jd473138d_KMSsp343.tif.reconstructed.tif.jp2/full/!2048,/0/default.jpg",
+    link: "https://open.smk.dk/artwork/image/KMSsp343?q=*&page=3",
+    description:
+      "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
+  },
 ];
 
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
