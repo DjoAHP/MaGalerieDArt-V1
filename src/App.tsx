@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { ExternalLink, ChevronDown } from 'lucide-react';
+import React, { useState, useMemo } from "react";
+import { ExternalLink, ChevronDown } from "lucide-react";
 
 interface Artwork {
   title: string;
@@ -11,16 +11,7 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  {
-    title: "Naissance de Vénus",
-    artist: "Sandro Botticelli",
-    year: 1485,
-    imageUrl:
-      "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=66a8ccbb-1ab5-4e28-bd84-4382dfb34be5",
-    description:
-      "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
-  },
+  // #region "Sandro Botticelli"
   {
     title: "Le Printemps",
     artist: "Sandro Botticelli",
@@ -31,6 +22,18 @@ const artworks: Artwork[] = [
     description:
       "Le Printemps de Botticelli est une allégorie mythologique célébrant le renouveau et la fertilité de la nature.Au centre, Vénus, déesse de l'amour, rayonne et insuffle la grâce dans le monde.Zéphyr, le vent de l'Est, emporte Chloris, qui se transforme en Flore, symbole de la floraison.L'ensemble exprime l'harmonie entre amour, beauté et l'épanouissement vital du printemps.",
   },
+
+  {
+    title: "Pallas et le Centaure",
+    artist: "Sandro Botticelli",
+    year: "1482",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pallade_col_Centauro%2C_Sandro_Botticelli_%281482%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/Pallas_et_le_Centaure",
+    description:
+      "Le thème moral (la Raison incarnée par Pallas, autre théonyme d'Athéna) est à destination de Pierfrancesco, de sombre réputation, violent et débauché, incarné par le Centaure (la bestialité). Il s'agit d'une allégorie à thème mythologique, de la sagesse (Pallas) qui domine l'instinct (Le Centaure), ou la victoire de la Connaissance sur l'Ignorance. Centaure qui s'est introduit dans le jardin, équipé d'un arc à la main, prêt à tirer, est surpris par Pallas, gardienne des lieux.",
+  },
+
   {
     title: "Vénus et Mars",
     artist: "Sandro Botticelli",
@@ -42,6 +45,19 @@ const artworks: Artwork[] = [
       "Le tableau Vénus et Mars de Sandro Botticelli, réalisé vers 1485, illustre la déesse de l'amour, Vénus, veillant sur Mars, le dieu de la guerre, endormi après l'amour. Des satyres espiègles jouent avec l'armure de Mars, symbolisant la vulnérabilité de la guerre face au pouvoir de l'amour. Cette œuvre, probablement commandée pour célébrer un mariage, reflète les idéaux de la Renaissance en matière de beauté et de vertu. Les guêpes près de la tête de Mars pourraient faire référence à la famille Vespucci, possible commanditaire du tableau",
   },
   {
+    title: "Naissance de Vénus",
+    artist: "Sandro Botticelli",
+    year: 1485,
+    imageUrl:
+      "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=66a8ccbb-1ab5-4e28-bd84-4382dfb34be5",
+    description:
+      "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
+  },
+  // #endregion
+
+  // #region "Bénigne Gagneraux"
+  {
     title: "L'éducation d'Achille",
     artist: "Bénigne Gagneraux",
     year: "1785",
@@ -51,7 +67,9 @@ const artworks: Artwork[] = [
     description:
       "​Achille, héros de la mythologie grecque, fut confié dès son enfance au centaure Chiron, réputé pour sa sagesse et ses vastes connaissances. Sous sa tutelle, Achille apprit la médecine, la musique, l'équitation, la chasse et le maniement des armes. Chiron lui inculqua également des valeurs morales telles que la justice, la maîtrise de soi et la modération. Cette éducation complète fit d'Achille un modèle du héros accompli dans la Grèce antique.​",
   },
+  // #endregion
 
+  // #region "Leonardo Da Vinci"
   {
     title: "Dame à l'hermine",
     artist: "Leonardo Da Vinci",
@@ -62,6 +80,9 @@ const artworks: Artwork[] = [
     description:
       "Dame à l’hermine de Léonard de Vinci, peinte vers 1489-1490, représente Cecilia Gallerani tenant une hermine blanche, symbole de pureté et de noblesse. Le sfumato adoucit les contours, donnant profondeur et réalisme à son regard expressif. La lumière met en valeur la finesse de son visage et la texture de sa robe. La posture dynamique apporte une impression de mouvement naturel. Ce chef-d'œuvre illustre la maîtrise du portrait par Léonard.",
   },
+  // #endregion
+
+  // #region "Michelangelo Merisi (Caravaggio)"
   {
     title: "Medusa",
     artist: "Michelangelo Merisi (Caravaggio)",
@@ -112,6 +133,9 @@ const artworks: Artwork[] = [
     description:
       "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
   },
+  // #endregion
+
+  // #region "Jusepe de Ribera (Mouvement Caravagesque)"
   {
     title: "Saint Jérôme et l'ange du Jugement",
     artist: "Jusepe de Ribera (Mouvement Caravagesque)",
@@ -122,7 +146,9 @@ const artworks: Artwork[] = [
     description:
       "La scène représente saint Jérôme en train de traduire la Bible, surpris par l'ange du Jugement dernier sonnant du cor, qui apparaît dans les nuages en haut à droite de la scène, ce dernier étant très semblable au personnage représenté dans la toile de Saint Matthieu et l'Ange du Caravage datant de 1602",
   },
+  // #endregion
 
+  // #region "Giovanni Baglione"
   {
     title: "L'Amour divin et l'Amour profane",
     artist: "Giovanni Baglione",
@@ -133,6 +159,9 @@ const artworks: Artwork[] = [
     description:
       "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
   },
+  // #endregion
+
+  // #region "Raphaël"
   {
     title: "L’École d'Athènes",
     artist: "Raphaël",
@@ -163,6 +192,9 @@ const artworks: Artwork[] = [
     description:
       "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
   },
+  // #endregion
+
+  // #region "Vincent van Gogh"
   {
     title: "La Nuit étoilée",
     artist: "Vincent van Gogh",
@@ -173,6 +205,9 @@ const artworks: Artwork[] = [
     description:
       "Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu'il occupait dans l'asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. Souvent présenté comme son grand œuvre, le tableau a été reproduit à de très nombreuses reprises. Il est maintenant conservé dans le Museum of Modern Art (MoMA) à New York depuis 1941.",
   },
+  // #endregion
+
+  // #region "Katsushika Hokusai"
   {
     title: "La Grande Vague",
     artist: "Katsushika Hokusai",
@@ -182,6 +217,9 @@ const artworks: Artwork[] = [
     description:
       "La Grande Vague de Kanagawa de Katsushika Hokusai, réalisée vers 1831, représente une immense vague menaçante sur le point de s’abattre sur des bateaux. La composition dynamique et les courbes élégantes créent une sensation de mouvement intense. Le bleu profond, obtenu grâce au bleu de Prusse, renforce le contraste avec l’écume blanche. En arrière-plan, le mont Fuji apparaît serein, opposant calme et chaos. Cette estampe emblématique illustre la puissance de la nature et l’influence de l’ukiyo-e.",
   },
+  // #endregion
+
+  // #region "Antonio Mariani della Corgna"
   {
     title: "Prometheus",
     artist: "Antonio Mariani della Corgna",
@@ -192,6 +230,9 @@ const artworks: Artwork[] = [
     description:
       "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
   },
+  // #endregion
+
+  // #region "Piero di Cosimo"
   {
     title: "Persée libère Andromède",
     artist: "Piero di Cosimo",
@@ -202,6 +243,9 @@ const artworks: Artwork[] = [
     description:
       "Andromède, fille du roi Céphée, est condamnée à être sacrifiée pour apaiser Poséidon, furieux du vantardise de Cassiopée.Le monstre marin, envoyé pour dévaster le royaume, menace de dévorer la jeune princesse enchaînée sur un rocher.Persée, héros aux sandales ailées et armé d’un bouclier magique, intervient et tue la bête.En libérant Andromède, il sauve le peuple et gagne son amour, scellant ainsi leur union.",
   },
+  // #endregion
+
+  // #region "Gustave Moreau"
   {
     title: "Jupiter et Sémélé",
     artist: "Gustave Moreau",
@@ -212,6 +256,9 @@ const artworks: Artwork[] = [
     description:
       "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
   },
+  // #endregion
+
+  // #region "John William Waterhouse"
   {
     title: "Ulysse et les sirènes",
     artist: "John William Waterhouse",
@@ -221,6 +268,9 @@ const artworks: Artwork[] = [
     description:
       "Ulysse et les sirènes de John William Waterhouse évoque le mythe d'Ulysse qui, en naviguant, affronte les chants envoûtants des sirènes.Pour ne pas succomber à leur séduction mortelle, il fait boucher les oreilles de ses marins et se fait attacher au mât.Ainsi, il peut écouter leur mélodie sans perdre le contrôle.Ce mythe symbolise la lutte entre la curiosité insatiable et la nécessité de maîtriser ses passions.",
   },
+  // #endregion
+
+  // #region "Mattia Preti"
   {
     title: "Christ couronné d’épines",
     artist: "Mattia Preti",
@@ -231,6 +281,9 @@ const artworks: Artwork[] = [
     description:
       "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
   },
+  // #endregion
+
+  // #region "Théodore Géricault"
   {
     title: "Le Radeau de la Méduse",
     artist: "Théodore Géricault",
@@ -241,6 +294,9 @@ const artworks: Artwork[] = [
     description:
       "Le Radeau de la Méduse, de Théodore Géricault dépeint le naufrage de la frégate française Méduse en 1816, où des survivants dérivent sur un radeau de fortune, confrontés à la faim, la soif et le désespoir. Le tableau illustre la tragédie humaine et la lutte pour la survie face à l'adversité. Géricault a choisi ce sujet contemporain pour critiquer l'incompétence du gouvernement, marquant une rupture avec le néoclassicisme et ouvrant la voie au romantisme.",
   },
+  // #endregion
+
+  // #region "Jean-Auguste-Dominique Ingres"
   {
     title: "Jupiter et Thétis",
     artist: "Jean-Auguste-Dominique Ingres",
@@ -251,6 +307,7 @@ const artworks: Artwork[] = [
     description:
       "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
   },
+
   {
     title: "Angélique sauvée par Ruggiero",
     artist: "Jean-Auguste-Dominique Ingres",
@@ -261,6 +318,9 @@ const artworks: Artwork[] = [
     description:
       "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
   },
+  // #endregion
+
+  // #region "Jan van Eyck"
   {
     title: "Les Époux Arnolfini",
     artist: "Jan van Eyck",
@@ -271,6 +331,9 @@ const artworks: Artwork[] = [
     description:
       "Les Époux Arnolfini est le nom donné à une peinture sur bois (82,2 × 60 cm) du peintre primitif flamand Jan van Eyck datant de 1434, conservée à la National Gallery de Londres",
   },
+  // #endregion
+
+  // #region "Titien"
   {
     title: "Bacchus et Ariane",
     artist: "Titien",
@@ -281,6 +344,9 @@ const artworks: Artwork[] = [
     description:
       "Bacchus et Ariane est une peinture de la Renaissance réalisée par Titien entre 1520 et 1523. Elle fait partie du cycle de peintures à sujet mythologiques commandé par Alphonse Ier d'Este, duc de Ferrare, pour la chambre d'albâtre de son palazzo de Ferrare.",
   },
+  // #endregion
+
+  // #region "Paolo Fiammingo"
   {
     title: "Paysage avec l'expulsion des harpies",
     artist: "Paolo Fiammingo",
@@ -291,6 +357,9 @@ const artworks: Artwork[] = [
     description:
       "En guise de punition pour avoir révélé l'avenir à l'humanité, le roi Phinéas de Thrace fut aveuglé et sa nourriture fut continuellement volée par les harpies, mi-humaines, mi-oiseaux. L'histoire est racontée dans les Argonautes , un roman épique écrit par Apollonius de Rhode au IIIe siècle av. J.-C.",
   },
+  // #endregion
+
+  // #region "Giulio Romano"
   {
     title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
     artist: "Atelier de Giulio Romano",
@@ -301,6 +370,9 @@ const artworks: Artwork[] = [
     description:
       "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
   },
+  // #endregion
+
+  // #region "Georges de La Tour"
   {
     title: "Saint Joseph charpentier",
     artist: "Georges de La Tour",
@@ -310,6 +382,9 @@ const artworks: Artwork[] = [
     description:
       "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
   },
+  // #endregion
+
+  // #region "Damiano Mazza"
   {
     title: "Le viol de Ganymède",
     artist: "Damiano Mazza",
@@ -320,6 +395,9 @@ const artworks: Artwork[] = [
     description:
       "Il faut prendre ici pour viol le sens d'enlèvement contraint (rapt), Ganymède étant enlevé dans les airs par un aigle (représentant les dieux ou Zeus lui-même) pour être soustrait à la vindicte d'Héra.",
   },
+  // #endregion
+
+  // #region "Abraham Bloemaert"
   {
     title: "Vénus et Adonis",
     artist: "Abraham Bloemaert",
@@ -330,6 +408,7 @@ const artworks: Artwork[] = [
     description:
       "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
   },
+  // #endregion
 ];
 
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
@@ -339,7 +418,9 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
         <div className="p-6">
           <div className="flex justify-between items-start mb-4">
             <div>
-              <h2 className="text-2xl font-bold text-white mb-2">{artwork.title}</h2>
+              <h2 className="text-2xl font-bold text-white mb-2">
+                {artwork.title}
+              </h2>
               <p className="text-gray-300">{artwork.artist}</p>
               <p className="text-gray-400">{artwork.year}</p>
             </div>
@@ -369,25 +450,29 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
 }
 
 function App() {
-  const [selectedArtist, setSelectedArtist] = useState<string>('');
+  const [selectedArtist, setSelectedArtist] = useState<string>("");
 
   const artists = useMemo(() => {
-    const uniqueArtists = Array.from(new Set(artworks.map(artwork => artwork.artist)));
-    return ['Tous les artistes', ...uniqueArtists];
+    const uniqueArtists = Array.from(
+      new Set(artworks.map((artwork) => artwork.artist))
+    );
+    return ["Tous les artistes", ...uniqueArtists];
   }, []);
 
   const filteredArtworks = useMemo(() => {
-    if (!selectedArtist || selectedArtist === 'Tous les artistes') {
+    if (!selectedArtist || selectedArtist === "Tous les artistes") {
       return artworks;
     }
-    return artworks.filter(artwork => artwork.artist === selectedArtist);
+    return artworks.filter((artwork) => artwork.artist === selectedArtist);
   }, [selectedArtist]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 p-8">
       <div className="max-w-[2000px] mx-auto">
-        <h1 className="text-4xl font-bold text-white mb-8 text-center">Ma Galerie d'Art</h1>
-        
+        <h1 className="text-4xl font-bold text-white mb-8 text-center">
+          Ma Galerie d'Art
+        </h1>
+
         <div className="relative mb-8 max-w-xs mx-auto">
           <select
             value={selectedArtist}
@@ -400,7 +485,10 @@ function App() {
               </option>
             ))}
           </select>
-          <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white pointer-events-none" size={20} />
+          <ChevronDown
+            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white pointer-events-none"
+            size={20}
+          />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
