@@ -11,51 +11,58 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  // #region "Sandro Botticelli"
-  {
-    title: "Le Printemps",
-    artist: "Sandro Botticelli",
-    year: "1480",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/640px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
-    link: "https://fr.gallerix.ru/album/Botticelli/pic/glrx-1297681446",
-    description:
-      "Le Printemps de Botticelli est une allégorie mythologique célébrant le renouveau et la fertilité de la nature.Au centre, Vénus, déesse de l'amour, rayonne et insuffle la grâce dans le monde.Zéphyr, le vent de l'Est, emporte Chloris, qui se transforme en Flore, symbole de la floraison.L'ensemble exprime l'harmonie entre amour, beauté et l'épanouissement vital du printemps.",
-  },
+  // 🔹 -----A-----
 
+  // #region "Abraham Bloemaert"
   {
-    title: "Pallas et le Centaure",
-    artist: "Sandro Botticelli",
-    year: "1482",
+    title: "Vénus et Adonis",
+    artist: "Abraham Bloemaert",
+    year: "1632",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pallade_col_Centauro%2C_Sandro_Botticelli_%281482%29.jpg",
-    link: "https://fr.wikipedia.org/wiki/Pallas_et_le_Centaure",
+      "https://iip-thumb.smk.dk/iiif/jp2/jd473138d_KMSsp343.tif.reconstructed.tif.jp2/full/!2048,/0/default.jpg",
+    link: "https://open.smk.dk/artwork/image/KMSsp343?q=*&page=3",
     description:
-      "Le thème moral (la Raison incarnée par Pallas, autre théonyme d'Athéna) est à destination de Pierfrancesco, de sombre réputation, violent et débauché, incarné par le Centaure (la bestialité). Il s'agit d'une allégorie à thème mythologique, de la sagesse (Pallas) qui domine l'instinct (Le Centaure), ou la victoire de la Connaissance sur l'Ignorance. Centaure qui s'est introduit dans le jardin, équipé d'un arc à la main, prêt à tirer, est surpris par Pallas, gardienne des lieux.",
-  },
-
-  {
-    title: "Vénus et Mars",
-    artist: "Sandro Botticelli",
-    year: "1483",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Venus_and_Mars_National_Gallery.jpg",
-    link: "https://imaginarium.nationalgallery.org.uk/imaginarium/847c8f2d-ead4-4c67-a00a-bd5129f84eaa",
-    description:
-      "Le tableau Vénus et Mars de Sandro Botticelli, réalisé vers 1485, illustre la déesse de l'amour, Vénus, veillant sur Mars, le dieu de la guerre, endormi après l'amour. Des satyres espiègles jouent avec l'armure de Mars, symbolisant la vulnérabilité de la guerre face au pouvoir de l'amour. Cette œuvre, probablement commandée pour célébrer un mariage, reflète les idéaux de la Renaissance en matière de beauté et de vertu. Les guêpes près de la tête de Mars pourraient faire référence à la famille Vespucci, possible commanditaire du tableau",
-  },
-  {
-    title: "Naissance de Vénus",
-    artist: "Sandro Botticelli",
-    year: 1485,
-    imageUrl:
-      "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=66a8ccbb-1ab5-4e28-bd84-4382dfb34be5",
-    description:
-      "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
+      "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
   },
   // #endregion
 
+  // #region "Antonio Mariani della Corgna"
+  {
+    title: "Prometheus",
+    artist: "Antonio Mariani della Corgna",
+    year: "1621-1628",
+    imageUrl:
+      "https://www.haltadefinizione.com/assets/Remote/6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6.jpeg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6",
+    description:
+      "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
+  },
+  // #endregion
+
+  // #region "Antonio Allegri da Correggio (le Corrège)"
+  {
+    title: "Vénus, Satyre et Cupidon",
+    artist: "Antonio Allegri da Correggio (le Corrège)",
+    year: "1524-1527",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0b/Correggio_-_Venus_and_Cupid_with_a_Satyr.jpg",
+    link: "https://fr.wikipedia.org/wiki/V%C3%A9nus,_Satyre_et_Cupidon",
+    description:
+      "Le tableau représente Vénus endormie avec son fils Eros. Derrière eux, un satyre est en train de découvrir la déesse. L'œuvre est encore connue de nos jours sous son ancien nom de Jupiter et Antiope, car selon la mythologie grecque et Ovide, Jupiter s'était lui-même transformé en satyre, afin de violer la nymphe Antiope. Cependant, aucun mythe antique de jeune fille endormie et violée par un satyre ne concerne Vénus. ",
+  },
+  {
+    title: "L'Éducation de Cupidon",
+    artist: "Antonio Allegri da Correggio (le Corrège)",
+    year: "1557",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Correggio_Venus_with_Mercury_and_Cupid_or_The_School_of_Love.jpg",
+    link: "https://fr.wikipedia.org/wiki/L%27%C3%89ducation_de_Cupidon",
+    description:
+      "L'Éducation de Cupidon ou Vénus, Mercure et Cupidon, voire L'École de l'Amour est une peinture réalisée vers 1525 par le peintre italien Le Corrège, et conservée à la National Gallery de Londres.",
+  },
+  // #endregion
+
+  // 🔹 -----B-----
   // #region "Bénigne Gagneraux"
   {
     title: "L'éducation d'Achille",
@@ -69,6 +76,149 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // 🔹 -----D-----
+  // #region "Damiano Mazza"
+  {
+    title: "Le viol de Ganymède",
+    artist: "Damiano Mazza",
+    year: "1575",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Damiano_Mazza_-_The_Rape_of_Ganymede_ca_1575_-_%28MeisterDrucke-1196890%29.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/damiano-mazza-the-rape-of-ganymede",
+    description:
+      "Il faut prendre ici pour viol le sens d'enlèvement contraint (rapt), Ganymède étant enlevé dans les airs par un aigle (représentant les dieux ou Zeus lui-même) pour être soustrait à la vindicte d'Héra.",
+  },
+  // #endregion
+
+  // 🔹 -----G-----
+  // #region "Giulio Romano"
+  {
+    title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
+    artist: "Atelier de Giulio Romano",
+    year: "1530",
+    imageUrl:
+      "http://cdicollegeconte.free.fr/Sc%C3%A8nes%20mythologiques/peintures/jupiter%20gard%C3%A9%20par%20les%20corybantes.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/workshop-of-giulio-romano-the-infancy-of-jupiter",
+    description:
+      "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
+  },
+  // #endregion
+
+  // #region "Georges de La Tour"
+  {
+    title: "Saint Joseph charpentier",
+    artist: "Georges de La Tour",
+    year: "1645",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg",
+    link: "https://fr.wikipedia.org/wiki/Saint_Joseph_charpentier",
+    description:
+      "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
+  },
+  // #endregion
+
+  // #region "Giovanni Baglione"
+  {
+    title: "L'Amour divin et l'Amour profane",
+    artist: "Giovanni Baglione",
+    year: "1602",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Giovanni_Baglione_-_The_Divine_Eros_Defeats_the_Earthly_Eros_-_Google_Art_Project.jpg",
+    link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
+    description:
+      "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
+  },
+  // #endregion
+
+  // #region "Gustave Moreau"
+  {
+    title: "Jupiter et Sémélé",
+    artist: "Gustave Moreau",
+    year: "1895",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/800px-Jupiter_and_Semele_by_Gustave_Moreau.jpg",
+    link: "https://fr.gallerix.ru/storeroom/1065654342/N/189018824/",
+    description:
+      "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
+  },
+  // #endregion
+
+  // 🔹 -----J-----
+  // #region "John William Waterhouse"
+  {
+    title: "Ulysse et les sirènes",
+    artist: "John William Waterhouse",
+    year: "1891",
+    imageUrl: "https://cdn.gallerix.asia/sr/W/1628379096/753576713.jpg",
+    link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
+    description:
+      "Ulysse et les sirènes de John William Waterhouse évoque le mythe d'Ulysse qui, en naviguant, affronte les chants envoûtants des sirènes.Pour ne pas succomber à leur séduction mortelle, il fait boucher les oreilles de ses marins et se fait attacher au mât.Ainsi, il peut écouter leur mélodie sans perdre le contrôle.Ce mythe symbolise la lutte entre la curiosité insatiable et la nécessité de maîtriser ses passions.",
+  },
+  // #endregion
+
+  // #region "Jusepe de Ribera (Mouvement Caravagesque)"
+  {
+    title: "Saint Jérôme et l'ange du Jugement",
+    artist: "Jusepe de Ribera (Mouvement Caravagesque)",
+    year: "1626",
+    imageUrl:
+      "https://artaban-asso.com/wp-content/uploads/2024/08/12-Jose-de-Ribera-Saint-Jerome-et-lAnge-du-Jugement-1626-huile-sur-toile-262-%C3%97-164-cm-Naples-Capodimonte-scaled.jpg",
+    link: "https://gallerix.ru/fullpic/74dd1c3a2850c005f6ee5b49168823be/",
+    description:
+      "La scène représente saint Jérôme en train de traduire la Bible, surpris par l'ange du Jugement dernier sonnant du cor, qui apparaît dans les nuages en haut à droite de la scène, ce dernier étant très semblable au personnage représenté dans la toile de Saint Matthieu et l'Ange du Caravage datant de 1602",
+  },
+  // #endregion
+
+  // #region "Jean-Auguste-Dominique Ingres"
+  {
+    title: "Jupiter et Thétis",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1811",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
+    link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
+    description:
+      "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
+  },
+
+  {
+    title: "Angélique sauvée par Ruggiero",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1819-1839",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1000px/Jean_Auguste_Dominique_Ingres_-_Angelica_saved_by_Ruggiero_1819-1839_-_(MeisterDrucke-784831).jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
+    description:
+      "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
+  },
+  // #endregion
+
+  // #region "Jan van Eyck"
+  {
+    title: "Les Époux Arnolfini",
+    artist: "Jan van Eyck",
+    year: "1434",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+    description:
+      "Les Époux Arnolfini est le nom donné à une peinture sur bois (82,2 × 60 cm) du peintre primitif flamand Jan van Eyck datant de 1434, conservée à la National Gallery de Londres",
+  },
+  // #endregion
+
+  // 🔹 -----K-----
+  // #region "Katsushika Hokusai"
+  {
+    title: "La Grande Vague",
+    artist: "Katsushika Hokusai",
+    year: "1830-1833",
+    imageUrl: "https://blog.messortiesculture.com/uploads/post-1107.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=468cf123-cd6e-485d-9f41-ba63477c6f13",
+    description:
+      "La Grande Vague de Kanagawa de Katsushika Hokusai, réalisée vers 1831, représente une immense vague menaçante sur le point de s’abattre sur des bateaux. La composition dynamique et les courbes élégantes créent une sensation de mouvement intense. Le bleu profond, obtenu grâce au bleu de Prusse, renforce le contraste avec l’écume blanche. En arrière-plan, le mont Fuji apparaît serein, opposant calme et chaos. Cette estampe emblématique illustre la puissance de la nature et l’influence de l’ukiyo-e.",
+  },
+  // #endregion
+
+  // 🔹 -----L-----
   // #region "Leonardo Da Vinci"
   {
     title: "Dame à l'hermine",
@@ -82,6 +232,7 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // 🔹 -----M-----
   // #region "Michelangelo Merisi (Caravaggio)"
   {
     title: "Medusa",
@@ -135,32 +286,47 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Jusepe de Ribera (Mouvement Caravagesque)"
+  // #region "Mattia Preti"
   {
-    title: "Saint Jérôme et l'ange du Jugement",
-    artist: "Jusepe de Ribera (Mouvement Caravagesque)",
-    year: "1626",
+    title: "Christ couronné d’épines",
+    artist: "Mattia Preti",
+    year: "1679-1689",
     imageUrl:
-      "https://artaban-asso.com/wp-content/uploads/2024/08/12-Jose-de-Ribera-Saint-Jerome-et-lAnge-du-Jugement-1626-huile-sur-toile-262-%C3%97-164-cm-Naples-Capodimonte-scaled.jpg",
-    link: "https://gallerix.ru/fullpic/74dd1c3a2850c005f6ee5b49168823be/",
+      "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
+    link: "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
     description:
-      "La scène représente saint Jérôme en train de traduire la Bible, surpris par l'ange du Jugement dernier sonnant du cor, qui apparaît dans les nuages en haut à droite de la scène, ce dernier étant très semblable au personnage représenté dans la toile de Saint Matthieu et l'Ange du Caravage datant de 1602",
+      "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
   },
   // #endregion
 
-  // #region "Giovanni Baglione"
+  // 🔹 -----P-----
+  // #region "Piero di Cosimo"
   {
-    title: "L'Amour divin et l'Amour profane",
-    artist: "Giovanni Baglione",
-    year: "1602",
+    title: "Persée libère Andromède",
+    artist: "Piero di Cosimo",
+    year: "1515",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d5/Giovanni_Baglione_-_The_Divine_Eros_Defeats_the_Earthly_Eros_-_Google_Art_Project.jpg",
-    link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg/1200px-Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg",
+    link: "https://fr.gallerix.ru/storeroom/734167568/N/1998048531/",
     description:
-      "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
+      "Andromède, fille du roi Céphée, est condamnée à être sacrifiée pour apaiser Poséidon, furieux du vantardise de Cassiopée.Le monstre marin, envoyé pour dévaster le royaume, menace de dévorer la jeune princesse enchaînée sur un rocher.Persée, héros aux sandales ailées et armé d’un bouclier magique, intervient et tue la bête.En libérant Andromède, il sauve le peuple et gagne son amour, scellant ainsi leur union.",
   },
   // #endregion
 
+  // #region "Paolo Fiammingo"
+  {
+    title: "Paysage avec l'expulsion des harpies",
+    artist: "Paolo Fiammingo",
+    year: "1590",
+    imageUrl:
+      "https://www.repro-tableaux.com/kunst/paolo_fiammingo/landschaft_mit_vertreibung_der.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/paolo-fiammingo-landscape-with-the-expulsion-of-the-harpies",
+    description:
+      "En guise de punition pour avoir révélé l'avenir à l'humanité, le roi Phinéas de Thrace fut aveuglé et sa nourriture fut continuellement volée par les harpies, mi-humaines, mi-oiseaux. L'histoire est racontée dans les Argonautes , un roman épique écrit par Apollonius de Rhode au IIIe siècle av. J.-C.",
+  },
+  // #endregion
+
+  // 🔹 -----R-----
   // #region "Raphaël"
   {
     title: "L’École d'Athènes",
@@ -194,92 +360,73 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Vincent van Gogh"
+  // 🔹 -----S-----
+  // #region "Sandro Botticelli"
   {
-    title: "La Nuit étoilée",
-    artist: "Vincent van Gogh",
-    year: 1889,
+    title: "Le Printemps",
+    artist: "Sandro Botticelli",
+    year: "1480",
     imageUrl:
-      "https://vincentkjoly.com/wp-content/uploads/2023/11/2728px-Van_Gogh_-_Starry_Night_-_Google_Art_Project-scaled.jpg",
-    link: "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_(1889)",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/640px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+    link: "https://fr.gallerix.ru/album/Botticelli/pic/glrx-1297681446",
     description:
-      "Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu'il occupait dans l'asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. Souvent présenté comme son grand œuvre, le tableau a été reproduit à de très nombreuses reprises. Il est maintenant conservé dans le Museum of Modern Art (MoMA) à New York depuis 1941.",
+      "Le Printemps de Botticelli est une allégorie mythologique célébrant le renouveau et la fertilité de la nature.Au centre, Vénus, déesse de l'amour, rayonne et insuffle la grâce dans le monde.Zéphyr, le vent de l'Est, emporte Chloris, qui se transforme en Flore, symbole de la floraison.L'ensemble exprime l'harmonie entre amour, beauté et l'épanouissement vital du printemps.",
   },
-  // #endregion
 
-  // #region "Katsushika Hokusai"
   {
-    title: "La Grande Vague",
-    artist: "Katsushika Hokusai",
-    year: "1830-1833",
-    imageUrl: "https://blog.messortiesculture.com/uploads/post-1107.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=468cf123-cd6e-485d-9f41-ba63477c6f13",
-    description:
-      "La Grande Vague de Kanagawa de Katsushika Hokusai, réalisée vers 1831, représente une immense vague menaçante sur le point de s’abattre sur des bateaux. La composition dynamique et les courbes élégantes créent une sensation de mouvement intense. Le bleu profond, obtenu grâce au bleu de Prusse, renforce le contraste avec l’écume blanche. En arrière-plan, le mont Fuji apparaît serein, opposant calme et chaos. Cette estampe emblématique illustre la puissance de la nature et l’influence de l’ukiyo-e.",
-  },
-  // #endregion
-
-  // #region "Antonio Mariani della Corgna"
-  {
-    title: "Prometheus",
-    artist: "Antonio Mariani della Corgna",
-    year: "1621-1628",
+    title: "Pallas et le Centaure",
+    artist: "Sandro Botticelli",
+    year: "1482",
     imageUrl:
-      "https://www.haltadefinizione.com/assets/Remote/6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6.jpeg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pallade_col_Centauro%2C_Sandro_Botticelli_%281482%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/Pallas_et_le_Centaure",
     description:
-      "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
+      "Le thème moral (la Raison incarnée par Pallas, autre théonyme d'Athéna) est à destination de Pierfrancesco, de sombre réputation, violent et débauché, incarné par le Centaure (la bestialité). Il s'agit d'une allégorie à thème mythologique, de la sagesse (Pallas) qui domine l'instinct (Le Centaure), ou la victoire de la Connaissance sur l'Ignorance. Centaure qui s'est introduit dans le jardin, équipé d'un arc à la main, prêt à tirer, est surpris par Pallas, gardienne des lieux.",
   },
-  // #endregion
 
-  // #region "Piero di Cosimo"
   {
-    title: "Persée libère Andromède",
-    artist: "Piero di Cosimo",
-    year: "1515",
+    title: "Vénus et Mars",
+    artist: "Sandro Botticelli",
+    year: "1483",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg/1200px-Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg",
-    link: "https://fr.gallerix.ru/storeroom/734167568/N/1998048531/",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Venus_and_Mars_National_Gallery.jpg",
+    link: "https://imaginarium.nationalgallery.org.uk/imaginarium/847c8f2d-ead4-4c67-a00a-bd5129f84eaa",
     description:
-      "Andromède, fille du roi Céphée, est condamnée à être sacrifiée pour apaiser Poséidon, furieux du vantardise de Cassiopée.Le monstre marin, envoyé pour dévaster le royaume, menace de dévorer la jeune princesse enchaînée sur un rocher.Persée, héros aux sandales ailées et armé d’un bouclier magique, intervient et tue la bête.En libérant Andromède, il sauve le peuple et gagne son amour, scellant ainsi leur union.",
+      "Le tableau Vénus et Mars de Sandro Botticelli, réalisé vers 1485, illustre la déesse de l'amour, Vénus, veillant sur Mars, le dieu de la guerre, endormi après l'amour. Des satyres espiègles jouent avec l'armure de Mars, symbolisant la vulnérabilité de la guerre face au pouvoir de l'amour. Cette œuvre, probablement commandée pour célébrer un mariage, reflète les idéaux de la Renaissance en matière de beauté et de vertu. Les guêpes près de la tête de Mars pourraient faire référence à la famille Vespucci, possible commanditaire du tableau",
   },
-  // #endregion
-
-  // #region "Gustave Moreau"
   {
-    title: "Jupiter et Sémélé",
-    artist: "Gustave Moreau",
-    year: "1895",
+    title: "Naissance de Vénus",
+    artist: "Sandro Botticelli",
+    year: 1485,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/800px-Jupiter_and_Semele_by_Gustave_Moreau.jpg",
-    link: "https://fr.gallerix.ru/storeroom/1065654342/N/189018824/",
+      "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=66a8ccbb-1ab5-4e28-bd84-4382dfb34be5",
     description:
-      "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
+      "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
   },
   // #endregion
 
-  // #region "John William Waterhouse"
+  // 🔹 -----T-----
+  // #region "Titien"
   {
-    title: "Ulysse et les sirènes",
-    artist: "John William Waterhouse",
-    year: "1891",
-    imageUrl: "https://cdn.gallerix.asia/sr/W/1628379096/753576713.jpg",
-    link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
-    description:
-      "Ulysse et les sirènes de John William Waterhouse évoque le mythe d'Ulysse qui, en naviguant, affronte les chants envoûtants des sirènes.Pour ne pas succomber à leur séduction mortelle, il fait boucher les oreilles de ses marins et se fait attacher au mât.Ainsi, il peut écouter leur mélodie sans perdre le contrôle.Ce mythe symbolise la lutte entre la curiosité insatiable et la nécessité de maîtriser ses passions.",
-  },
-  // #endregion
-
-  // #region "Mattia Preti"
-  {
-    title: "Christ couronné d’épines",
-    artist: "Mattia Preti",
-    year: "1679-1689",
+    title: "Bacchus et Ariane",
+    artist: "Titien",
+    year: "1520",
     imageUrl:
-      "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
-    link: "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/be/Titian_Bacchus_and_Ariadne.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
     description:
-      "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
+      "Bacchus et Ariane est une peinture de la Renaissance réalisée par Titien entre 1520 et 1523. Elle fait partie du cycle de peintures à sujet mythologiques commandé par Alphonse Ier d'Este, duc de Ferrare, pour la chambre d'albâtre de son palazzo de Ferrare.",
+  },
+  {
+    title: "Danaé (Madrid)",
+    artist: "Titien",
+    year: "1560-1565",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/Tizian_-_Danae_receiving_the_Golden_Rain_-_Prado.jpg",
+    link: "https://fr.wikipedia.org/wiki/Dana%C3%A9_(Titien,_Madrid)",
+    description:
+      "Le sujet représente le mythe de Danaé, qui avait été emprisonnée par son père Acrisios, le roi d'Argos, lorsqu'elle fut enlevée par Zeus et approchée sous la forme d'une pluie d'or.",
   },
   // #endregion
 
@@ -296,117 +443,17 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Jean-Auguste-Dominique Ingres"
+  // 🔹 -----V-----
+  // #region "Vincent van Gogh"
   {
-    title: "Jupiter et Thétis",
-    artist: "Jean-Auguste-Dominique Ingres",
-    year: "1811",
+    title: "La Nuit étoilée",
+    artist: "Vincent van Gogh",
+    year: 1889,
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
-    link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
+      "https://vincentkjoly.com/wp-content/uploads/2023/11/2728px-Van_Gogh_-_Starry_Night_-_Google_Art_Project-scaled.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_(1889)",
     description:
-      "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
-  },
-
-  {
-    title: "Angélique sauvée par Ruggiero",
-    artist: "Jean-Auguste-Dominique Ingres",
-    year: "1819-1839",
-    imageUrl:
-      "https://www.meisterdrucke.fr/kunstwerke/1000px/Jean_Auguste_Dominique_Ingres_-_Angelica_saved_by_Ruggiero_1819-1839_-_(MeisterDrucke-784831).jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
-    description:
-      "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
-  },
-  // #endregion
-
-  // #region "Jan van Eyck"
-  {
-    title: "Les Époux Arnolfini",
-    artist: "Jan van Eyck",
-    year: "1434",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
-    description:
-      "Les Époux Arnolfini est le nom donné à une peinture sur bois (82,2 × 60 cm) du peintre primitif flamand Jan van Eyck datant de 1434, conservée à la National Gallery de Londres",
-  },
-  // #endregion
-
-  // #region "Titien"
-  {
-    title: "Bacchus et Ariane",
-    artist: "Titien",
-    year: "1520",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/be/Titian_Bacchus_and_Ariadne.jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
-    description:
-      "Bacchus et Ariane est une peinture de la Renaissance réalisée par Titien entre 1520 et 1523. Elle fait partie du cycle de peintures à sujet mythologiques commandé par Alphonse Ier d'Este, duc de Ferrare, pour la chambre d'albâtre de son palazzo de Ferrare.",
-  },
-  // #endregion
-
-  // #region "Paolo Fiammingo"
-  {
-    title: "Paysage avec l'expulsion des harpies",
-    artist: "Paolo Fiammingo",
-    year: "1590",
-    imageUrl:
-      "https://www.repro-tableaux.com/kunst/paolo_fiammingo/landschaft_mit_vertreibung_der.jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/paolo-fiammingo-landscape-with-the-expulsion-of-the-harpies",
-    description:
-      "En guise de punition pour avoir révélé l'avenir à l'humanité, le roi Phinéas de Thrace fut aveuglé et sa nourriture fut continuellement volée par les harpies, mi-humaines, mi-oiseaux. L'histoire est racontée dans les Argonautes , un roman épique écrit par Apollonius de Rhode au IIIe siècle av. J.-C.",
-  },
-  // #endregion
-
-  // #region "Giulio Romano"
-  {
-    title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
-    artist: "Atelier de Giulio Romano",
-    year: "1530",
-    imageUrl:
-      "http://cdicollegeconte.free.fr/Sc%C3%A8nes%20mythologiques/peintures/jupiter%20gard%C3%A9%20par%20les%20corybantes.jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/workshop-of-giulio-romano-the-infancy-of-jupiter",
-    description:
-      "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
-  },
-  // #endregion
-
-  // #region "Georges de La Tour"
-  {
-    title: "Saint Joseph charpentier",
-    artist: "Georges de La Tour",
-    year: "1645",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg",
-    link: "https://fr.wikipedia.org/wiki/Saint_Joseph_charpentier",
-    description:
-      "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
-  },
-  // #endregion
-
-  // #region "Damiano Mazza"
-  {
-    title: "Le viol de Ganymède",
-    artist: "Damiano Mazza",
-    year: "1575",
-    imageUrl:
-      "https://www.meisterdrucke.fr/kunstwerke/1260px/Damiano_Mazza_-_The_Rape_of_Ganymede_ca_1575_-_%28MeisterDrucke-1196890%29.jpg",
-    link: "https://www.nationalgallery.org.uk/paintings/damiano-mazza-the-rape-of-ganymede",
-    description:
-      "Il faut prendre ici pour viol le sens d'enlèvement contraint (rapt), Ganymède étant enlevé dans les airs par un aigle (représentant les dieux ou Zeus lui-même) pour être soustrait à la vindicte d'Héra.",
-  },
-  // #endregion
-
-  // #region "Abraham Bloemaert"
-  {
-    title: "Vénus et Adonis",
-    artist: "Abraham Bloemaert",
-    year: "1632",
-    imageUrl:
-      "https://iip-thumb.smk.dk/iiif/jp2/jd473138d_KMSsp343.tif.reconstructed.tif.jp2/full/!2048,/0/default.jpg",
-    link: "https://open.smk.dk/artwork/image/KMSsp343?q=*&page=3",
-    description:
-      "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
+      "Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu'il occupait dans l'asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. Souvent présenté comme son grand œuvre, le tableau a été reproduit à de très nombreuses reprises. Il est maintenant conservé dans le Museum of Modern Art (MoMA) à New York depuis 1941.",
   },
   // #endregion
 ];
