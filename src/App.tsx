@@ -63,14 +63,14 @@ const artworks: Artwork[] = [
       "Dame à l’hermine de Léonard de Vinci, peinte vers 1489-1490, représente Cecilia Gallerani tenant une hermine blanche, symbole de pureté et de noblesse. Le sfumato adoucit les contours, donnant profondeur et réalisme à son regard expressif. La lumière met en valeur la finesse de son visage et la texture de sa robe. La posture dynamique apporte une impression de mouvement naturel. Ce chef-d'œuvre illustre la maîtrise du portrait par Léonard.",
   },
   {
-    title: "Judith et Holopherne",
+    title: "Medusa",
     artist: "Michelangelo Merisi (Caravaggio)",
-    year: "1598-1599",
+    year: "1597",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b2/Caravaggio_Judith_Beheading_Holofernes.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=c620f0f6-defb-49ce-9c39-aca7b2592445",
+      "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg",
+    link: "https://upload.wikimedia.org/wikipedia/commons/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
     description:
-      "Judith et Holopherne de Caravage, peint vers 1599, illustre la décapitation du général assyrien par Judith. Le clair-obscur dramatique met en lumière son expression déterminée et le visage terrifié d’Holopherne. Le réalisme saisissant accentue la violence et l’intensité de la scène. Le contraste entre la jeunesse de Judith et l’horreur du moment renforce l’impact émotionnel. Cette œuvre témoigne du génie de Caravage pour le dramatique et le naturalisme.",
+      "Méduse du Caravage, peinte vers 1597, est un bouclier en bois représentant la tête tranchée de la Gorgone au moment précis où elle réalise son sort. Son visage exprime une terreur figée, la bouche ouverte dans un cri muet et les yeux écarquillés d’effroi. Le réalisme saisissant, accentué par le clair-obscur caractéristique du Caravage, donne une impression de mouvement et de tridimensionnalité. Les serpents de sa chevelure semblent s’animer, tandis que le fond sombre met en valeur l’intensité dramatique de la scène. Cette œuvre, destinée aux Médicis, illustre la virtuosité du peintre et sa maîtrise des effets illusionnistes.",
   },
   {
     title: " Le Sacrifice d' Isaac",
@@ -83,25 +83,14 @@ const artworks: Artwork[] = [
       "Le Sacrifice d'Isaac de Caravage, réalisé vers 1603-1604, saisit l’instant dramatique où l’ange interrompt le geste d’Abraham, empêchant le sacrifice de son fils.La composition horizontale unit les trois personnages principaux, conférant à la scène une intensité émotionnelle marquée.Le clair-obscur, caractéristique du style caravagesque, sculpte les visages et souligne la tension entre lumière et ombre.Les gestes expressifs – la main ferme de l’ange retenant celle d’Abraham et le cri silencieux d’Isaac – illustrent le conflit intérieur des protagonistes.",
   },
   {
-    title: "Saint Matthieu et l'Ange",
+    title: "Judith et Holopherne",
     artist: "Michelangelo Merisi (Caravaggio)",
-    year: "1602",
+    year: "1598-1599",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Inspiration_of_Saint_Matthew-Caravaggio_%281602%29.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=4ff44b6e-f6f8-4bf3-a9dc-4e9f45676913",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b2/Caravaggio_Judith_Beheading_Holofernes.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=c620f0f6-defb-49ce-9c39-aca7b2592445",
     description:
-      "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
-  },
-
-  {
-    title: "Medusa",
-    artist: "Michelangelo Merisi (Caravaggio)",
-    year: "1597",
-    imageUrl:
-      "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg",
-    link: "https://upload.wikimedia.org/wikipedia/commons/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
-    description:
-      "Méduse du Caravage, peinte vers 1597, est un bouclier en bois représentant la tête tranchée de la Gorgone au moment précis où elle réalise son sort. Son visage exprime une terreur figée, la bouche ouverte dans un cri muet et les yeux écarquillés d’effroi. Le réalisme saisissant, accentué par le clair-obscur caractéristique du Caravage, donne une impression de mouvement et de tridimensionnalité. Les serpents de sa chevelure semblent s’animer, tandis que le fond sombre met en valeur l’intensité dramatique de la scène. Cette œuvre, destinée aux Médicis, illustre la virtuosité du peintre et sa maîtrise des effets illusionnistes.",
+      "Judith et Holopherne de Caravage, peint vers 1599, illustre la décapitation du général assyrien par Judith. Le clair-obscur dramatique met en lumière son expression déterminée et le visage terrifié d’Holopherne. Le réalisme saisissant accentue la violence et l’intensité de la scène. Le contraste entre la jeunesse de Judith et l’horreur du moment renforce l’impact émotionnel. Cette œuvre témoigne du génie de Caravage pour le dramatique et le naturalisme.",
   },
   {
     title: "Le Souper à Emmaüs",
@@ -112,6 +101,16 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
     description:
       "Le Souper à Emmaüs ou la Cène à Emmaüs est un tableau de Caravage peint vers 1601 et conservé à la National Gallery de Londres. Il existe une seconde version de ce tableau datant de 1606 et conservée à l'Académie des beaux-arts de Brera de Milan. Il s'agit d'une commande de Ciriaco Mattei, qui représente le moment où les pèlerins d'Emmaüs réalisent brutalement qu'ils ont face à eux le Christ ressuscité.",
+  },
+  {
+    title: "Saint Matthieu et l'Ange",
+    artist: "Michelangelo Merisi (Caravaggio)",
+    year: "1602",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Inspiration_of_Saint_Matthew-Caravaggio_%281602%29.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=4ff44b6e-f6f8-4bf3-a9dc-4e9f45676913",
+    description:
+      "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
   },
   {
     title: "Saint Jérôme et l'ange du Jugement",
@@ -135,16 +134,6 @@ const artworks: Artwork[] = [
       "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
   },
   {
-    title: "La vision d'Ézéchiel",
-    artist: "Raphaël",
-    year: "1518",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Raffael_099.jpg/800px-Raffael_099.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=07c247ad-479a-4619-89a2-b7bbe122b80c",
-    description:
-      "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
-  },
-  {
     title: "L’École d'Athènes",
     artist: "Raphaël",
     year: "1508-1512",
@@ -153,6 +142,26 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/L%27%C3%89cole_d%27Ath%C3%A8nes",
     description:
       "L'École d'Athènes est une fresque (4,40 × 7,70 m) du peintre italien Raphaël, située dans la Chambre de la Signature des musées du Vatican, l'une des quatre Chambres de Raphaël (les Stanze) situées à l'intérieur du palais apostolique. C'est l'une des œuvres picturales les plus importantes de la Cité du Vatican. Cette fresque symbolique présente les figures majeures de la pensée antique.",
+  },
+  {
+    title: "La Madone Sixtine",
+    artist: "Raphaël",
+    year: "1513-1514",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/RAFAEL_-_Madonna_Sixtina_%28Gem%C3%A4ldegalerie_Alter_Meister%2C_Dresden%2C_1513-14._%C3%93leo_sobre_lienzo%2C_265_x_196_cm%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Madone_Sixtine",
+    description:
+      "Il s'agit d'une conversation sacrée puisque la Vierge et l'Enfant ne sont pas présentés seuls : des figures de saints les accompagnent dont l'un est l'intercesseur direct du commanditaire, doublant ainsi sa présence symbolique ; des figures angéliques complètent l'assemblée.",
+  },
+  {
+    title: "La vision d'Ézéchiel",
+    artist: "Raphaël",
+    year: "1518",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Raffael_099.jpg/800px-Raffael_099.jpg",
+    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=07c247ad-479a-4619-89a2-b7bbe122b80c",
+    description:
+      "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
   },
   {
     title: "La Nuit étoilée",
@@ -287,7 +296,7 @@ const artworks: Artwork[] = [
     artist: "Atelier de Giulio Romano",
     year: "1530",
     imageUrl:
-      "https://images.grandpalaisrmn.fr/thumb.php/01022178.jpg?eJwljb0OwjAMhN_l5g5xSEjxhrKAREGiSMCEoiiZOhWYEO_ONQz2p7vzzwdxC61pepYOcQcFyBtUiHvDYQ91C49M65weLA4NVEaMtRL6RV7a8Ai17JErxPD3GL3mNx9cx2acocGYDidKlOx4IWyCrFzxuZdcjCsh-7V4U13C9wdnDSb0",
+      "http://cdicollegeconte.free.fr/Sc%C3%A8nes%20mythologiques/peintures/jupiter%20gard%C3%A9%20par%20les%20corybantes.jpg",
     link: "https://www.nationalgallery.org.uk/paintings/workshop-of-giulio-romano-the-infancy-of-jupiter",
     description:
       "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
