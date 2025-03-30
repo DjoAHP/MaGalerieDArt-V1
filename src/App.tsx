@@ -11,8 +11,8 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
+  
   // 🔹 -----A-----
-
   // #region "Abraham Bloemaert"
   {
     title: "Vénus et Adonis",
@@ -114,6 +114,16 @@ const artworks: Artwork[] = [
     description:
       "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
   },
+  {
+    title: "La Madeleine pénitente (à la flamme filante)",
+    artist: "Georges de La Tour",
+    year: "1645",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/03/Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg?uselang=fr",
+    link: "https://fr.wikipedia.org/wiki/La_Madeleine_%C3%A0_la_flamme_filante",
+    description:
+      "La Madeleine à la flamme filante, est un tableau du peintre français Georges de La Tour, peint vers 1638. Cette huile sur toile représente Madeleine pénitente, elle est conservée au musée d'Art du comté de Los Angeles, à Los Angeles.",
+  },
   // #endregion
 
   // #region "Giovanni Baglione"
@@ -130,6 +140,16 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region "Gustave Moreau"
+  {
+    title: "Œdipe et le Sphinx",
+    artist: "Gustave Moreau",
+    year: "1864",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Oedipus_and_the_Sphinx_MET_DP-14201-023.jpg",
+    link: "https://www.metmuseum.org/art/collection/search/437153",
+    description:
+      "La peinture représente Œdipe rencontrant le Sphinx au carrefour lors de son voyage entre Thèbes et Delphes. Œdipe doit répondre correctement à l'énigme du Sphinx pour réussir. L'échec signifie sa propre mort et celle des Thébains assiégés.",
+  },
   {
     title: "Jupiter et Sémélé",
     artist: "Gustave Moreau",
@@ -178,6 +198,26 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
     description:
       "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis.",
+  },
+  {
+    title: "Œdipe explique l'énigme du sphinx",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1808, reprise en 1827",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/04/IngresOdipusAndSphinx.jpg",
+    link: "https://fr.wikipedia.org/wiki/%C5%92dipe_explique_l%27%C3%A9nigme_du_sphinx",
+    description:
+      "La créature fut envoyée par Héra pour punir la ville de Thèbes du viol que Laïos, roi de Thèbes, a effectué sur Chrysippe, fils de la nymphe Danaïs. Elle attend la personne qui résoudra son énigme.",
+  },
+  {
+    title: "La Grande Odalisque",
+    artist: "Jean-Auguste-Dominique Ingres",
+    year: "1814",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Grande_Odalisque",
+    description:
+      "La Grande Odalisque est un tableau de Jean-Auguste-Dominique Ingres peint en 1814 sur une commande de Caroline Murat, sœur de Napoléon Ier et reine consort de Naples (commande non payée pour cause de chute de l'Empire).",
   },
 
   {
@@ -243,6 +283,16 @@ const artworks: Artwork[] = [
     link: "https://upload.wikimedia.org/wikipedia/commons/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
     description:
       "Méduse du Caravage, peinte vers 1597, est un bouclier en bois représentant la tête tranchée de la Gorgone au moment précis où elle réalise son sort. Son visage exprime une terreur figée, la bouche ouverte dans un cri muet et les yeux écarquillés d’effroi. Le réalisme saisissant, accentué par le clair-obscur caractéristique du Caravage, donne une impression de mouvement et de tridimensionnalité. Les serpents de sa chevelure semblent s’animer, tandis que le fond sombre met en valeur l’intensité dramatique de la scène. Cette œuvre, destinée aux Médicis, illustre la virtuosité du peintre et sa maîtrise des effets illusionnistes.",
+  },
+  {
+    title: "Les Musiciens",
+    artist: "Michelangelo Merisi (Caravaggio)",
+    year: "1597",
+    imageUrl:
+      "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
+    link: "https://www.metmuseum.org/art/collection/search/435844",
+    description:
+      "Si la présence de Cupidon confirme qu'il s'agit d'une allégorie de la Musique, le tableau de Caravage s'inspire également de la performance contemporaine et des modèles individualisés, notamment l'autoportrait du deuxième garçon en partant de la droite.",
   },
   {
     title: " Le Sacrifice d' Isaac",
@@ -323,6 +373,18 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/paolo-fiammingo-landscape-with-the-expulsion-of-the-harpies",
     description:
       "En guise de punition pour avoir révélé l'avenir à l'humanité, le roi Phinéas de Thrace fut aveuglé et sa nourriture fut continuellement volée par les harpies, mi-humaines, mi-oiseaux. L'histoire est racontée dans les Argonautes , un roman épique écrit par Apollonius de Rhode au IIIe siècle av. J.-C.",
+  },
+  // #endregion
+
+  // #region "Paolo Veronese (Paolo Caliari)"
+  {
+    title: "Mars et Vénus unis par l'amour",
+    artist: "Paolo Veronese (Paolo Caliari)",
+    year: "1570",
+    imageUrl: "https://images.metmuseum.org/CRDImages/ep/original/DP167124.jpg",
+    link: "https://www.metmuseum.org/art/collection/search/437891",
+    description:
+      "L'amour entre Mars, dieu de la guerre, et Vénus, déesse de l'amour, est encouragé par un couple d'amoureux indiscrets. L'un d'eux lie le couple, tandis que son complice retient le cheval de guerre de Mars. Le tableau célèbre les effets civilisateurs et nourriciers de l'amour, tandis que le lait coule du sein de Vénus et que Mars est désarmé.",
   },
   // #endregion
 
