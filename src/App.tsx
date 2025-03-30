@@ -11,7 +11,6 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  
   // 🔹 -----A-----
   // #region "Abraham Bloemaert"
   {
@@ -73,6 +72,33 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Fichier:B%C3%A9nigne_Gagneraux_-_L%27%C3%A9ducation_d%27Achille_%281785%29.jpg",
     description:
       "​Achille, héros de la mythologie grecque, fut confié dès son enfance au centaure Chiron, réputé pour sa sagesse et ses vastes connaissances. Sous sa tutelle, Achille apprit la médecine, la musique, l'équitation, la chasse et le maniement des armes. Chiron lui inculqua également des valeurs morales telles que la justice, la maîtrise de soi et la modération. Cette éducation complète fit d'Achille un modèle du héros accompli dans la Grèce antique.​",
+  },
+  // #endregion
+
+  // 🔹 -----C-----
+  // #region "Damiano Mazza"
+  {
+    title: "L'Ivresse de Silène",
+    artist: "Charles André van Loo",
+    year: "1747",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/L%27Ivresse_de_Sil%C3%A8ne_%28Carle_Van_Loo%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
+    description:
+      "L'Ivresse de Silène est une peinture réalisée par Carle van Loo, en 1747. Aujourd'hui, elle est conservée au sein des collections du musée des Beaux-Arts de Nancy[1].",
+  },
+  // #endregion
+
+  // #region "Charles Antoine Coypel"
+  {
+    title: "La Destruction du palais d'Armide",
+    artist: "Charles Antoine Coypel",
+    year: "1737",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c6/Charles-Antoine_Coypel_La_destruction_du_palais_d%27Armide_Nancy_22122007_01.jpg",
+    link: "https://anniceris.blogspot.com/2011/12/la-destruction-du-palais-darmide-1737.html",
+    description:
+      "Armide est une magicienne Sarrasine, fille de Hidraot, roi de Damas, envoyée pour capturer les plus grands paladins croisés et tuer le chevalier chrétien Renaud. Elle tombe amoureuse de lui et l'enferme dans un Jardin fabuleux où elle l'envoûte de ses délices.",
   },
   // #endregion
 
