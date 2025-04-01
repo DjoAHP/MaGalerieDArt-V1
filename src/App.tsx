@@ -116,6 +116,20 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // 🔹 -----E-----
+  // #region "Edward Burne-Jones"
+  {
+    title: "La Mort de Méduse I",
+    artist: "Edward Burne-Jones",
+    year: "1882",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/Edward_Burne-Jones_-_The_Death_of_Medusa_I%2C_1882.jpg",
+    link: "https://upload.wikimedia.org/wikipedia/commons/5/52/Edward_Burne-Jones_-_The_Death_of_Medusa_I%2C_1882.jpg",
+    description:
+      "Naissance de Pégase et Chrysaor, v. 1876-1885, gouache, Southampton City Art Gallery.",
+  },
+  // #endregion
+
   // 🔹 -----G-----
   // #region "Giulio Romano"
   {
