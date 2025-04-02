@@ -137,7 +137,7 @@ const artworks: Artwork[] = [
     artist: "Atelier de Giulio Romano",
     year: "1530",
     imageUrl:
-      "http://cdicollegeconte.free.fr/Sc%C3%A8nes%20mythologiques/peintures/jupiter%20gard%C3%A9%20par%20les%20corybantes.jpg",
+      "https://www.meisterdrucke.lu/kunstwerke/1260px/Giulio_Romano_-_The_Infancy_of_Jupiter_1530s_-_%28MeisterDrucke-1196317%29.jpg",
     link: "https://www.nationalgallery.org.uk/paintings/workshop-of-giulio-romano-the-infancy-of-jupiter",
     description:
       "Dans la mythologie grecque et romaine, le dieu Saturne, averti qu'un de ses descendants le renverserait, dévora ses enfants à la naissance. Pour protéger leur fils, sa femme Ops emmena le jeune Jupiter en Crète pour qu'il soit élevé par les Corybantes, qui utilisèrent le rythme de leurs danses et le cliquetis de leurs cymbales pour dissimuler les cris du bébé afin qu'il ne soit pas découvert par Saturne.",
