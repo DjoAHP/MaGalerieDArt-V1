@@ -179,6 +179,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Gerrit van Honthorst "
+  {
+    title: "Le Triomphe de Silène",
+    artist: "Gerrit van Honthorst ",
+    year: "vers 1623-1630",
+    imageUrl:
+      "https://collections.louvre.fr/media/cache/medium/0000000021/0000054313/0000731064_OG.JPG",
+    link: "https://collections.louvre.fr/ark:/53355/cl010054313",
+    description:
+      "Dans la mythologie grecque, Silène (ou Papposilène) (en grec ancien : Σειληνός / Seilēnós, prononcé : [seːlɛːnós]) est un satyre, père adoptif et précepteur du dieu Dionysos, qu’il accompagne sans cesse. Il passait en effet pour un sage, un prophète et un philosophe[1].",
+  },
+  // #endregion
+
   // #region "Gustave Moreau"
   {
     title: "Œdipe et le Sphinx",
@@ -225,6 +238,16 @@ const artworks: Artwork[] = [
     link: "https://gallerix.ru/fullpic/74dd1c3a2850c005f6ee5b49168823be/",
     description:
       "La scène représente saint Jérôme en train de traduire la Bible, surpris par l'ange du Jugement dernier sonnant du cor, qui apparaît dans les nuages en haut à droite de la scène, ce dernier étant très semblable au personnage représenté dans la toile de Saint Matthieu et l'Ange du Caravage datant de 1602",
+  },
+  {
+    title: "(Apollon et Marsyas) Le Supplice de Marsyas",
+    artist: "Jusepe de Ribera (Mouvement Caravagesque)",
+    year: "1637",
+    imageUrl:
+      "https://officiel-galeries-musees.fr/wp-content/uploads/2024/11/Capture-de%CC%81cran-2024-11-12-a%CC%80-19.10.01.png",
+    link: "https://fr.wikipedia.org/wiki/Le_Supplice_de_Marsyas_(Ribera_et_Giordano)",
+    description:
+      "Le satyre phrygien Marsyas, qui a trouvé la flûte de Minerve, apprend à en jouer à un niveau de perfection qui l'amène à défier le dieu grec Apollon. Il est vaincu, comme quiconque pèche par orgueil, et est condamné par le dieu à être écorché vif.Ce thème est repris, notamment, des Métamorphoses d'Ovide.",
   },
   // #endregion
 
@@ -309,6 +332,19 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=3e020263-b319-4594-a0ff-01fe66b1f21a",
     description:
       "Dame à l’hermine de Léonard de Vinci, peinte vers 1489-1490, représente Cecilia Gallerani tenant une hermine blanche, symbole de pureté et de noblesse. Le sfumato adoucit les contours, donnant profondeur et réalisme à son regard expressif. La lumière met en valeur la finesse de son visage et la texture de sa robe. La posture dynamique apporte une impression de mouvement naturel. Ce chef-d'œuvre illustre la maîtrise du portrait par Léonard.",
+  },
+  // #endregion
+
+  // #region "Lorenzo Lotto"
+  {
+    title: "Vénus et Cupidon",
+    artist: "Lorenzo Lotto",
+    year: "1520",
+    imageUrl:
+      "https://images.metmuseum.org/CRDImages/ep/original/DP-25975-001.jpg",
+    link: "https://www.metmuseum.org/art/collection/search/436918",
+    description:
+      "Cupidon urine diaboliquement sur sa mère Vénus à travers une couronne de laurier, un acte symbolisant la fertilité. Lotto s'est probablement inspiré de la poésie romaine antique qui décrit Cupidon réveillant Vénus pour qu'elle puisse présider un mariage. Sa couronne, son voile et sa boucle d'oreille en perles sont des objets couramment portés par les mariées dans la Venise du XVIe siècle, ce qui indique que ce tableau a probablement été peint pour commémorer un mariage. Les traits distinctifs de Vénus suggèrent qu'il pourrait s'agir d'un portrait de la mariée.",
   },
   // #endregion
 
