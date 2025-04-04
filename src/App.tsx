@@ -40,7 +40,7 @@ const artworks: Artwork[] = [
 
   // #region "Anne-Louis Girodet [FRA / 1767-1824]"
   {
-    title: "Endymion. Effet de lune, dit aussi Le Sommeil d'Endymion",
+    title: "Endymion. Effet de lune - Le Sommeil d'Endymion -",
     artist: "Anne-Louis Girodet [FRA / 1767-1824]",
     year: "1791",
     imageUrl:
@@ -205,10 +205,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Gerrit van Honthorst "
+  // #region "Gerrit van Honthorst [NLD / 1590-1656]"
   {
     title: "Le Triomphe de Silène",
-    artist: "Gerrit van Honthorst ",
+    artist: "Gerrit van Honthorst [NLD / 1590-1656]",
     year: "vers 1623-1630",
     imageUrl:
       "https://collections.louvre.fr/media/cache/medium/0000000021/0000054313/0000731064_OG.JPG",
@@ -218,7 +218,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Concert ou Le Vol de l'amulette",
-    artist: "Gerrit van Honthorst ",
+    artist: "Gerrit van Honthorst [NLD / 1590-1656]",
     year: "vers 1626-1630",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gerrit_van_Honthorst_cat02.jpg",
@@ -228,10 +228,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Gustave Moreau"
+  // #region "Gustave Moreau [FRA / 1826-1898]"
   {
     title: "Œdipe et le Sphinx",
-    artist: "Gustave Moreau",
+    artist: "Gustave Moreau [FRA / 1826-1898]",
     year: "1864",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/8/85/Oedipus_and_the_Sphinx_MET_DP-14201-023.jpg",
@@ -241,7 +241,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Jupiter et Sémélé",
-    artist: "Gustave Moreau",
+    artist: "Gustave Moreau [FRA / 1826-1898]",
     year: "1895",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/800px-Jupiter_and_Semele_by_Gustave_Moreau.jpg",
@@ -252,10 +252,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----J-----
-  // #region "John William Waterhouse"
+  // #region "John William Waterhouse [ITA / 1849-1917]"
   {
     title: "Ulysse et les sirènes",
-    artist: "John William Waterhouse",
+    artist: "John William Waterhouse [ITA / 1849-1917]",
     year: "1891",
     imageUrl: "https://cdn.gallerix.asia/sr/W/1628379096/753576713.jpg",
     link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
@@ -264,10 +264,23 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Jusepe de Ribera (Mouvement Caravagesque)"
+  // #region "Jacopo Bassano [ITA / 1510-1592]"
+  {
+    title: "La Cène",
+    artist: "Jacopo Bassano [ITA / 1510-1592]",
+    year: "1546",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Jacopo_Bassano_Last_Supper_1542.jpeg",
+    link: "https://fr.borghese.gallery/collection/peintures/la-cene.html",
+    description:
+      "La Cène (1542), peinte par le peintre vénitien Jacopo Bassano, est une vision alternative du thème biblique, qui a été abordée dans leurs œuvres par de nombreux contemporains du maître. La source d’inspiration de l’artiste était évidemment le célèbre chef-d’œuvre du même nom, du grand Léonard de Vinci, datant d’une période antérieure.",
+  },
+  // #endregion
+
+  // #region "Jusepe de Ribera (Mouvement Caravagesque) [ESP / 1591-1652]"
   {
     title: "Saint Jérôme et l'ange du Jugement",
-    artist: "Jusepe de Ribera (Mouvement Caravagesque)",
+    artist: "Jusepe de Ribera (Mouvement Caravagesque) [ESP / 1591-1652]",
     year: "1626",
     imageUrl:
       "https://artaban-asso.com/wp-content/uploads/2024/08/12-Jose-de-Ribera-Saint-Jerome-et-lAnge-du-Jugement-1626-huile-sur-toile-262-%C3%97-164-cm-Naples-Capodimonte-scaled.jpg",
@@ -277,7 +290,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "(Apollon et Marsyas) Le Supplice de Marsyas",
-    artist: "Jusepe de Ribera (Mouvement Caravagesque)",
+    artist: "Jusepe de Ribera (Mouvement Caravagesque) [ESP / 1591-1652]",
     year: "1637",
     imageUrl:
       "https://officiel-galeries-musees.fr/wp-content/uploads/2024/11/Capture-de%CC%81cran-2024-11-12-a%CC%80-19.10.01.png",
@@ -287,10 +300,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Jean-Auguste-Dominique Ingres"
+  // #region "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]"
   {
     title: "Jupiter et Thétis",
-    artist: "Jean-Auguste-Dominique Ingres",
+    artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
     year: "1811",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/0/08/J%C3%BApiter_y_Tetis%2C_por_Dominique_Ingres.jpg",
@@ -300,7 +313,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Œdipe explique l'énigme du sphinx",
-    artist: "Jean-Auguste-Dominique Ingres",
+    artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
     year: "1808, reprise en 1827",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/0/04/IngresOdipusAndSphinx.jpg",
@@ -310,7 +323,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "La Grande Odalisque",
-    artist: "Jean-Auguste-Dominique Ingres",
+    artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
     year: "1814",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg",
@@ -321,7 +334,7 @@ const artworks: Artwork[] = [
 
   {
     title: "Angélique sauvée par Ruggiero",
-    artist: "Jean-Auguste-Dominique Ingres",
+    artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
     year: "1819-1839",
     imageUrl:
       "https://www.meisterdrucke.fr/kunstwerke/1000px/Jean_Auguste_Dominique_Ingres_-_Angelica_saved_by_Ruggiero_1819-1839_-_(MeisterDrucke-784831).jpg",
@@ -344,10 +357,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Jan van Eyck"
+  // #region "Jan van Eyck [NLD / 1390-1441]"
   {
     title: "Les Époux Arnolfini",
-    artist: "Jan van Eyck",
+    artist: "Jan van Eyck [NLD / 1390-1441]",
     year: "1434",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg",
@@ -358,10 +371,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----K-----
-  // #region "Katsushika Hokusai"
+  // #region "Katsushika Hokusai [JPN / 1760-1849]"
   {
     title: "La Grande Vague",
-    artist: "Katsushika Hokusai",
+    artist: "Katsushika Hokusai [JPN / 1760-1849]",
     year: "1830-1833",
     imageUrl: "https://blog.messortiesculture.com/uploads/post-1107.jpg",
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=468cf123-cd6e-485d-9f41-ba63477c6f13",
@@ -371,10 +384,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----L-----
-  // #region "Leonardo Da Vinci"
+  // #region "Leonardo Da Vinci [ITA / 1452-1519]"
   {
     title: "Dame à l'hermine",
-    artist: "Leonardo Da Vinci",
+    artist: "Leonardo Da Vinci [ITA / 1452-1519]",
     year: "1490",
     imageUrl:
       "https://fr.muzeo.com/sites/default/files/styles/image_moyenne_def/public/oeuvres/peinture/renaissance/la_dame_ea_lhermine137707.jpg?itok=karIBP5i",
@@ -384,10 +397,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Lorenzo Lotto"
+  // #region "Lorenzo Lotto [ITA / 1480-1556]"
   {
     title: "Vénus et Cupidon",
-    artist: "Lorenzo Lotto",
+    artist: "Lorenzo Lotto [ITA / 1480-1556]",
     year: "1520",
     imageUrl:
       "https://images.metmuseum.org/CRDImages/ep/original/DP-25975-001.jpg",
@@ -471,10 +484,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Mattia Preti"
+  // #region "Mattia Preti [ITA / 1613-1699]"
   {
     title: "Christ couronné d’épines",
-    artist: "Mattia Preti",
+    artist: "Mattia Preti [ITA / 1613-1699]",
     year: "1679-1689",
     imageUrl:
       "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
@@ -485,10 +498,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----N-----
-  // #region "Nicolas Poussin [FR]"
+  // #region "Nicolas Poussin [FR / 1594-1665]"
   {
     title: "L'Assomption de la Vierge",
-    artist: "Nicolas Poussin [FR]",
+    artist: "Nicolas Poussin [FR / 1594-1665]",
     year: "vers 1630–1632",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/b/b3/Nicolas_Poussin_-_The_Assumption_of_the_Virgin.JPG",
@@ -499,10 +512,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----P-----
-  // #region "Piero di Cosimo"
+  // #region "Piero di Cosimo [ITA / 1462-1522]"
   {
     title: "Persée libère Andromède",
-    artist: "Piero di Cosimo",
+    artist: "Piero di Cosimo [ITA / 1462-1522]",
     year: "1515",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg/1200px-Piero_di_Cosimo_-_Liberazione_di_Andromeda_-_Google_Art_Project.jpg",
@@ -525,10 +538,23 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Paolo Fiammingo"
+  // #region "Pellegrino Tibaldi [ITA / 1527-1596]"
+  {
+    title: "L'adoration de l'enfant",
+    artist: "Pellegrino Tibaldi [ITA / 1537-1596]",
+    year: "1590",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/415.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/the-adoration-of-the-child",
+    description:
+      "Le noyau central, avec la Vierge, l'Enfant Jésus et saint Joseph, légèrement décentré vers la gauche, semble presque englouti par les mouvements convulsifs et tourbillonnants des figures environnantes, tandis qu'au premier plan la Sibylle érythréenne, présence inhabituelle dans les représentations de sujets similaires, dévoile ses prophéties, donnant au tableau une aura de mystère énigmatique mais fascinante.",
+  },
+  // #endregion
+
+  // #region "Paolo Fiammingo [BEL / 1540-1596]"
   {
     title: "Paysage avec l'expulsion des harpies",
-    artist: "Paolo Fiammingo",
+    artist: "Paolo Fiammingo [BEL / 1540-1596]",
     year: "1590",
     imageUrl:
       "https://www.repro-tableaux.com/kunst/paolo_fiammingo/landschaft_mit_vertreibung_der.jpg",
@@ -561,10 +587,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----R-----
-  // #region "Raphaël"
+  // #region "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]"
   {
     title: "L’École d'Athènes",
-    artist: "Raphaël",
+    artist: "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]",
     year: "1508-1512",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
@@ -574,7 +600,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "La Madone Sixtine",
-    artist: "Raphaël",
+    artist: "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]",
     year: "1513-1514",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/7/7a/RAFAEL_-_Madonna_Sixtina_%28Gem%C3%A4ldegalerie_Alter_Meister%2C_Dresden%2C_1513-14._%C3%93leo_sobre_lienzo%2C_265_x_196_cm%29.jpg",
@@ -584,7 +610,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "La vision d'Ézéchiel",
-    artist: "Raphaël",
+    artist: "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]",
     year: "1518",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Raffael_099.jpg/800px-Raffael_099.jpg",
@@ -595,10 +621,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----S-----
-  // #region "Sandro Botticelli"
+  // #region "Sandro Botticelli [ITA / 1444-1510]"
   {
     title: "Le Printemps",
-    artist: "Sandro Botticelli",
+    artist: "Sandro Botticelli [ITA / 1444-1510]",
     year: "1480",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/640px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
@@ -609,7 +635,7 @@ const artworks: Artwork[] = [
 
   {
     title: "Pallas et le Centaure",
-    artist: "Sandro Botticelli",
+    artist: "Sandro Botticelli [ITA / 1444-1510]",
     year: "1482",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/a/a3/Pallade_col_Centauro%2C_Sandro_Botticelli_%281482%29.jpg",
@@ -620,7 +646,7 @@ const artworks: Artwork[] = [
 
   {
     title: "Vénus et Mars",
-    artist: "Sandro Botticelli",
+    artist: "Sandro Botticelli [ITA / 1444-1510]",
     year: "1483",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/1/1d/Venus_and_Mars_National_Gallery.jpg",
@@ -630,7 +656,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Naissance de Vénus",
-    artist: "Sandro Botticelli",
+    artist: "Sandro Botticelli [ITA / 1444-1510]",
     year: 1485,
     imageUrl:
       "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
@@ -641,10 +667,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----T-----
-  // #region "Titien"
+  // #region "Titien (Tiziano Vecellio) [ITA / 1488.90-1576]"
   {
     title: "Bacchus et Ariane",
-    artist: "Titien",
+    artist: "Titien (Tiziano Vecellio) [ITA / 1488.90-1576]",
     year: "1520",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/b/be/Titian_Bacchus_and_Ariadne.jpg",
@@ -654,7 +680,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Danaé (Madrid)",
-    artist: "Titien",
+    artist: "Titien (Tiziano Vecellio) [ITA / 1488.90-1576]",
     year: "1560-1565",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/4/46/Tizian_-_Danae_receiving_the_Golden_Rain_-_Prado.jpg",
@@ -664,10 +690,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Théodore Géricault"
+  // #region "Théodore Géricault [FR / 1791-1824]"
   {
     title: "Le Radeau de la Méduse",
-    artist: "Théodore Géricault",
+    artist: "Théodore Géricault [FR / 1791-1824]",
     year: "1819",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/2560px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
@@ -678,10 +704,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----V-----
-  // #region "Vincent van Gogh"
+  // #region "Vincent van Gogh [NLD / 1853-1890]"
   {
     title: "La Nuit étoilée",
-    artist: "Vincent van Gogh",
+    artist: "Vincent van Gogh [NLD / 1853-1890]",
     year: 1889,
     imageUrl:
       "https://vincentkjoly.com/wp-content/uploads/2023/11/2728px-Van_Gogh_-_Starry_Night_-_Google_Art_Project-scaled.jpg",
@@ -751,7 +777,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 p-8">
       <div className="max-w-[2000px] mx-auto">
         <h1 className="text-4xl font-bold text-white mb-8 text-center">
-          Ma Galerie d'Art
+          Ma Galerie d'Arts
         </h1>
 
         <div className="relative mb-8 max-w-xs mx-auto">
