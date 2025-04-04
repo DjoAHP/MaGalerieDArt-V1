@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { ExternalLink, ChevronDown } from "lucide-react";
+import { ExternalLink, ChevronDown, Search } from "lucide-react";
 
 interface Artwork {
   title: string;
@@ -22,6 +22,19 @@ const artworks: Artwork[] = [
     link: "https://open.smk.dk/artwork/image/KMSsp343?q=*&page=3",
     description:
       "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
+  },
+  // #endregion
+
+  // #region "Annibal Carrache [ITA / 1560-1609]"
+  {
+    title: "Le Triomphe de Bacchus et Ariane",
+    artist: "Annibal Carrache [ITA / 1560-1609]",
+    year: "Vers 1600",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/Rome_Palazzo_Farnese_ceiling_Carracci_frescos_04.jpg",
+    link: "https://solskin-art.fr/carrache-le-triomphe-de-bacchus-galerie-farnese-rome/",
+    description:
+      "On y retrouve l’Ut Pictura Poesis au travers des vers chantés lorsque les jeunes époux se rendent au lit nuptial. Les sens son sollicités, comme le préconisent les réformes du Concile de Trente. Thème antique du Dieu et son cortège mais aussi inspiration des maîtres de la Renaissance comme Michel-Ange. L’image de Bacchus ainsi que l’utilisation de putti et de nus athlétique son directement inspirés de la voûte de la Chapelle Sixtine (1508-1512).",
   },
   // #endregion
 
@@ -99,6 +112,18 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
     description:
       "L'Ivresse de Silène est une peinture réalisée par Carle van Loo, en 1747. Aujourd'hui, elle est conservée au sein des collections du musée des Beaux-Arts de Nancy[1].",
+  },
+  // #endregion
+  // #region "Cavalier D'Arpin [ITA / 1568-1640]"
+  {
+    title: "Persée et Andromède",
+    artist: "Cavalier D'Arpin [ITA / 1568-1640]",
+    year: "1602",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0b/D%27arpino-Androm%C3%A8de.jpg",
+    link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
+    description:
+      "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée",
   },
   // #endregion
 
@@ -205,10 +230,20 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Gerrit van Honthorst [NLD / 1590-1656]"
+  // #region "Gerard van Honthorst [NLD / 1590-1656]"
+  {
+    title: "Samson et Dalila",
+    artist: "Gerard van Honthorst [NLD / 1590-1656]",
+    year: "1616",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Samson_et_Dalila.JPG/440px-Samson_et_Dalila.JPG",
+    link: "https://www.clevelandart.org/art/1968.23",
+    description:
+      "Samson avait été promis à sa mère inféconde par un ange et annoncé comme un libérateur du peuple et un être consacré à Dieu qui n’avait pas le droit de se couper les cheveux. Samson, en combattant solitaire, fut souvent inscrit dans la tradition des héros de la mythologie grecque et, au même titre qu’Héraclès, possédait des pouvoirs surhumains. Son caractère était considéré comme impulsif et violent. Selon le Livre des Juges, son adversaire et séductrice Dalila, qui lui arracha son secret, provoquant ainsi sa chute, agissait pour le compte des princes des Philistins.",
+  },
   {
     title: "Le Triomphe de Silène",
-    artist: "Gerrit van Honthorst [NLD / 1590-1656]",
+    artist: "Gerard van Honthorst [NLD / 1590-1656]",
     year: "vers 1623-1630",
     imageUrl:
       "https://collections.louvre.fr/media/cache/medium/0000000021/0000054313/0000731064_OG.JPG",
@@ -218,7 +253,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Concert ou Le Vol de l'amulette",
-    artist: "Gerrit van Honthorst [NLD / 1590-1656]",
+    artist: "Gerard van Honthorst [NLD / 1590-1656]",
     year: "vers 1626-1630",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gerrit_van_Honthorst_cat02.jpg",
@@ -274,6 +309,19 @@ const artworks: Artwork[] = [
     link: "https://fr.borghese.gallery/collection/peintures/la-cene.html",
     description:
       "La Cène (1542), peinte par le peintre vénitien Jacopo Bassano, est une vision alternative du thème biblique, qui a été abordée dans leurs œuvres par de nombreux contemporains du maître. La source d’inspiration de l’artiste était évidemment le célèbre chef-d’œuvre du même nom, du grand Léonard de Vinci, datant d’une période antérieure.",
+  },
+  // #endregion
+
+  // #region "Jacopo Zucchi [ITA / 1541-1596]"
+  {
+    title: "La pêche au corail ou Le royaume d’Amphitrite",
+    artist: "Jacopo Zucchi [ITA / 1542-1596]",
+    year: "1585",
+    imageUrl:
+      "https://www.finestresullarte.info/rivista/immagini/2022/1862/jacopo-zucchi-la-pesca-del-corallo-roma.jpg",
+    link: "https://www.finestresullarte.info/fr/oeuvres-et-artistes/le-royaume-d-amphitrite-de-jacopo-zucchi-un-tableau-prive-de-la-maitresse-du-cardinal",
+    description:
+      "Jacopo Zucchi, La pêche au corail ou Le royaume d’Amphitrite (vers 1585 ; huile sur cuivre, 52 x 42,5 cm ; Rome, Galleria Borghese)",
   },
   // #endregion
 
@@ -394,6 +442,19 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=3e020263-b319-4594-a0ff-01fe66b1f21a",
     description:
       "Dame à l’hermine de Léonard de Vinci, peinte vers 1489-1490, représente Cecilia Gallerani tenant une hermine blanche, symbole de pureté et de noblesse. Le sfumato adoucit les contours, donnant profondeur et réalisme à son regard expressif. La lumière met en valeur la finesse de son visage et la texture de sa robe. La posture dynamique apporte une impression de mouvement naturel. Ce chef-d'œuvre illustre la maîtrise du portrait par Léonard.",
+  },
+  // #endregion
+
+  // #region "le Dominiquin (Domenico Zampieri) [ITA / 1581-1641]"
+  {
+    title: "La Jeune Fille et la Licorne",
+    artist: "le Dominiquin (Domenico Zampieri) [ITA / 1581-1641]",
+    year: "1602",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/DomenichinounicornPalFarnese.jpg",
+    link: "https://www.lumieresdesetoiles.com/la-jeune-fille-a-la-licorne-1604-1605-le-dominiquin/",
+    description:
+      "Cette fresque du Palais Farnèse à Rome a été commandée à Le Dominiquin en 1604-1605. Outre cette commande personnelle Le Dominiquin a collaboré à la réalisation des fresques de la voûte de la grande galerie du Palais sous la direction d’Annibal Carrache auquel le cardinal Odoardo Farnèse avait commandé ce décor titanesque ; Carrache travailla huit ans sur cette voûte.",
   },
   // #endregion
 
@@ -522,6 +583,29 @@ const artworks: Artwork[] = [
     link: "https://fr.gallerix.ru/storeroom/734167568/N/1998048531/",
     description:
       "Andromède, fille du roi Céphée, est condamnée à être sacrifiée pour apaiser Poséidon, furieux du vantardise de Cassiopée.Le monstre marin, envoyé pour dévaster le royaume, menace de dévorer la jeune princesse enchaînée sur un rocher.Persée, héros aux sandales ailées et armé d’un bouclier magique, intervient et tue la bête.En libérant Andromède, il sauve le peuple et gagne son amour, scellant ainsi leur union.",
+  },
+  // #endregion
+
+  // #region "Pierre Paul Rubens [DEU / 1577-1640]"
+  {
+    title: "Le Jugement de Pâris",
+    artist: "Pierre Paul Rubens [DEU / 1577-1640]",
+    year: "1597-1599",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Peter_Paul_Rubens_-_The_Judgment_of_Paris_-_WGA20307.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-judgement-of-paris-1",
+    description:
+      "Aux noces de Pélée et Thétis sur l'Olympe, tous les dieux sont invités sauf Éris, déesse de la Discorde. Pour se venger, elle leur jette une pomme d'or avec la mention « Pour la plus belle » : la pomme de discorde. Trois déesses revendiquent alors le fruit, Héra, Athéna et Aphrodite. Zeus ordonne à Hermès d'emmener les déesses sur le mont Ida, à charge pour Pâris, prince troyen, de désigner la gagnante. Le jeune homme accorde finalement la pomme à Aphrodite (déesse de l'amour), qui lui a promis l'amour de la plus belle femme du monde (Hélène), ce qui a provoqué la guerre de Troie avec l'enlèvement d'Hélène.",
+  },
+  {
+    title: "Samson et Dalila",
+    artist: "Pierre Paul Rubens [DEU / 1577-1640]",
+    year: "1609-1610",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Peter_Paul_Rubens_-_Samson_and_Delilah_-_Google_Art_Project.jpg/1920px-Peter_Paul_Rubens_-_Samson_and_Delilah_-_Google_Art_Project.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-samson-and-delilah",
+    description:
+      "Selon l'Ancien Testament, Samson , un héros juif doté d'une force surhumaine, tua mille soldats philistins avec la mâchoire d'un âne. Les chefs philistins voulurent se venger. Ils soudoyèrent Dalila, la femme que Samson aimait, pour qu'elle découvre la source de sa force. Après plusieurs tentatives, elle le persuada de lui révéler son secret : sa force divine résidait dans ses cheveux, non coupés depuis sa naissance.",
   },
   // #endregion
 
@@ -717,7 +801,6 @@ const artworks: Artwork[] = [
   },
   // #endregion
 ];
-
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
   return (
     <div className="relative group">
@@ -758,6 +841,7 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
 
 function App() {
   const [selectedArtist, setSelectedArtist] = useState<string>("");
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   const artists = useMemo(() => {
     const uniqueArtists = Array.from(
@@ -767,18 +851,104 @@ function App() {
   }, []);
 
   const filteredArtworks = useMemo(() => {
-    if (!selectedArtist || selectedArtist === "Tous les artistes") {
-      return artworks;
+    let filtered = artworks;
+
+    if (searchQuery) {
+      filtered = filtered.filter(
+        (artwork) =>
+          artwork.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          artwork.artist.toLowerCase().includes(searchQuery.toLowerCase())
+      );
     }
-    return artworks.filter((artwork) => artwork.artist === selectedArtist);
-  }, [selectedArtist]);
+
+    if (selectedArtist && selectedArtist !== "Tous les artistes") {
+      filtered = filtered.filter(
+        (artwork) => artwork.artist === selectedArtist
+      );
+    }
+
+    return filtered;
+  }, [selectedArtist, searchQuery]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 p-8">
       <div className="max-w-[2000px] mx-auto">
+        <div className="absolute top-4 left-4 flex flex-col gap-2">
+          {/* LOUVRE  */}
+          <a
+            href="https://www.louvre.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
+          >
+            <img
+              src="https://png.pngtree.com/png-clipart/20231116/original/pngtree-the-louvre-france-sticker-png-image_13572662.png"
+              alt="Louvre Icon"
+              className="w-4 h-4 rounded"
+            />
+            Le Louvre
+          </a>
+          {/* Galerie Borghèse  */}
+          <a
+            href="https://fr.borghese.gallery/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGiMKBHZYo007V3cgvtRkQ1EDYrpXigUlMNQ&s"
+              alt="Galleria Borghese Icon"
+              className="w-4 h-4 rounded"
+            />
+            Galerie Borghèse
+          </a>
+          {/* Palais Farnèse  */}
+          <a
+            href="https://visite-palazzofarnese.it/palais-farnese/?lang=fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Palazzo_Farnese_Vasi.jpg"
+              alt="Palais Farnèse Icon"
+              className="w-4 h-4 rounded"
+            />
+            Palais Farnèse
+          </a>
+
+          {/* National Gallery  */}
+          <a
+            href="https://www.nationalgallery.org.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmzJjUMm9wWDo7LPJqdgTJLfMKVLUk66Y3g&s"
+              alt="Palais Farnèse Icon"
+              className="w-4 h-4 rounded"
+            />
+            National Gallery
+          </a>
+        </div>
+
         <h1 className="text-4xl font-bold text-white mb-8 text-center">
           Ma Galerie d'Arts
         </h1>
+
+        <div className="relative mb-8 max-w-md mx-auto">
+          <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <Search className="w-5 h-5 text-gray-400" />
+          </div>
+          <input
+            type="search"
+            placeholder="Rechercher une œuvre ou un artiste"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="block w-full p-4 pl-10 text-sm text-white bg-black/30 backdrop-blur-md rounded-lg border border-gray-700 focus:ring-purple-500 focus:border-purple-500"
+          />
+        </div>
 
         <div className="relative mb-8 max-w-xs mx-auto">
           <select
