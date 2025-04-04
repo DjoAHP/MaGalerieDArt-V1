@@ -12,10 +12,10 @@ interface Artwork {
 
 const artworks: Artwork[] = [
   // 🔹 -----A-----
-  // #region "Abraham Bloemaert"
+  // #region "Abraham Bloemaert [NLD / 1564-1651]"
   {
     title: "Vénus et Adonis",
-    artist: "Abraham Bloemaert",
+    artist: "Abraham Bloemaert [NLD / 1564-1651]",
     year: "1632",
     imageUrl:
       "https://iip-thumb.smk.dk/iiif/jp2/jd473138d_KMSsp343.tif.reconstructed.tif.jp2/full/!2048,/0/default.jpg",
@@ -25,10 +25,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Antonio Mariani della Corgna"
+  // #region "Antonio Mariani della Corgna  [ITA / 1584-1654]"
   {
     title: "Prometheus",
-    artist: "Antonio Mariani della Corgna",
+    artist: "Antonio Mariani della Corgna  [ITA / 1584-1654]",
     year: "1621-1628",
     imageUrl:
       "https://www.haltadefinizione.com/assets/Remote/6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6.jpeg",
@@ -38,10 +38,23 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Antonio Allegri da Correggio (le Corrège)"
+  // #region "Anne-Louis Girodet [FRA / 1767-1824]"
+  {
+    title: "Endymion. Effet de lune, dit aussi Le Sommeil d'Endymion",
+    artist: "Anne-Louis Girodet [FRA / 1767-1824]",
+    year: "1791",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Girodet_Sleep_of_Endymion.jpg",
+    link: "https://collections.louvre.fr/ark:/53355/cl010064831",
+    description:
+      "Le jeune berger Endymion, plongé dans un sommeil éternel, reçoit la visite nocturne de la déesse de la Lune (Diane ou Séléné) qui s'est éprise de sa beauté. La déesse est figurée sous la forme d'un rayon de lune dont la lumière — Zéphyr aidant à écarter l'ombrage des buissons — inonde le corps nu et alangui du berger reposant dans une grotte du mont Latmos.",
+  },
+  // #endregion
+
+  // #region "Antonio Allegri da Correggio (le Corrège)  [ITA / 1489-1534]"
   {
     title: "Vénus, Satyre et Cupidon",
-    artist: "Antonio Allegri da Correggio (le Corrège)",
+    artist: "Antonio Allegri da Correggio (le Corrège)  [ITA / 1489-1534]",
     year: "1524-1527",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/0/0b/Correggio_-_Venus_and_Cupid_with_a_Satyr.jpg",
@@ -51,8 +64,8 @@ const artworks: Artwork[] = [
   },
   {
     title: "L'Éducation de Cupidon",
-    artist: "Antonio Allegri da Correggio (le Corrège)",
-    year: "1557",
+    artist: "Antonio Allegri da Correggio (le Corrège)  [ITA / 1489-1534]",
+    year: "1527",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/e/ec/Correggio_Venus_with_Mercury_and_Cupid_or_The_School_of_Love.jpg",
     link: "https://fr.wikipedia.org/wiki/L%27%C3%89ducation_de_Cupidon",
@@ -62,10 +75,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----B-----
-  // #region "Bénigne Gagneraux"
+  // #region "Bénigne Gagneraux [FRA / 1756-1795]"
   {
     title: "L'éducation d'Achille",
-    artist: "Bénigne Gagneraux",
+    artist: "Bénigne Gagneraux [FRA / 1756-1795]",
     year: "1785",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/c/cb/B%C3%A9nigne_Gagneraux_-_L%27%C3%A9ducation_d%27Achille_%281785%29.jpg",
@@ -76,10 +89,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----C-----
-  // #region "Damiano Mazza"
+  // #region "Charles André van Loo [FRA / 1705-1765]"
   {
     title: "L'Ivresse de Silène",
-    artist: "Charles André van Loo",
+    artist: "Charles André van Loo [FRA / 1705-1765]",
     year: "1747",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/c/c0/L%27Ivresse_de_Sil%C3%A8ne_%28Carle_Van_Loo%29.jpg",
@@ -89,10 +102,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Charles Antoine Coypel"
+  // #region "Charles Antoine Coypel [FRA / 1694-1752]"
   {
     title: "La Destruction du palais d'Armide",
-    artist: "Charles Antoine Coypel",
+    artist: "Charles Antoine Coypel [FRA / 1694-1752]",
     year: "1737",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/c/c6/Charles-Antoine_Coypel_La_destruction_du_palais_d%27Armide_Nancy_22122007_01.jpg",
@@ -103,10 +116,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----D-----
-  // #region "Damiano Mazza"
+  // #region "Damiano Mazza [ITA / 1550-1576]"
   {
     title: "Le viol de Ganymède",
-    artist: "Damiano Mazza",
+    artist: "Damiano Mazza [ITA / 1550-1576]",
     year: "1575",
     imageUrl:
       "https://www.meisterdrucke.fr/kunstwerke/1260px/Damiano_Mazza_-_The_Rape_of_Ganymede_ca_1575_-_%28MeisterDrucke-1196890%29.jpg",
@@ -116,11 +129,24 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Daniele Da Volterra [ITA / 1550-1576]"
+  {
+    title: "David vainqueur de Goliath",
+    artist: "Daniele Da Volterra [ITA / 1509-1566]",
+    year: "1550-1555",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/David_and_Goliath_by_Daniele_da_Volterra_%28Louvre_INV_566%29_recto_02.jpg",
+    link: "https://collections.louvre.fr/ark:/53355/cl010067107",
+    description:
+      "Le David et Goliath ou David tuant Goliath de Daniele da Volterra, est un tableau à double face huile sur ardoise, conservé au musée du Louvre. Le tableau représente une scène très connue : David vient de toucher Goliath au front, avec une pierre lancée de sa fronde. Le géant est à terre, et David s’est emparé de son épée (un cimeterre) pour l’achever.",
+  },
+  // #endregion
+
   // 🔹 -----E-----
-  // #region "Edward Burne-Jones"
+  // #region "Edward Burne-Jones [GBR / 1833-1898]"
   {
     title: "La Mort de Méduse I",
-    artist: "Edward Burne-Jones",
+    artist: "Edward Burne-Jones [GBR / 1833-1898]",
     year: "1882",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/5/52/Edward_Burne-Jones_-_The_Death_of_Medusa_I%2C_1882.jpg",
@@ -131,10 +157,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----G-----
-  // #region "Giulio Romano"
+  // #region "Giulio Romano [ITA / 1492/1499-1546]"
   {
     title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
-    artist: "Atelier de Giulio Romano",
+    artist: "Atelier de Giulio Romano [ITA / 1492/1499-1546]",
     year: "1530",
     imageUrl:
       "https://www.meisterdrucke.lu/kunstwerke/1260px/Giulio_Romano_-_The_Infancy_of_Jupiter_1530s_-_%28MeisterDrucke-1196317%29.jpg",
@@ -144,10 +170,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Georges de La Tour"
+  // #region "Georges de La Tour [FRA / 1593-1652]"
   {
     title: "Saint Joseph charpentier",
-    artist: "Georges de La Tour",
+    artist: "Georges de La Tour [FRA / 1593-1652]",
     year: "1645",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg",
     link: "https://fr.wikipedia.org/wiki/Saint_Joseph_charpentier",
@@ -156,7 +182,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "La Madeleine pénitente (à la flamme filante)",
-    artist: "Georges de La Tour",
+    artist: "Georges de La Tour [FRA / 1593-1652]",
     year: "1645",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/0/03/Georges_de_La_Tour_-_The_Magdalen_with_the_Smoking_Flame_-_Google_Art_Project.jpg?uselang=fr",
@@ -166,10 +192,10 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Giovanni Baglione"
+  // #region "Giovanni Baglione [ITA / 1566-1644]"
   {
     title: "L'Amour divin et l'Amour profane",
-    artist: "Giovanni Baglione",
+    artist: "Giovanni Baglione [ITA / 1566-1644]",
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Giovanni_Baglione_-_The_Divine_Eros_Defeats_the_Earthly_Eros_-_Google_Art_Project.jpg",
@@ -188,7 +214,17 @@ const artworks: Artwork[] = [
       "https://collections.louvre.fr/media/cache/medium/0000000021/0000054313/0000731064_OG.JPG",
     link: "https://collections.louvre.fr/ark:/53355/cl010054313",
     description:
-      "Dans la mythologie grecque, Silène (ou Papposilène) (en grec ancien : Σειληνός / Seilēnós, prononcé : [seːlɛːnós]) est un satyre, père adoptif et précepteur du dieu Dionysos, qu’il accompagne sans cesse. Il passait en effet pour un sage, un prophète et un philosophe[1].",
+      "Dans la mythologie grecque, Silène (ou Papposilène) (en grec ancien : Σειληνός / Seilēnós, prononcé : [seːlɛːnós]) est un satyre, père adoptif et précepteur du dieu Dionysos, qu’il accompagne sans cesse. Il passait en effet pour un sage, un prophète et un philosophe.",
+  },
+  {
+    title: "Concert ou Le Vol de l'amulette",
+    artist: "Gerrit van Honthorst ",
+    year: "vers 1626-1630",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gerrit_van_Honthorst_cat02.jpg",
+    link: "https://fr.wikipedia.org/wiki/Concert_(van_Honthorst)",
+    description:
+      "Cette huile sur toile est une scène de genre qui représente un jeune homme en train de se faire dépouiller par une prostituée et sa souteneuse pendant un concert amical à une table. Absorbé par son chant, il se fait subtiliser sa boucle d'oreille sous le regard d'un joueur de viole de gambe, tandis que sa complice âgée, debout derrière lui, fouille son sac, d'un geste, intime de garder le silence sur le méfait.- Galerie Borghèse p.87-",
   },
   // #endregion
 
@@ -295,6 +331,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Jacques-Louis David [FRA / 1748-1825]"
+  {
+    title: "Le Sacre de Napoléon",
+    artist: "Jacques-Louis David [FRA / 1748-1825]",
+    year: "1805-1807",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Jacques-Louis_David%2C_The_Coronation_of_Napoleon_edit.jpg",
+    link: "https://collections.louvre.fr/ark:/53355/cl010065720",
+    description:
+      "Le sacre de l'empereur Napoléon Ier et le couronnement de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804. Dimensions / Hauteur : 6,21 m ; Largeur : 9,79 m, se qui en fait le plus grand tableaux du Louvre.",
+  },
+  // #endregion
+
   // #region "Jan van Eyck"
   {
     title: "Les Époux Arnolfini",
@@ -349,10 +398,10 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----M-----
-  // #region "Michelangelo Merisi (Caravaggio)"
+  // #region "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]"
   {
     title: "Medusa",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1597",
     imageUrl:
       "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg",
@@ -362,7 +411,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Les Musiciens",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1597",
     imageUrl:
       "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
@@ -372,7 +421,7 @@ const artworks: Artwork[] = [
   },
   {
     title: " Le Sacrifice d' Isaac",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1598",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sacrifice_of_Isaac-Caravaggio_%28Uffizi%29.jpg/1200px-Sacrifice_of_Isaac-Caravaggio_%28Uffizi%29.jpg",
@@ -382,7 +431,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Judith et Holopherne",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1598-1599",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/b/b2/Caravaggio_Judith_Beheading_Holofernes.jpg",
@@ -392,7 +441,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Le Souper à Emmaüs",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1601",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg/800px-Supper_at_Emmaus-Caravaggio_%281601%29.jpg",
@@ -402,13 +451,23 @@ const artworks: Artwork[] = [
   },
   {
     title: "Saint Matthieu et l'Ange",
-    artist: "Michelangelo Merisi (Caravaggio)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Inspiration_of_Saint_Matthew-Caravaggio_%281602%29.jpg",
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=4ff44b6e-f6f8-4bf3-a9dc-4e9f45676913",
     description:
       "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
+  },
+  {
+    title: "La Madone des palefreniers (La Madone au serpent)",
+    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    year: "1605-1606",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/CaravaggioSerpent.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Madone_des_palefreniers",
+    description:
+      "Le Caravage montre Marie, au centre gauche, soutenant son fils, représenté assez grand et nu, qui appuie son pied sur le sien pour écraser un serpent. Sainte Anne, patronne des palefreniers de Rome, commanditaires de l'œuvre, assiste les mains jointes, pensive, représentée en vieille femme habillée sombrement a contrario de la Vierge, habillée de pourpre (couleur de la Passion du Christ), largement décolletée.",
   },
   // #endregion
 
@@ -422,6 +481,20 @@ const artworks: Artwork[] = [
     link: "https://www.finestresullarte.info/rivista/immagini/2019/1175/mattia-preti-incoronazione-di-spine.jpg",
     description:
       "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
+  },
+  // #endregion
+
+  // 🔹 -----N-----
+  // #region "Nicolas Poussin [FR]"
+  {
+    title: "L'Assomption de la Vierge",
+    artist: "Nicolas Poussin [FR]",
+    year: "vers 1630–1632",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Nicolas_Poussin_-_The_Assumption_of_the_Virgin.JPG",
+    link: "https://fr.aleteia.org/2018/08/14/tout-savoir-sur-lassomption",
+    description:
+      "Célébrée le 15 août, l'Assomption commémore la fin de la vie terrestre de la Vierge Marie et sa montée au ciel pour rejoindre son Fils ressuscité.",
   },
   // #endregion
 
@@ -439,6 +512,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Pietro Paolini (Mouvement Caravagesque) [ITA / 1603-1681]"
+  {
+    title: "Concert bacchique",
+    artist: "Pietro Paolini (Mouvement Caravagesque) [ITA / 1603-1681]",
+    year: "Entre 1625 et 1630",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bacchic_Concert_-_Paolini_%281625%29.jpg",
+    link: "https://fr.m.wikipedia.org/wiki/Fichier:Bacchic_Concert_-_Paolini_(1625).jpg",
+    description:
+      "Concert bacchique, v. 1625-1630, Dallas Museum of Art. Dallas Museum of Art, The Karl and Esther Hoblitzelle Collection, gift of the Hoblitzelle Foundation",
+  },
+  // #endregion
+
   // #region "Paolo Fiammingo"
   {
     title: "Paysage avec l'expulsion des harpies",
@@ -452,15 +538,25 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Paolo Veronese (Paolo Caliari)"
+  // #region "Paolo Veronese (Paolo Caliari) [ITA / 1528-1588]"
   {
     title: "Mars et Vénus unis par l'amour",
-    artist: "Paolo Veronese (Paolo Caliari)",
+    artist: "Paolo Veronese (Paolo Caliari) [ITA / 1528-1588]",
     year: "1570",
     imageUrl: "https://images.metmuseum.org/CRDImages/ep/original/DP167124.jpg",
     link: "https://www.metmuseum.org/art/collection/search/437891",
     description:
       "L'amour entre Mars, dieu de la guerre, et Vénus, déesse de l'amour, est encouragé par un couple d'amoureux indiscrets. L'un d'eux lie le couple, tandis que son complice retient le cheval de guerre de Mars. Le tableau célèbre les effets civilisateurs et nourriciers de l'amour, tandis que le lait coule du sein de Vénus et que Mars est désarmé.",
+  },
+  {
+    title: "Les Noces de Cana",
+    artist: "Paolo Veronese (Paolo Caliari) [ITA / 1528-1588]",
+    year: "1563",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Paolo_Veronese_008.jpg",
+    link: "https://collections.louvre.fr/ark:/53355/cl010064382",
+    description:
+      "Le sujet du tableau n’est pas le dernier repas du Christ, mais son premier miracle. Dans l’Évangile selon saint Jean, Jésus, Marie et les disciples sont invités à un banquet de mariage à Cana, en Galilée. Le vin venant à manquer, Jésus dit aux serviteurs de remplir six jarres d’eau. L’eau se transforme miraculeusement en vin et la fête peut continuer.",
   },
   // #endregion
 
