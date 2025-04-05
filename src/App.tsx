@@ -101,6 +101,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Bronzino (Angelo di Cosimo) [ITA / 1503-1572]"
+  {
+    title: "Une allégorie avec Vénus et Cupidon",
+    artist: "Bronzino (Angelo di Cosimo) [ITA / 1503-1572]",
+    year: "1545",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/Angelo_Bronzino_-_Venus%2C_Cupid%2C_Folly_and_Time_-_National_Gallery%2C_London.jpg?uselang=fr",
+    link: "https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid",
+    description:
+      "Le sujet, à la fois érotique et érudit, du tableau convenait parfaitement aux goûts du roi François Ier de France, notoirement lubrique. Il lui fut probablement offert par Cosme Ier de Médicis , souverain de Florence, qui employa Bronzino comme peintre à la cour. Cependant, il ne semble pas exister de trace de sa présence dans la collection royale française.​",
+  },
+  // #endregion
+
   // 🔹 -----C-----
   // #region "Charles André van Loo [FRA / 1705-1765]"
   {
@@ -125,6 +138,19 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
     description:
       "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée",
+  },
+  // #endregion
+
+  // #region "Cristofano Allori [ITA / 1577-1621]"
+  {
+    title: "Judith avec la tête d'Holopherne",
+    artist: "Cristofano Allori [ITA / 1577-1621]",
+    year: "1613",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Judith_with_the_Head_of_Holofernes_by_Cristofano_Allori.jpg",
+    link: "https://www.uffizi.it/en/artworks/judith-with-the-head-of-holofernes",
+    description:
+      " Judith entre dans la tente d'Holopherne, un général assyrien sur le point de mener une offensive contre la ville de Béthulie. Il s'enivre au point de perdre connaissance ; Judith le décapite, et emporte sa tête dans un panier (la tête est souvent représentée dans un panier portée par une servante de Judith, plus âgée qu'elle).",
   },
   // #endregion
 
@@ -228,6 +254,32 @@ const artworks: Artwork[] = [
     link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
     description:
       "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
+  },
+  // #endregion
+
+  // #region "Giovanni Bilivert [ITA / 1566-1644]"
+  {
+    title: "Apollon écorchant Marsyas",
+    artist: "Giovanni Bilivert [ITA / 1585-1644]",
+    year: "1630",
+    imageUrl:
+      "https://www.datocms-assets.com/103094/1688661633-1505989079545669-bilivert-apollo-e-marsia-principale.jpg?auto=format%2Ccompress&cs=srgb&max-w=800",
+    link: "https://www.uffizi.it/en/artworks/apollo-flaying-marsyas",
+    description:
+      "Après avoir pris possession de l' aulòs , un instrument à anche à deux cornes inventé par la déesse Athéna, le satyre phrygien Marsyas devint si habile qu'il défia Apollon dans un concours de musique, où il fut battu. La scène capture le moment le plus dramatique, la punition de Marsyas pour avoir osé défier le dieu Soleil.",
+  },
+  // #endregion
+
+  // #region "Guido Reni [ITA / 1575-1642]"
+  {
+    title: "David tenant la tête de Goliath",
+    artist: "Guido Reni [ITA / 1575-1642]",
+    year: "1600",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Guido_Reni_-_David_with_the_Head_of_Goliath_-_WGA19279.jpg",
+    link: "https://www.uffizi.it/en/artworks/reni-david-with-the-head-of-goliath",
+    description:
+      " David, jeune berger agréé par Dieu, releva le défi lancé par Goliath. Après avoir déclaré qu'il venait contre lui avec l'appui de Dieu, David lui jeta une pierre avec sa fronde. Celle-ci s'enfonça dans le front de Goliath qui tomba à terre. David lui prit son épée et acheva le géant en lui coupant la tête. ",
   },
   // #endregion
 
