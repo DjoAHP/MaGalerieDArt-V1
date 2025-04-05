@@ -114,6 +114,7 @@ const artworks: Artwork[] = [
       "L'Ivresse de Silène est une peinture réalisée par Carle van Loo, en 1747. Aujourd'hui, elle est conservée au sein des collections du musée des Beaux-Arts de Nancy[1].",
   },
   // #endregion
+
   // #region "Cavalier D'Arpin [ITA / 1568-1640]"
   {
     title: "Persée et Andromède",
@@ -415,6 +416,16 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
     description:
       "Les Époux Arnolfini est le nom donné à une peinture sur bois (82,2 × 60 cm) du peintre primitif flamand Jan van Eyck datant de 1434, conservée à la National Gallery de Londres",
+  },
+  {
+    title: "Phaéton foudroyé par Zeus",
+    artist: "Jan van Eyck [NLD / 1390-1441]",
+    year: "1636-1638",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/La_ca%C3%ADda_de_Faet%C3%B3n_%28Jan_Carel_van_Eyck%29.jpg",
+    link: "https://odysseum.eduscol.education.fr/phaeton-et-le-char-du-soleil-0",
+    description:
+      "Fils du Soleil et de Clymène. Il voulut conduire le char de son père mais, ne sachant le diriger, il embrase la terre et est foudroyé par Jupiter",
   },
   // #endregion
 
@@ -744,7 +755,7 @@ const artworks: Artwork[] = [
     year: 1485,
     imageUrl:
       "https://d1ee3oaj5b5ueh.cloudfront.net/thumbs/1440xAUTO_processed_article_2023_08_4fb596ce-fa9d-4599-bfe7-2a86084952bd-banner-master.jpg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=66a8ccbb-1ab5-4e28-bd84-4382dfb34be5",
+    link: "https://www.uffizi.it/en/artworks/birth-of-venus",
     description:
       "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
   },
@@ -930,6 +941,21 @@ function App() {
               className="w-4 h-4 rounded"
             />
             National Gallery
+          </a>
+
+          {/* The Uffizi  */}
+          <a
+            href="https://www.uffizi.it/en/the-uffizi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
+          >
+            <img
+              src="https://www.datocms-assets.com/103094/1689168761-1506500361872374-gallerie-uffizi_g.jpg?auto=format%2Ccompress"
+              alt="Palais Farnèse Icon"
+              className="w-4 h-4 rounded"
+            />
+            The Uffizi
           </a>
         </div>
 
