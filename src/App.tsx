@@ -11,6 +11,8 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
+  // #region PEINTRE Alphabetique
+
   // #region🔹 -----A-----
   // #region "Abraham Bloemaert [NLD / 1564-1651]"
   {
@@ -165,7 +167,17 @@ const artworks: Artwork[] = [
       "https://upload.wikimedia.org/wikipedia/commons/0/0b/D%27arpino-Androm%C3%A8de.jpg",
     link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
     description:
-      "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée",
+      "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée.",
+  },
+  {
+    title: "L'enlèvement d'Europe",
+    artist: "Cavalier D'Arpin [ITA / 1568-1640]",
+    year: "1603-1606",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/378.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/the-abduction-of-europa",
+    description:
+      "Selon une version du mythe, Europe, fille d'Agénor, roi de Tyr, une ville de Phénicie fit un rêve. Le jour même, Zeus la rencontra sur une plage de Sidon, se métamorphosa en taureau blanc, afin de l'approcher sans l'apeurer et d'échapper à la jalousie de son épouse Héra. Europe s'approche de lui. Chevauchant l'animal, elle est enlevée sur l'île de Crète à Gortyne. À Gortyne, sous un platane, qui depuis lors est toujours vert, Europe s'accouple avec Zeus, sous forme humaine cette fois. De leur union naissent Minos, Rhadamanthe, et Sarpédon, qui s'exila en Anatolie, à Milet. Plus tard, Europe est donnée par Zeus, comme épouse au roi de Crète, Astérion.",
   },
   // #endregion
 
@@ -248,6 +260,19 @@ const artworks: Artwork[] = [
     link: "https://upload.wikimedia.org/wikipedia/commons/5/52/Edward_Burne-Jones_-_The_Death_of_Medusa_I%2C_1882.jpg",
     description:
       "Naissance de Pégase et Chrysaor, v. 1876-1885, gouache, Southampton City Art Gallery.",
+  },
+  // #endregion
+
+  // #region "Eugène Delacroix [FRA / 1798-1863]"
+  {
+    title: "La Liberté guidant le peuple",
+    artist: "Eugène Delacroix [FRA / 1798-1863]",
+    year: "1830",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Libert%C3%A9_guidant_le_peuple",
+    description:
+      "Le peintre a fait connaître sa toile comme une allégorie inspirée par l'actualité la plus brûlante[9],[10]. Elle a pour cadre les trois journées du soulèvement populaire parisien contre Charles X, les 27, 28 et 29 juillet 1830, connues sous le nom des Trois Glorieuses.",
   },
   // #endregion
   // #endregion
@@ -761,6 +786,20 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region🔹 -----P-----
+
+  // #region "Pâris Bordone (Bordon) [ITA / 1500-1570]"
+  {
+    title: "Vénus, Cupidon et un satyre",
+    artist: "Pâris Bordone (Bordon) [ITA / 1500-1570]",
+    year: "1555-1565",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/119.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/venus-cupid-and-a-satyr-2",
+    description:
+      "Les études les plus récentes s'accordent à dire qu'il s'agit d'une œuvre autographe du peintre trévisan, que l'on peut dater d'une phase ultérieure de sa production, et donc entre la fin des années 1660 et la première moitié des années 1670.",
+  },
+  // #endregion
+
   // #region "Piero di Cosimo [ITA / 1462-1522]"
   {
     title: "Persée libère Andromède",
@@ -771,6 +810,16 @@ const artworks: Artwork[] = [
     link: "https://fr.gallerix.ru/storeroom/734167568/N/1998048531/",
     description:
       "Andromède, fille du roi Céphée, est condamnée à être sacrifiée pour apaiser Poséidon, furieux du vantardise de Cassiopée.Le monstre marin, envoyé pour dévaster le royaume, menace de dévorer la jeune princesse enchaînée sur un rocher.Persée, héros aux sandales ailées et armé d’un bouclier magique, intervient et tue la bête.En libérant Andromède, il sauve le peuple et gagne son amour, scellant ainsi leur union.",
+  },
+  {
+    title: "Un satyre en deuil sur une nymphe",
+    artist: "Piero di Cosimo [ITA / 1462-1522]",
+    year: "1495",
+    imageUrl:
+      "https://www.arretetonchar.fr/wp-content/uploads/2013/IMG/jpg/Piero_di_Cosimo-Satyr_mourning_a_nymph_National_gallery_1495_.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/piero-di-cosimo-a-satyr-mourning-over-a-nymph",
+    description:
+      "On a suggéré que ce tableau représente un épisode des Métamorphoses , un poème influent d'Ovide, écrivain romain antique. Si tel est le cas, la belle nymphe serait Procris, tuée accidentellement par son mari Céphale. Une adaptation des Métamorphoses du XVe siècle a ajouté le satyre, qui n'est pas mentionné par Ovide.",
   },
   // #endregion
 
@@ -872,7 +921,25 @@ const artworks: Artwork[] = [
   // #endregion
   // #endregion
 
+  // #region🔹 -----Q-----
+
+  // #region "Quentin Metsys [ITA / 1466-1530]"
+  {
+    title: "Une vieille femme (« La duchesse laide »)",
+    artist: "Quentin Metsys [ITA / 1466-1530]",
+    year: "1513",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/Quentin_Matsys_-_A_Grotesque_old_woman.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/quinten-massys-an-old-woman-the-ugly-duchess",
+    description:
+      "Ce tableau fait partie d'un duo : sa « moitié » est conservée dans une collection privée à New York. La vieille femme revêt cette tenue flamboyante et provocante pour séduire le vieil homme, à qui elle offre un bouton de rose, une fleur à connotation sexuelle. Ce sont des portraits satiriques, qui se moquent de la vanité des personnes âgées qui s'habillent et se comportent comme si elles étaient encore jeunes...",
+  },
+  // #endregion
+
+  // #endregion
+
   // #region🔹 -----R-----
+
   // #region "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]"
   {
     title: "L’École d'Athènes",
@@ -905,6 +972,20 @@ const artworks: Artwork[] = [
       "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
   },
   // #endregion
+
+  // #region "Rutilio Manetti [ITA / 1571-1639]"
+  {
+    title: "Andromède libérée par Persée",
+    artist: "Rutilio Manetti [ITA / 1571-1639]",
+    year: "1611-1612",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/004.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/andromeda-freed-by-perseus",
+    description:
+      "tiré des Métamorphoses d'Ovide , à savoir la vanité de Cassiopée, reine d'Éthiopie et épouse de Céphée, qui se prétendait plus belle que les Néréides. Ce dernier en appela à Poséidon, lui demandant de punir l'arrogance du souverain présomptueux. Le dieu de la mer envoya alors un monstre ravager les côtes du royaume éthiopien ; la rage de la créature ne put être apaisée que par le sang d'une vierge. Le roi projeta donc de sacrifier sa fille Andromède, attachée à une falaise comme victime du terrible monstre marin, avant d'être sauvée de son triste sort par le héros Persée.",
+  },
+  // #endregion
+
   // #endregion
 
   // #region🔹 -----S-----
@@ -1021,6 +1102,8 @@ const artworks: Artwork[] = [
     description:
       "Cette œuvre fut acquise par Marc-Antoine IV Borghèse en 1783. Le prince l'avait achetée avec une autre œuvre du même artiste ; les deux tableaux, de mêmes dimensions, se situent dans un intérieur éclairé à la bougie, un motif typique des représentations de genre de Wolfgang Heimbach. Autrefois attribuée à Gerrit van Honthorst, c'est Roberto Longhi qui en confirma l'attribution au peintre allemand.",
   },
+  // #endregion
+
   // #endregion
 ];
 function ArtworkCard({ artwork }: { artwork: Artwork }) {

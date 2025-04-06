@@ -9,3 +9,18 @@
 // #region 
 ---
 // #endregion
+
+-----------
+
+  // #region "Pâris Bordone (Bordon) [ITA / 1500-1570]"
+  {
+    title: "Vénus, Cupidon et un satyre",
+    artist: "Pâris Bordone (Bordon) [ITA / 1500-1570]",
+    year: "1555-1565",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/119.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/venus-cupid-and-a-satyr-2",
+    description:
+      "Les études les plus récentes s'accordent à dire qu'il s'agit d'une œuvre autographe du peintre trévisan, que l'on peut dater d'une phase ultérieure de sa production, et donc entre la fin des années 1660 et la première moitié des années 1670.",
+  },
+  // #endregion
