@@ -1090,7 +1090,6 @@ const artworks: Artwork[] = [
 
   // #region🔹 -----W-----
   // #region "Wolfgang Heimbach [DEU / 1615-1678]"
-  // #endregion
 
   {
     title: "L'homme à la bougie",
