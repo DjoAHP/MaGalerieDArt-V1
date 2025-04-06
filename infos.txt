@@ -6,10 +6,6 @@
 
 
 
-// #region "Sandro Botticelli"
-
-  CODE
-  AVEC 
-  INFORMATIONS
-
+// #region 
+---
 // #endregion
