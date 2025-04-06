@@ -11,7 +11,7 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  // 🔹 -----A-----
+  // #region🔹 -----A-----
   // #region "Abraham Bloemaert [NLD / 1564-1651]"
   {
     title: "Vénus et Adonis",
@@ -99,8 +99,9 @@ const artworks: Artwork[] = [
       "L'Éducation de Cupidon ou Vénus, Mercure et Cupidon, voire L'École de l'Amour est une peinture réalisée vers 1525 par le peintre italien Le Corrège, et conservée à la National Gallery de Londres.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----B-----
+  // #region🔹 -----B-----
   // #region "Bernardino Cesari [ITA / 1571-1622]"
   {
     title: "Diane et Actéon",
@@ -139,8 +140,9 @@ const artworks: Artwork[] = [
       "Le sujet, à la fois érotique et érudit, du tableau convenait parfaitement aux goûts du roi François Ier de France, notoirement lubrique. Il lui fut probablement offert par Cosme Ier de Médicis , souverain de Florence, qui employa Bronzino comme peintre à la cour. Cependant, il ne semble pas exister de trace de sa présence dans la collection royale française.​",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----C-----
+  // #region🔹 -----C-----
   // #region "Charles André van Loo [FRA / 1705-1765]"
   {
     title: "L'Ivresse de Silène",
@@ -192,8 +194,9 @@ const artworks: Artwork[] = [
       "Armide est une magicienne Sarrasine, fille de Hidraot, roi de Damas, envoyée pour capturer les plus grands paladins croisés et tuer le chevalier chrétien Renaud. Elle tombe amoureuse de lui et l'enferme dans un Jardin fabuleux où elle l'envoûte de ses délices.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----D-----
+  // #region🔹 -----D-----
   // #region "Damiano Mazza [ITA / 1550-1576]"
   {
     title: "Le viol de Ganymède",
@@ -232,8 +235,9 @@ const artworks: Artwork[] = [
       "La femme a été identifiée comme une sorcière, d'abord Circé, puis Mélissa, selon la description du Roland furieux (8.14-15) de Ludovico Arioste. Dans cet épisode, Mélissa libère des chevaliers d'un enchantement, dont on pourrait retrouver la trace dans les petites figures humaines suspendues à l'arbre de gauche.La restauration du tableau a révélé quelques changements d'avis, notamment l'inclusion initiale, à la place du dogue, d'une figure masculine debout et blindée, qui était le destinataire du regard de la sorcière.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----E-----
+  // #region🔹 -----E-----
   // #region "Edward Burne-Jones [GBR / 1833-1898]"
   {
     title: "La Mort de Méduse I",
@@ -246,8 +250,9 @@ const artworks: Artwork[] = [
       "Naissance de Pégase et Chrysaor, v. 1876-1885, gouache, Southampton City Art Gallery.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----G-----
+  // #region🔹 -----G-----
   // #region "Giulio Romano [ITA / 1492/1499-1546]"
   {
     title: "L'enfant Jupiter gardé par les Corybantes sur l'île de Crète",
@@ -390,8 +395,9 @@ const artworks: Artwork[] = [
       "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----J-----
+  // #region🔹 -----J-----
   // #region "John William Waterhouse [ITA / 1849-1917]"
   {
     title: "Ulysse et les sirènes",
@@ -581,8 +587,9 @@ const artworks: Artwork[] = [
       "Fils du Soleil et de Clymène. Il voulut conduire le char de son père mais, ne sachant le diriger, il embrase la terre et est foudroyé par Jupiter",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----K-----
+  // #region🔹 -----K-----
   // #region "Katsushika Hokusai [JPN / 1760-1849]"
   {
     title: "La Grande Vague",
@@ -594,8 +601,9 @@ const artworks: Artwork[] = [
       "La Grande Vague de Kanagawa de Katsushika Hokusai, réalisée vers 1831, représente une immense vague menaçante sur le point de s’abattre sur des bateaux. La composition dynamique et les courbes élégantes créent une sensation de mouvement intense. Le bleu profond, obtenu grâce au bleu de Prusse, renforce le contraste avec l’écume blanche. En arrière-plan, le mont Fuji apparaît serein, opposant calme et chaos. Cette estampe emblématique illustre la puissance de la nature et l’influence de l’ukiyo-e.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----L-----
+  // #region🔹 -----L-----
   // #region "Leonardo Da Vinci [ITA / 1452-1519]"
   {
     title: "Dame à l'hermine",
@@ -647,8 +655,9 @@ const artworks: Artwork[] = [
       "Ce modello , ou étude détaillée à l'huile, fait partie d'un groupe de douze que Giordano a réalisés en préparation des fresques du plafond du Palazzo Medici Riccardi entre 1682 et 1685.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----M-----
+  // #region🔹 -----M-----
   // #region "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]"
   {
     title: "Medusa",
@@ -734,8 +743,9 @@ const artworks: Artwork[] = [
       "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----N-----
+  // #region🔹 -----N-----
   // #region "Nicolas Poussin [FR / 1594-1665]"
   {
     title: "L'Assomption de la Vierge",
@@ -748,8 +758,9 @@ const artworks: Artwork[] = [
       "Célébrée le 15 août, l'Assomption commémore la fin de la vie terrestre de la Vierge Marie et sa montée au ciel pour rejoindre son Fils ressuscité.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----P-----
+  // #region🔹 -----P-----
   // #region "Piero di Cosimo [ITA / 1462-1522]"
   {
     title: "Persée libère Andromède",
@@ -859,8 +870,9 @@ const artworks: Artwork[] = [
       "Le sujet du tableau n’est pas le dernier repas du Christ, mais son premier miracle. Dans l’Évangile selon saint Jean, Jésus, Marie et les disciples sont invités à un banquet de mariage à Cana, en Galilée. Le vin venant à manquer, Jésus dit aux serviteurs de remplir six jarres d’eau. L’eau se transforme miraculeusement en vin et la fête peut continuer.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----R-----
+  // #region🔹 -----R-----
   // #region "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]"
   {
     title: "L’École d'Athènes",
@@ -893,8 +905,9 @@ const artworks: Artwork[] = [
       "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----S-----
+  // #region🔹 -----S-----
   // #region "Sandro Botticelli [ITA / 1444-1510]"
   {
     title: "Le Printemps",
@@ -939,8 +952,9 @@ const artworks: Artwork[] = [
       "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----T-----
+  // #region🔹 -----T-----
   // #region "Titien (Tiziano Vecellio) [ITA / 1488.90-1576]"
   {
     title: "Bacchus et Ariane",
@@ -976,8 +990,9 @@ const artworks: Artwork[] = [
       "Le Radeau de la Méduse, de Théodore Géricault dépeint le naufrage de la frégate française Méduse en 1816, où des survivants dérivent sur un radeau de fortune, confrontés à la faim, la soif et le désespoir. Le tableau illustre la tragédie humaine et la lutte pour la survie face à l'adversité. Géricault a choisi ce sujet contemporain pour critiquer l'incompétence du gouvernement, marquant une rupture avec le néoclassicisme et ouvrant la voie au romantisme.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----V-----
+  // #region🔹 -----V-----
   // #region "Vincent van Gogh [NLD / 1853-1890]"
   {
     title: "La Nuit étoilée",
@@ -990,9 +1005,12 @@ const artworks: Artwork[] = [
       "Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu'il occupait dans l'asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. Souvent présenté comme son grand œuvre, le tableau a été reproduit à de très nombreuses reprises. Il est maintenant conservé dans le Museum of Modern Art (MoMA) à New York depuis 1941.",
   },
   // #endregion
+  // #endregion
 
-  // 🔹 -----W-----
+  // #region🔹 -----W-----
   // #region "Wolfgang Heimbach [DEU / 1615-1678]"
+  // #endregion
+
   {
     title: "L'homme à la bougie",
     artist: "Wolfgang Heimbach [DEU / 1615-1678]",
