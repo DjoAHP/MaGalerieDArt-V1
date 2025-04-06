@@ -38,7 +38,7 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
-  // #region "Antonio Mariani della Corgna  [ITA / 1584-1654]"
+  // #region "Antonio Mariani della Corgna [ITA / 1584-1654]"
   {
     title: "Prometheus",
     artist: "Antonio Mariani della Corgna  [ITA / 1584-1654]",
@@ -48,6 +48,19 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6",
     description:
       "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
+  },
+  // #endregion
+
+  // #region "Antonio Carracci [ITA / 1583-1618]"
+  {
+    title: "Jupiter (Zeus) et Junon (Héra)",
+    artist: "Antonio Carracci [ITA / 1583-1618]",
+    year: "1612",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/515.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/jupiter-and-juno",
+    description:
+      "Selon une légende romaine, Junon était jalouse du fait que Jupiter ait donné naissance à Minerve sans elle. Elle s'en plaignit à Flora qui lui indiqua une herbe qui rendit Junon enceinte sans l'intervention de Jupiter. Elle donna naissance à Mars alors qu'Arès dans la mythologie grecque est le fils des deux époux.",
   },
   // #endregion
 
@@ -88,6 +101,19 @@ const artworks: Artwork[] = [
   // #endregion
 
   // 🔹 -----B-----
+  // #region "Bernardino Cesari [ITA / 1571-1622]"
+  {
+    title: "Diane et Actéon",
+    artist: "Bernardino Cesari [ITA / 1571-1622]",
+    year: "1601-1613",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/medium/414.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/diana-and-actaeon",
+    description:
+      "Métamorphoses d'Ovide (III, 138-259) : au cours d'une chasse, Actéon surprit Diane nue, se baignant avec ses nymphes. La déesse le punit en le transformant en cerf, le rendant muet. Méconnu de ses propres chiens, Actéon fut dévoré par eux alors qu'il tentait de s'échapper.​",
+  },
+  // #endregion
+
   // #region "Bénigne Gagneraux [FRA / 1756-1795]"
   {
     title: "L'éducation d'Achille",
@@ -194,6 +220,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Dosso Dossi [ITA / 1480.90-1542]"
+  {
+    title: "Melissa",
+    artist: "Dosso Dossi [ITA / 1480.90-1542]",
+    year: "1518",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/217.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/melissa",
+    description:
+      "La femme a été identifiée comme une sorcière, d'abord Circé, puis Mélissa, selon la description du Roland furieux (8.14-15) de Ludovico Arioste. Dans cet épisode, Mélissa libère des chevaliers d'un enchantement, dont on pourrait retrouver la trace dans les petites figures humaines suspendues à l'arbre de gauche.La restauration du tableau a révélé quelques changements d'avis, notamment l'inclusion initiale, à la place du dogue, d'une figure masculine debout et blindée, qui était le destinataire du regard de la sorcière.",
+  },
+  // #endregion
+
   // 🔹 -----E-----
   // #region "Edward Burne-Jones [GBR / 1833-1898]"
   {
@@ -267,6 +306,19 @@ const artworks: Artwork[] = [
     link: "https://www.uffizi.it/en/artworks/apollo-flaying-marsyas",
     description:
       "Après avoir pris possession de l' aulòs , un instrument à anche à deux cornes inventé par la déesse Athéna, le satyre phrygien Marsyas devint si habile qu'il défia Apollon dans un concours de musique, où il fut battu. La scène capture le moment le plus dramatique, la punition de Marsyas pour avoir osé défier le dieu Soleil.",
+  },
+  // #endregion
+
+  // #region "Giovanni Francesco Guerrieri [ITA / 1589-1657]"
+  {
+    title: "Loth et ses filles",
+    artist: "Giovanni Francesco Guerrieri [ITA / 1589-1657]",
+    year: "1617",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/045.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/lot-and-his-daughters",
+    description:
+      "Les Filles de Loth est un poème d'inspiration biblique souvent attribué à Alfred de Musset. On assure au sujet de cette œuvre que George Sand avait promis son amour au poète qui produirait la poésie la plus obscène. Victor Hugo produisit un poème intitulé « Merde », et Musset « Les Filles de Loth ». Musset remporta le prix.",
   },
   // #endregion
 
@@ -352,6 +404,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Johann Heinrich Füssli [SUISSE / 1741-1824]"
+  {
+    title: "Thor luttant contre le serpent de Midgard",
+    artist: "Johann Heinrich Füssli [SUISSE / 1741-1824]",
+    year: "1790",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/d/de/Johann_Heinrich_Fussli-Tor_and_Jormundgandr.jpg",
+    link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
+    description:
+      "Thomas Percy avait publié en 1770 un recueil de Northern Antiquities qui comprenait la traduction d’un cycle de poèmes en vieux norrois, l’Edda. Ce tableau en illustre un épisode. Thor combat le serpent Midgard qu’il a appâté avec une tête de taureau attachée au bout d’une corde (ici une chaîne). Le géant Eymer, terré au fond de la barque, est censé l’aider… En haut à gauche, Odin, le père de Thor, assiste au combat.",
+  },
+  // #endregion
+
   // #region "Jacopo Bassano [ITA / 1510-1592]"
   {
     title: "La Cène",
@@ -376,6 +441,29 @@ const artworks: Artwork[] = [
     description:
       "Jacopo Zucchi, La pêche au corail ou Le royaume d’Amphitrite (vers 1585 ; huile sur cuivre, 52 x 42,5 cm ; Rome, Galleria Borghese)",
   },
+  {
+    title: "Cupidon et Psyché",
+    artist: "Jacopo Zucchi [ITA / 1542-1596]",
+    year: "1589",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/010.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/cupid-and-psyche",
+    description:
+      "Le tableau représente le moment décisif du conte de Cupidon et Psyché, tiré de la Métamorphose d'Apulée, lorsque la jeune fille, poussée par la curiosité et encouragée par les sœurs maléfiques, décide de connaître l'identité de l'amant mystérieux qui lui rend visite tous les jours au coucher du soleil sans montrer son visage.",
+  },
+  // #endregion
+
+  // #region "Jacopo Robusti (le Tintoret) [ITA / 1518-1594]"
+  {
+    title: "Jupiter et Sémélé",
+    artist: "Jacopo Robusti (le Tintoret) [ITA / 1518-1594]",
+    year: "1545",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Jacopo_Robusti_Tintoretto_-_Jupiter_and_Semele_ca_1545_-_%28MeisterDrucke-747793%29.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/possibly-by-jacopo-tintoretto-jupiter-and-semele",
+    description:
+      "L'histoire de Jupiter et Sémélé est racontée dans les Métamorphoses d'Ovide . Le dieu Jupiter prend la mortelle Sémélé pour maîtresse et la rend enceinte. Lorsque l'épouse de Jupiter, la déesse Junon, l'apprend, elle se déguise et suggère à Sémélé que son amant n'est peut-être pas Jupiter. Elle dit à Sémélé de demander à Jupiter de venir à elle sous la forme qu'il a lorsqu'il rend visite à Junon. Jupiter arrive sous la forme d'un puissant éclair armé de feu et Sémélé est réduite en cendres.",
+  },
   // #endregion
 
   // #region "Jusepe de Ribera (Mouvement Caravagesque) [ESP / 1591-1652]"
@@ -385,7 +473,7 @@ const artworks: Artwork[] = [
     year: "1626",
     imageUrl:
       "https://artaban-asso.com/wp-content/uploads/2024/08/12-Jose-de-Ribera-Saint-Jerome-et-lAnge-du-Jugement-1626-huile-sur-toile-262-%C3%97-164-cm-Naples-Capodimonte-scaled.jpg",
-    link: "https://gallerix.ru/fullpic/74dd1c3a2850c005f6ee5b49168823be/",
+    link: "https://fr.wikipedia.org/wiki/Saint_J%C3%A9r%C3%B4me_et_l%27Ange_du_Jugement",
     description:
       "La scène représente saint Jérôme en train de traduire la Bible, surpris par l'ange du Jugement dernier sonnant du cor, qui apparaît dans les nuages en haut à droite de la scène, ce dernier étant très semblable au personnage représenté dans la toile de Saint Matthieu et l'Ange du Caravage datant de 1602",
   },
@@ -442,6 +530,19 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
     description:
       "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
+  },
+  // #endregion
+
+  // #region "Jean-François de Troy [FRA / 1679-1751]"
+  {
+    title: "Jason jure une affection éternelle à Médée",
+    artist: "Jean-François de Troy [FRA / 1679-1751]",
+    year: "1742-1743",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Jean-Fran%C3%A7ois_de_Troy_-_Jason_swearing_eternal_affection_to_Medea.jpg",
+    link: "https://www.nationalgallery.org.uk/paintings/jean-francois-de-troy-jason-swearing-eternal-affection-to-medea",
+    description:
+      "Ici, nous voyons Jason et Médée au cœur des bois, près de l'autel d'Hécate, déesse associée à la lune et à la sorcellerie. Il saisit la main de Médée et lui demande de l'aider à s'emparer de la Toison d'or, promettant de l'épouser en échange. Cupidon décoche une flèche, dirigée par Hymen, dieu du mariage, vers le cœur de Jason. Jason jure fidélité et Médée, le croyant, lui donne des herbes magiques pour le protéger.",
   },
   // #endregion
 
@@ -534,11 +635,24 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Luca Giordano [ITA / 1634-1705]"
+  {
+    title: "Allégorie de la justice",
+    artist: "Luca Giordano [ITA / 1634-1705]",
+    year: "1680",
+    imageUrl:
+      "https://www.nationalgallery.org.uk/media/34819/n-6633-00-000005-hd.jpg?rxy=0.43188405797101448,0.44289693593314761&width=800&height=800&v=1d6544b6b7ad220",
+    link: "https://www.nationalgallery.org.uk/paintings/luca-giordano-allegory-of-justice",
+    description:
+      "Ce modello , ou étude détaillée à l'huile, fait partie d'un groupe de douze que Giordano a réalisés en préparation des fresques du plafond du Palazzo Medici Riccardi entre 1682 et 1685.",
+  },
+  // #endregion
+
   // 🔹 -----M-----
-  // #region "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]"
+  // #region "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]"
   {
     title: "Medusa",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1597",
     imageUrl:
       "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg",
@@ -548,7 +662,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Les Musiciens",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1597",
     imageUrl:
       "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
@@ -558,7 +672,7 @@ const artworks: Artwork[] = [
   },
   {
     title: " Le Sacrifice d' Isaac",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1598",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sacrifice_of_Isaac-Caravaggio_%28Uffizi%29.jpg/1200px-Sacrifice_of_Isaac-Caravaggio_%28Uffizi%29.jpg",
@@ -568,7 +682,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Judith et Holopherne",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1598-1599",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/b/b2/Caravaggio_Judith_Beheading_Holofernes.jpg",
@@ -578,7 +692,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Le Souper à Emmaüs",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1601",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg/800px-Supper_at_Emmaus-Caravaggio_%281601%29.jpg",
@@ -588,7 +702,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "Saint Matthieu et l'Ange",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/f/ff/The_Inspiration_of_Saint_Matthew-Caravaggio_%281602%29.jpg",
@@ -598,7 +712,7 @@ const artworks: Artwork[] = [
   },
   {
     title: "La Madone des palefreniers (La Madone au serpent)",
-    artist: "Michelangelo Merisi (Caravaggio) [ITA / 1571-1610]",
+    artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1605-1606",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/f/f5/CaravaggioSerpent.jpg",
@@ -682,6 +796,19 @@ const artworks: Artwork[] = [
     link: "https://fr.m.wikipedia.org/wiki/Fichier:Bacchic_Concert_-_Paolini_(1625).jpg",
     description:
       "Concert bacchique, v. 1625-1630, Dallas Museum of Art. Dallas Museum of Art, The Karl and Esther Hoblitzelle Collection, gift of the Hoblitzelle Foundation",
+  },
+  // #endregion
+
+  // #region "Pietro Vannucci (le Pérugin) [ITA / 1448-1523]"
+  {
+    title: "Saint Sébastien",
+    artist: "Pietro Vannucci (le Pérugin) [ITA / 1448-1523]",
+    year: "1495",
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/386.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/saint-sebastian-2",
+    description:
+      "L'œuvre en question se caractérise par une composition équilibrée, dominée par le portrait du soldat romain, attaché à une colonne. Un vaste paysage, typique de l'œuvre de Vannucci, s'ouvre derrière la structure architecturale. Comme le raconte la Passio Sancti Sebastiani , après avoir été déshabillé, Sébastien fut criblé de nombreuses flèches par ses compagnons d'armes : le croyant mort, ils abandonnèrent son corps près de la Cloaca Maxima, où la matrone Irène le trouva et guérit ses blessures.",
   },
   // #endregion
 
@@ -861,6 +988,20 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_(1889)",
     description:
       "Le tableau représente ce que Van Gogh pouvait voir et extrapoler de la chambre qu'il occupait dans l'asile du monastère Saint-Paul-de-Mausole à Saint-Rémy-de-Provence en mai 1889. Souvent présenté comme son grand œuvre, le tableau a été reproduit à de très nombreuses reprises. Il est maintenant conservé dans le Museum of Modern Art (MoMA) à New York depuis 1941.",
+  },
+  // #endregion
+
+  // 🔹 -----W-----
+  // #region "Wolfgang Heimbach [DEU / 1615-1678]"
+  {
+    title: "L'homme à la bougie",
+    artist: "Wolfgang Heimbach [DEU / 1615-1678]",
+    year: 1645,
+    imageUrl:
+      "https://www.collezionegalleriaborghese.it/uploads/server/files/251.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/man-with-a-candle",
+    description:
+      "Cette œuvre fut acquise par Marc-Antoine IV Borghèse en 1783. Le prince l'avait achetée avec une autre œuvre du même artiste ; les deux tableaux, de mêmes dimensions, se situent dans un intérieur éclairé à la bougie, un motif typique des représentations de genre de Wolfgang Heimbach. Autrefois attribuée à Gerrit van Honthorst, c'est Roberto Longhi qui en confirma l'attribution au peintre allemand.",
   },
   // #endregion
 ];
