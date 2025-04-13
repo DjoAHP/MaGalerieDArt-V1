@@ -6,11 +6,16 @@ import React from 'react';
     import App from './App';
     import Musees from './musees';
     import Mythologie from './mythologie';
+        import Scultures from "./scultures";
 
     const router = createBrowserRouter([
       {
         path: "/",
         element: <App />,
+      },
+      {
+        path: "/scultures",
+        element: <Scultures />,
       },
       {
         path: "/musees",
