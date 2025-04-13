@@ -47,7 +47,7 @@ const artworks: Artwork[] = [
     year: "1621-1628",
     imageUrl:
       "https://www.haltadefinizione.com/assets/Remote/6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6.jpeg",
-    link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=6ba819fb-1ce9-46c6-bec3-4afdb97dd7a6",
+    link: "https://www.haltadefinizione.com/en/viewer/work/prometheus-antonio-mariani-della-corgna",
     description:
       "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
   },
@@ -598,6 +598,29 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/jean-francois-de-troy-jason-swearing-eternal-affection-to-medea",
     description:
       "Ici, nous voyons Jason et Médée au cœur des bois, près de l'autel d'Hécate, déesse associée à la lune et à la sorcellerie. Il saisit la main de Médée et lui demande de l'aider à s'emparer de la Toison d'or, promettant de l'épouser en échange. Cupidon décoche une flèche, dirigée par Hymen, dieu du mariage, vers le cœur de Jason. Jason jure fidélité et Médée, le croyant, lui donne des herbes magiques pour le protéger.",
+  },
+  // #endregion
+
+  // #region "Jean-Léon Gérôme [FRA / 1824-1904]"
+  {
+    title: "Bonaparte devant le Sphinx",
+    artist: "Jean-Léon Gérôme [FRA / 1824-1904]",
+    year: "1867-1886",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Bonaparte_ante_la_Esfinge%2C_por_Jean-L%C3%A9on_G%C3%A9r%C3%B4me.jpg",
+    link: "https://fr.wikipedia.org/wiki/Bonaparte_devant_le_Sphinx",
+    description:
+      "La campagne d'Égypte est une expédition militaire française, menée en Égypte par le général Bonaparte et ses successeurs de 1798 à 1801. Son but est de s'emparer de l'Égypte et d'une partie de l'Orient, afin de barrer la route des Indes à la Grande-Bretagne dans le contexte de la lutte entre cette dernière et la France révolutionnaire...",
+  },
+  {
+    title: "Le Général Bonaparte et son état-major en Égypte",
+    artist: "Jean-Léon Gérôme [FRA / 1824-1904]",
+    year: "1867",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bonaparte_en_Egypte.jpg",
+    link: "https://fr.wikipedia.org/wiki/Campagne_d%27%C3%89gypte",
+    description:
+      "La campagne d'Égypte est une expédition militaire française, menée en Égypte par le général Bonaparte et ses successeurs de 1798 à 1801. Son but est de s'emparer de l'Égypte et d'une partie de l'Orient, afin de barrer la route des Indes à la Grande-Bretagne dans le contexte de la lutte entre cette dernière et la France révolutionnaire...",
   },
   // #endregion
 
