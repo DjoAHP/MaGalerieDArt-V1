@@ -165,7 +165,7 @@ const artworks: Artwork[] = [
     year: "1602",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/0/0b/D%27arpino-Androm%C3%A8de.jpg",
-    link: "https://fr.wikipedia.org/wiki/L%27Ivresse_de_Sil%C3%A8ne",
+    link: "https://fr.m.wikipedia.org/wiki/Fichier:D%27arpino-Androm%C3%A8de.jpg",
     description:
       "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée.",
   },
