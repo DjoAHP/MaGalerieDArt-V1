@@ -101,6 +101,30 @@ const artworks: Artwork[] = [
       "L'Éducation de Cupidon ou Vénus, Mercure et Cupidon, voire L'École de l'Amour est une peinture réalisée vers 1525 par le peintre italien Le Corrège, et conservée à la National Gallery de Londres.",
   },
   // #endregion
+
+  // #region "Artemisia Gentileschi [ITA / 1593-1656]"
+  {
+    title: "Autoportrait en sainte Catherine d'Alexandrie",
+    artist: "Artemisia Gentileschi [ITA / 1593-1656]",
+    year: "1616",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Self-Portrait_as_Saint_Catherine_of_Alexandria_%28Gentileschi%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/Autoportrait_en_sainte_Catherine_d%27Alexandrie",
+    description:
+      "L'œuvre évoque ce faisant la torture que l'artiste a elle-même dû subir pendant le procès de son violeur, Agostino Tassi. Elle est conservée depuis 2018 à la National Gallery, à Londres, au Royaume-Uni.",
+  },
+  {
+    title: "Judith et sa servante (Gentileschi)",
+    artist: "Artemisia Gentileschi [ITA / 1593-1656]",
+    year: "	1618-1619",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gentileschi_judith1.jpg",
+    link: "https://fr.wikipedia.org/wiki/Judith_et_sa_servante_(Gentileschi,_Florence)",
+    description:
+      "Cette peinture à l'huile sur toile illustre un épisode de l'Ancien Testament en représentant les instants qui suivent la décapitation d'Holopherne par deux femmes de Béthulie : portant respectivement une épée sur l'épaule et un panier contenant la tête du général assassiné dans les bras.",
+  },
+  // #endregion
+
   // #endregion
 
   // #region🔹 -----B-----
@@ -578,6 +602,26 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region "Jacques-Louis David [FRA / 1748-1825]"
+  {
+    title: "Le Serment des Horaces",
+    artist: "Jacques-Louis David [FRA / 1748-1825]",
+    year: "1784",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg",
+    link: "https://fr.wikipedia.org/wiki/Le_Serment_des_Horaces",
+    description:
+      "Il représente un grand sujet de l’histoire légendaire de la Rome Antique, où les frères Horaces défendent en combats singuliers la cité de Rome face aux Curiaces champions de la ville d'Albe. Liés par mariage à leurs sœurs respectives, le sacrifice des Horaces et des Curiaces exalte les vertus patriotiques...",
+  },
+  {
+    title: "Bonaparte franchissant le Grand-Saint-Bernard",
+    artist: "Jacques-Louis David [FRA / 1748-1825]",
+    year: "1801",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg",
+    link: "https://fr.wikipedia.org/wiki/Bonaparte_franchissant_le_Grand-Saint-Bernard",
+    description:
+      "Napoléon est représenté lors du franchissement du col alpin du Grand-Saint-Bernard par l'armée de réserve, épisode qui marque le début de la seconde campagne d'Italie.",
+  },
   {
     title: "Le Sacre de Napoléon",
     artist: "Jacques-Louis David [FRA / 1748-1825]",
@@ -1100,6 +1144,20 @@ const artworks: Artwork[] = [
     link: "https://www.collezionegalleriaborghese.it/en/opere/man-with-a-candle",
     description:
       "Cette œuvre fut acquise par Marc-Antoine IV Borghèse en 1783. Le prince l'avait achetée avec une autre œuvre du même artiste ; les deux tableaux, de mêmes dimensions, se situent dans un intérieur éclairé à la bougie, un motif typique des représentations de genre de Wolfgang Heimbach. Autrefois attribuée à Gerrit van Honthorst, c'est Roberto Longhi qui en confirma l'attribution au peintre allemand.",
+  },
+  // #endregion
+
+  // #region "William Bouguereau [FRA / 1825-1905]"
+
+  {
+    title: "Dante et Virgile",
+    artist: "William Bouguereau [FRA / 1825-1905]",
+    year: 1850,
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/William_Bouguereau_-_Dante_and_Virgile_-_Google_Art_Project_2.jpg",
+    link: "https://www.collezionegalleriaborghese.it/en/opere/man-with-a-candle",
+    description:
+      "Le sujet retenu pour cette peinture de 1850 s'apparente à celui d'une peinture gothique du XIXe siècle : le jeune peintre veut en effet marquer les esprits et choisit un sujet qui s'éloigne un peu de l'académisme. S'inscrivant dans ce qui a été appelé le romantisme noir, il choisit de s'inspirer de Dante Alighieri et plus précisément du chant XXX de l'Enfer de la Divine Comédie",
   },
   // #endregion
 
