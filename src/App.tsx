@@ -1278,13 +1278,13 @@ import React, { useState, useMemo } from "react";
               {/* Navigation Buttons */}
               <div className="flex items-center space-x-4">
                 <a
-                  href="/musees"
+                  href="./musees"
                   className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
                 >
                   Musées
                 </a>
                 <a
-                  href="/mythologie"
+                  href="./mythologie"
                   className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
                 >
                   Ref. Mythologie
