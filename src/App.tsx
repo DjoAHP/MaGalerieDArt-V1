@@ -1267,7 +1267,7 @@ import React, { useState, useMemo } from "react";
                 <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
                   <a href="/">
                     <img
-                      src="https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2020/05/cda2020_diapo_2019_heros-mythologie-museum-week-2-tt-width-1200-height-630-fill-0-crop-1-bgcolor-ffffff.jpg"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venus_botticelli_detail.jpg/1280px-Venus_botticelli_detail.jpg"
                       alt="Logo"
                       className="object-cover w-full h-full"
                     />
@@ -1281,13 +1281,13 @@ import React, { useState, useMemo } from "react";
                   href="/musees"
                   className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
                 >
-                  Les musées du monde
+                  Musées
                 </a>
                 <a
                   href="/mythologie"
                   className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
                 >
-                  Reference Mythologique
+                  Ref. Mythologie
                 </a>
               </div>
             </div>
@@ -1295,80 +1295,10 @@ import React, { useState, useMemo } from "react";
 
           {/* Content */}
           <div className="p-8 pt-20 max-w-[2000px] mx-auto">
-            <div className="absolute top-4 left-4 flex flex-col gap-2">
-              {/* LOUVRE  */}
-              <a
-                href="https://www.louvre.fr/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
-              >
-                <img
-                  src="https://png.pngtree.com/png-clipart/20231116/original/pngtree-the-louvre-france-sticker-png-image_13572662.png"
-                  alt="Louvre Icon"
-                  className="w-4 h-4 rounded"
-                />
-                Le Louvre
-              </a>
-              {/* Galerie Borghèse  */}
-              <a
-                href="https://fr.borghese.gallery/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
-              >
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGiMKBHZYo007V3cgvtRkQ1EDYrpXigUlMNQ&s"
-                  alt="Galleria Borghese Icon"
-                  className="w-4 h-4 rounded"
-                />
-                Galerie Borghèse
-              </a>
-              {/* Palais Farnèse  */}
-              <a
-                href="https://visite-palazzofarnese.it/palais-farnese/?lang=fr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Palazzo_Farnese_Vasi.jpg"
-                  alt="Palais Farnèse Icon"
-                  className="w-4 h-4 rounded"
-                />
-                Palais Farnèse
-              </a>
-              {/* National Gallery  */}
-              <a
-                href="https://www.nationalgallery.org.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
-              >
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmzJjUMm9wWDo7LPJqdgTJLfMKVLUk66Y3g&s"
-                  alt="Palais Farnèse Icon"
-                  className="w-4 h-4 rounded"
-                />
-                National Gallery
-              </a>
-              {/* The Uffizi  */}
-              <a
-                href="https://www.uffizi.it/en/the-uffizi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-black/50 backdrop-blur-md text-gray-300 hover:text-white rounded-md p-2 text-sm transition-colors flex items-center gap-2"
-              >
-                <img
-                  src="https://www.datocms-assets.com/103094/1689168761-1506500361872374-gallerie-uffizi_g.jpg?auto=format%2Ccompress"
-                  alt="Palais Farnèse Icon"
-                  className="w-4 h-4 rounded"
-                />
-                The Uffizi
-              </a>
-            </div>
-
-            <h1 className="text-4xl font-bold text-white mb-8 text-center">
+            <h1
+              className="text-4xl font-bold mb-8 text-center"
+              style={{ color: "#FBFBFB" }}
+            >
               Ma Galerie d'Arts
             </h1>
 

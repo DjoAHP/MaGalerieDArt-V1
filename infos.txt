@@ -16,3 +16,28 @@
       "Les études les plus récentes s'accordent à dire qu'il s'agit d'une œuvre autographe du peintre trévisan, que l'on peut dater d'une phase ultérieure de sa production, et donc entre la fin des années 1660 et la première moitié des années 1670.",
   },
   // #endregion
+
+----------------
+
+MYTHES
+
+ {/* La Naissance de Vénus */}
+
+        <div className="mt-8">
+          <button
+            onClick={() => setVenusOpen(!venusOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            La Naissance de Vénus
+          </button>
+          {venusOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                TEXTE
+                <br />
+                <br />
+                TEXTE
+              </p>
+            </div>
+          )}
+        </div>
