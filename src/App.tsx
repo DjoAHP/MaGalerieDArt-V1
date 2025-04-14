@@ -447,6 +447,21 @@ import React, { useState, useMemo } from "react";
       // #endregion
       // #endregion
 
+      // #region🔹 -----H-----
+      // #region "Hans Holbein le Jeune [DEU / 1497-1543]"
+      {
+        title: "Les Ambassadeurs",
+        artist: "Hans Holbein le Jeune [DEU / 1497-1543]",
+        year: "1533",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1920px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+        link: "https://fr.wikipedia.org/wiki/Les_Ambassadeurs",
+        description:
+          "Les Ambassadeurs est un double portrait de Jean de Dinteville (1504-1575 ou 1579), bailli de Troyes, seigneur de Polisy et ambassadeur français, et Georges de Selve (1509-1541), ecclésiastique, érudit et diplomate français, peint par Hans Holbein le Jeune en 1533, actuellement conservé à la National Gallery de Londres. Le tableau est signé et daté en bas à gauche, dans une zone d'ombre : IOANNES HOLBEIN PINGEBAT 1533.",
+      },
+      // #endregion
+      // #endregion
+
       // #region🔹 -----J-----
       // #region "John William Waterhouse [ITA / 1849-1917]"
       {
