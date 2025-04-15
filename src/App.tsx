@@ -390,10 +390,10 @@ import React, { useState, useMemo } from "react";
       },
       // #endregion
 
-      // #region "Gerard van Honthorst [NLD / 1590-1656]"
+      // #region "Gerrit van Honthorst [NLD / 1590-1656]"
       {
         title: "Samson et Dalila",
-        artist: "Gerard van Honthorst [NLD / 1590-1656]",
+        artist: "Gerrit van Honthorst [NLD / 1590-1656]",
         year: "1616",
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Samson_et_Dalila.JPG/440px-Samson_et_Dalila.JPG",
@@ -403,7 +403,7 @@ import React, { useState, useMemo } from "react";
       },
       {
         title: "Le Triomphe de Silène",
-        artist: "Gerard van Honthorst [NLD / 1590-1656]",
+        artist: "Gerrit van Honthorst [NLD / 1590-1656]",
         year: "vers 1623-1630",
         imageUrl:
           "https://collections.louvre.fr/media/cache/medium/0000000021/0000054313/0000731064_OG.JPG",
@@ -412,8 +412,26 @@ import React, { useState, useMemo } from "react";
           "Dans la mythologie grecque, Silène (ou Papposilène) (en grec ancien : Σειληνός / Seilēnós, prononcé : [seːlɛːnós]) est un satyre, père adoptif et précepteur du dieu Dionysos, qu’il accompagne sans cesse. Il passait en effet pour un sage, un prophète et un philosophe.",
       },
       {
+        title: "Le Joyeux Violoniste",
+        artist: "Gerrit van Honthorst [NLD / 1590-1656]",
+        year: "1623",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/f/fd/Gerrit_van_Honthorst_-_De_vrolijke_speelman.jpg",
+        link: "https://commons.wikimedia.org/wiki/File:Gerrit_van_Honthorst_-_De_vrolijke_speelman.jpg",
+        description: "Huile sur toile / 107,2 cm X 88,3 cm",
+      },
+      {
+        title: "Le Joyeux Violoniste au verre de vin",
+        artist: "Gerrit van Honthorst [NLD / 1590-1656]",
+        year: "1624",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/7/77/Gerrit_Van_Honthorst_-_Joyeux_Violoniste.jpg",
+        link: "https://fr.m.wikipedia.org/wiki/Fichier:Gerrit_Van_Honthorst_-_Joyeux_Violoniste.jpg",
+        description: "Huile sur toile / 83 cm X 68 cm",
+      },
+      {
         title: "Concert ou Le Vol de l'amulette",
-        artist: "Gerard van Honthorst [NLD / 1590-1656]",
+        artist: "Gerrit van Honthorst [NLD / 1590-1656]",
         year: "vers 1626-1630",
         imageUrl:
           "https://upload.wikimedia.org/wikipedia/commons/c/c4/Gerrit_van_Honthorst_cat02.jpg",
@@ -458,6 +476,19 @@ import React, { useState, useMemo } from "react";
         link: "https://fr.wikipedia.org/wiki/Les_Ambassadeurs",
         description:
           "Les Ambassadeurs est un double portrait de Jean de Dinteville (1504-1575 ou 1579), bailli de Troyes, seigneur de Polisy et ambassadeur français, et Georges de Selve (1509-1541), ecclésiastique, érudit et diplomate français, peint par Hans Holbein le Jeune en 1533, actuellement conservé à la National Gallery de Londres. Le tableau est signé et daté en bas à gauche, dans une zone d'ombre : IOANNES HOLBEIN PINGEBAT 1533.",
+      },
+      // #endregion
+
+      // #region "Hubert Robert [FRA / 1733-1808]"
+      {
+        title: "Le Bassin de baignade",
+        artist: "Hubert Robert [FRA / 1733-1808]",
+        year: "1786",
+        imageUrl:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Hubert_Robert_-_The_Bathing_Pool.jpg",
+        link: "https://commons.wikimedia.org/wiki/File:Hubert_Robert_-_The_Bathing_Pool.jpg",
+        description:
+          "Le Bassin de baignade pour le château de Bagatelle du comte d'Artois /	après 1786 /	huile sur toile 175 × 124 cm	Metropolitan Museum, New York	Musée",
       },
       // #endregion
       // #endregion

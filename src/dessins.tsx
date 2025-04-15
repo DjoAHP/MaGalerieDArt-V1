@@ -24,6 +24,19 @@ const artworks: Artwork[] = [
     description: "...",
   },
   // #endregion
+
+  // #region "Albrecht Dürer [GER / 1471-1528]"
+  {
+    title: "Armoiries d'Albrecht Dürer",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "1523",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Coat_of_Arms_of_Albrecht_D%C3%BCrer_MET_DP816462.jpg",
+    link: "https://fr.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+    description:
+      "Albrecht Dürer, né le 21 mai 1471 à Nuremberg (Saint-Empire), où il est mort le 6 avril 1528, est un dessinateur, graveur, peintre allemand de la Renaissance, également connu comme théoricien de la géométrie et de la perspective linéaire. Né à Nuremberg, Dürer établit sa réputation et son influence à travers l'Europe dans sa vingtaine grâce à ses gravures sur bois de haute qualité. Il est en contact avec les grands artistes italiens de son temps, dont Raphaël, Giovanni Bellini et Léonard de Vinci, et à partir de 1512, il est patronné par l'empereur Maximilien Ier.",
+  },
+  // #endregion
   // #endregion
 
   // #region🔹 -----L-----
