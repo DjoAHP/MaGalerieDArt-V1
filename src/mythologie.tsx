@@ -29,6 +29,18 @@ function Mythologie() {
           {/* Navigation Buttons */}
           <div className="flex items-center space-x-4">
             <a
+              href="./dessins"
+              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+            >
+              Dessins
+            </a>
+            <a
+              href="./scultures"
+              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+            >
+              Scultures
+            </a>
+            <a
               href="/musees"
               className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
             >
