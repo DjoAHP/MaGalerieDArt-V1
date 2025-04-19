@@ -1,0 +1,113 @@
+𓀞	homme avec un bras pointé vers l'avant	
+𓀟	hâter l'homme	
+𓀠	homme aux mains levées de chaque côté	
+𓀡	homme à l'envers	
+𓀢	homme aux mains levées devant	
+𓀣	homme aux mains levées derrière lui	
+𓀤	homme dansant avec les bras dans le dos	
+𓀥	homme dansant avec les bras à l'avant	
+𓀦	homme avec bâton et paquet sur l'épaule	
+𓀧	homme battant dans un mortier	
+𓀨	mur bâtiment homme	
+𓀩	homme, pétrir, navire	
+𓀪	homme dans un navire	
+𓀫	homme tenant le cou de deux animaux emblématiques avec des têtes de panthère	
+𓀬	homme sur deux girafes	
+𓀀	homme assis	
+𓀁	homme avec la main à la bouche	
+𓀂	homme assis sur le talon	
+𓀃	homme assis, les mains levées	
+𓀄	homme accroupi, se cachant derrière le mur	
+𓀅	homme assis, se cachant derrière le mur	
+𓀆	homme assis sous un vase d'où coule de l'eau	
+𓀇	homme assis atteignant la pierre de libation, sous un vase d'où coule l'eau	
+𓀈	homme assis, descendant, sous un vase d'où coule l'eau	
+𓀉	homme fatigué	
+𓀊	homme effectuant hnw-rite	
+𓀋	panier de stabilisation de l'homme sur la tête	
+𓀌	homme assis tenant aviron	
+𓀍	homme assis tenant un sceptre d'autorité et un escroc du berger	
+𓀎	soldat avec arc et carquois	
+𓀏	homme aux bras attachés derrière le dos	
+𓀑	homme dont la tête est frappée avec une hache	
+𓀒	homme qui tombe	
+𓀓	homme s'inclinant	
+𓀔	enfant assis avec la main à la bouche	
+𓀕	enfant, séance, bras, pendre	
+𓀖	enfant portant une couronne rouge	
+𓀗	homme courbé s'appuyant sur le personnel	
+𓀘	homme, s'appuyer, fourchu, personnel	
+𓀙	homme tenant le personnel avec un mouchoir	
+𓀚	statue d'homme avec bâton et sceptre d'autorité	
+𓀛	roi avec bâton et masse à tête ronde	
+𓀜	homme frappant à deux mains	
+𓀝	homme frappant, avec le bras gauche suspendu derrière le dos	
+𓁁	homme assis tenant le bâton	
+𓁂	homme tenant le pain sur le tapis	
+𓁃	homme appliquant la houe au sol	
+𓁄	homme menaçant avec bâton	
+𓁅	homme semant des graines	
+𓁆	homme regardant par-dessus son épaule	
+𓁇	asiatique	
+𓁈	roi sur le trône tenant le personnel	
+𓁉	homme assis sur des talons tenant la coupe vers l'avant	
+𓁊	homme, porter, tunique, à, franges, et, tenue, macis	
+𓁋	homme tenant un sistre	
+𓁌	nain	
+𓁍	homme tenant un couteau	
+𓁎	homme assis avec bras droit levé et bras gauche pendu	
+𓁏	homme assis, les bras levés	
+𓁐	femme assise	
+𓁑	femme enceinte	
+𓁒	accouchement	
+𓁓	combinaison de femme donnant naissance et trois peaux liées ensemble	
+𓁔	femme et enfant	
+𓁕	femme et enfant (simplifié)	
+𓁖	femme, chaise, enfant, recouvrement	
+𓁗	reine, porter, diadème, tenue, fleur	
+𓁘	femme tenant la fleur de lotus	
+𓁙	femme tenant un sistre	
+𓀭	dieu assis	
+𓀮	dieu assis avec sceptre	
+𓀯	roi avec uraeus	
+𓀰	roi avec uraeus et flagelle	
+𓀱	roi avec uraeus et flagelle	
+𓀲	roi portant une couronne blanche	
+𓀳	roi portant une couronne blanche avec sceptre	
+𓀴	roi portant une couronne rouge avec flagelle	
+𓀵	roi portant une couronne rouge	
+𓀶	roi portant une couronne rouge avec sceptre	
+𓀷	roi portant une couronne rouge avec flagelle	
+𓀸	berger assis et enveloppé dans un manteau, tenant un bâton	
+𓀹	homme sans barbe assis et tenant un couteau	
+𓀺	bâton de maintien syrien assis	
+𓀻	noble sur chaise	
+𓀼	noble sur chaise avec flagelle	
+𓀽	noble accroupi avec flagelle	
+𓀾	maman debout	
+𓀿	maman couchée	
+𓁀	maman sur le lit	
+𓁲	bes	
+𓁚	dieu avec disque solaire et uraeus	
+𓁛	dieu à tête de faucon et disque solaire tenant ankh	
+𓁜	dieu à tête de faucon et disque solaire	
+𓁟	dieu à tête ibis	
+𓁠	dieu avec tête de bélier	
+𓁡	Dieu avec tête de bélier tenant ankh	
+𓁢	dieu à tête de chacal	
+𓁣	dieu à tête d'animal Seth	
+𓁤	dieu ithyphallique à deux plumes, bras levé et flagelle	
+𓁥	déesse avec disque solaire cornu	
+𓁦	déesse avec plume	
+𓁧	déesse avec plume tenant ankh	
+𓁨	dieu avec bras soutenant le ciel et la branche de palmier sur la tête	
+𓁩	dieu avec deux plumes et sceptre	
+𓁫	dieu avec deux plumes et cimeterre	
+𓁭	Dieu portant une couronne rouge avec ankh	
+𓁮	dieu à tête de faucon et deux plumes	
+𓁯	dieu accroupi	
+𓁰	dieu en forme de momie	
+𓁱	dieu en forme de momie dans le sanctuaire	
+𓁳	dieu avec tête de faucon et lune	
+𓁴	déesse à tête féline et soleil avec uraeus	
+𓁵	Dieu portant une couronne rouge avec sceptre

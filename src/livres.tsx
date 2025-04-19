@@ -90,7 +90,7 @@ function Mythologie() {
               onClick={() => setMetaOvidOpen(!metaovidOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              OVIDE - LES METAMORPHOSES (8 ap.J-C):
+              OVIDE - LES METAMORPHOSES (8 ap.J-C) ⮯
             </button>
             {metaovidOpen && (
               <div className="mt-2">
@@ -129,7 +129,7 @@ function Mythologie() {
               onClick={() => setEdfigOpen(!edfigOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Cours complet d'études pour la figure (1830):
+              Cours complet d'études pour la figure (1830) ⮯
             </button>
             {edfigOpen && (
               <div className="mt-2">
@@ -167,7 +167,7 @@ function Mythologie() {
               onClick={() => setCollMaitresOpen(!collmaitresOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Collection I (Dessins des maîtres anciens 1910):
+              Collection I (Dessins des maîtres anciens 1910) ⮯
             </button>
             {collmaitresOpen && (
               <div className="mt-2">
@@ -196,7 +196,7 @@ function Mythologie() {
               onClick={() => setRecueilAOpen(!recueilaOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Recueil de dessins I (1780):
+              Recueil de dessins I (1780) ⮯
             </button>
             {recueilaOpen && (
               <div className="mt-2">
@@ -226,7 +226,7 @@ function Mythologie() {
               onClick={() => setDessMaitresAOpen(!dessmaitresaOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Dessins de maîtres anciens I (1989):
+              Dessins de maîtres anciens I (1989) ⮯
             </button>
             {dessmaitresaOpen && (
               <div className="mt-2">
@@ -254,7 +254,7 @@ function Mythologie() {
               onClick={() => setArtDessAOpen(!artdessaOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              L'art du dessin I (1987):
+              L'art du dessin I (1987) ⮯
             </button>
             {artdessaOpen && (
               <div className="mt-2">
@@ -282,103 +282,22 @@ function Mythologie() {
         </div>
         {/* ---------Léonard de Vinci-----------  */}
         <div className="Léonard de Vinci">
+          <h2>꧁༺𓆩 Léonard de Vinci 𓆪༻꧂</h2>
           <a
             href="https://archive.org/details/leonardo_da_vinci_paintings/468px-Verrocchio%20workshop%20-%20Tobias%20and%20the%20Angel%20-%20NG%20%5BWww.Etoile.App%5D.jpeg"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
           >
-            Léonard de Vinci (Toutes ces oeuvres)
+            Léonard de Vinci (Toutes ces oeuvres) 
           </a>
-          {/*  Carnet I (Léonard de Vinci 1921) */}
-          <div className="mt-8">
-            <button
-              onClick={() => setCarnetIOpen(!carnetiOpen)}
-              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              Carnet I (Léonard de Vinci 1921):
-            </button>
-            {carnetiOpen && (
-              <div className="mt-2">
-                <p className="text-gray-300">
-                  - Les dessins de Léonard de Vinci.
-                  <br />
-                  - Date de publication: 1921
-                  <br />- Robarts - University of Toronto
-                </p>
-                <a
-                  href="https://archive.org/details/lesdessinsdelo00leonuoft/mode/2up"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-                >
-                  Voir l' ouvrage
-                </a>
-              </div>
-            )}
-          </div>
-          {/* FIN  */}
-          {/*  Carnet II (Léonard de Vinci 1994) */}
-          <div className="mt-8">
-            <button
-              onClick={() => setCarnetIIOpen(!carnetiiOpen)}
-              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              Carnet II (Léonard de Vinci 1994):
-            </button>
-            {carnetiiOpen && (
-              <div className="mt-2">
-                <p className="text-gray-300">
-                  - Les dessins de Léonard de Vinci.
-                  <br />
-                  - Date de publication: 1994
-                  <br />- Londres : Pimlico
-                </p>
-                <a
-                  href="https://archive.org/details/lesdessinsdelo00leonuoft/mode/2up"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-                >
-                  Voir l' ouvrage
-                </a>
-              </div>
-            )}
-          </div>
-          {/* FIN  */}
-          {/*  Traité élémentaire de la peinture (Léonard de Vinci 1803) */}
-          <div className="mt-8">
-            <button
-              onClick={() => setTraitePeintIOpen(!traitepeintiOpen)}
-              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              Traité élémentaire de la peinture (Léonard de Vinci 1803):
-            </button>
-            {traitepeintiOpen && (
-              <div className="mt-2">
-                <p className="text-gray-300">
-                  - Traité élémentaire de la peinture / Texte entier.
-                  <br />- Date de publication: 1803
-                </p>
-                <a
-                  href="https://fr.wikisource.org/wiki/Trait%C3%A9_%C3%A9l%C3%A9mentaire_de_la_peinture/Texte_entier"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-                >
-                  Voir l' ouvrage
-                </a>
-              </div>
-            )}
-          </div>
-          {/* FIN  */}
           {/*  Léonard de Vinci / Biographie I (2024) */}
           <div className="mt-8">
             <button
               onClick={() => setBioVinciIOpen(!biovinciiOpen)}
               className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
             >
-              Léonard de Vinci / Biographie (2024):
+              Léonard de Vinci / Biographie (2024)⮯
             </button>
             {biovinciiOpen && (
               <div className="mt-2">
@@ -406,6 +325,88 @@ function Mythologie() {
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
                 >
                   Toutes ces oeuvres
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/*  Carnet I (Léonard de Vinci 1921) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setCarnetIOpen(!carnetiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Carnet I (Léonard de Vinci 1921) ⮯
+            </button>
+            {carnetiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Les dessins de Léonard de Vinci.
+                  <br />
+                  - Date de publication: 1921
+                  <br />- Robarts - University of Toronto
+                </p>
+                <a
+                  href="https://archive.org/details/lesdessinsdelo00leonuoft/mode/2up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/*  Carnet II (Léonard de Vinci 1994) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setCarnetIIOpen(!carnetiiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Carnet II (Léonard de Vinci 1994) ⮯
+            </button>
+            {carnetiiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Les dessins de Léonard de Vinci.
+                  <br />
+                  - Date de publication: 1994
+                  <br />- Londres : Pimlico
+                </p>
+                <a
+                  href="https://archive.org/details/lesdessinsdelo00leonuoft/mode/2up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/*  Traité élémentaire de la peinture (Léonard de Vinci 1803) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setTraitePeintIOpen(!traitepeintiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Traité élémentaire de la peinture (Léonard de Vinci 1803) ⮯
+            </button>
+            {traitepeintiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Traité élémentaire de la peinture / Texte entier.
+                  <br />- Date de publication: 1803
+                </p>
+                <a
+                  href="https://fr.wikisource.org/wiki/Trait%C3%A9_%C3%A9l%C3%A9mentaire_de_la_peinture/Texte_entier"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
                 </a>
               </div>
             )}

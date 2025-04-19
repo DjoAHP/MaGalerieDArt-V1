@@ -1,0 +1,106 @@
+Ⅰ	chiffre romain un	
+Ⅱ	chiffre romain deux	
+Ⅲ	chiffre romain trois	
+Ⅳ	chiffre romain quatre	
+Ⅴ	chiffre romain cinq	
+Ⅵ	chiffre romain six	
+Ⅶ	chiffre romain sept	
+Ⅷ	chiffre romain huit	
+Ⅸ	chiffre romain neuf	
+Ⅹ	chiffre romain dix	
+Ⅺ	chiffre romain onze	
+Ⅻ	chiffre romain douze	
+ⅰ	chiffre romain minuscule un	
+ⅱ	chiffre romain minuscule deux	
+ⅲ	chiffre romain minuscule trois	
+ⅳ	chiffre romain minuscule quatre	
+ⅴ	chiffre romain minuscule cinq	
+ⅵ	chiffre romain minuscule six	
+ⅶ	chiffre romain sept minuscule	
+ⅷ	chiffre romain minuscule huit	
+ⅸ	chiffre romain minuscule neuf	
+ⅹ	chiffre romain minuscule dix	
+ⅺ	chiffre romain minuscule onze	
+ⅻ	chiffre romain minuscule douze	
+⓪	chiffre zéro encerclé	
+⓵	chiffre un encerclé deux fois	
+⓶	chiffre deux entouré d'un double cercle	
+⓷	chiffre trois doublement entouré	
+⓸	chiffre quatre à double cercle	
+⓹	chiffre cinq doublement entouré	
+⓺	chiffre six doublement entouré	
+⓻	chiffre sept doublement entouré	
+⓼	chiffre huit doublement entouré	
+⓽	chiffre neuf à double cercle	
+⓾	chiffre dix à double cercle	
+➀	chiffre un encerclé sans empattement	
+➁	chiffre deux sans empattement encerclé	
+➂	chiffre trois sans empattement encerclé	
+➃	chiffre quatre sans empattement encerclé	
+➄	chiffre cinq sans empattement encerclé	
+➅	chiffre six encerclé sans empattement	
+➆	chiffre sept encerclé sans empattement	
+➇	chiffre huit sans empattement encerclé	
+➈	chiffre neuf encerclé sans empattement	
+➉	numéro dix cerclé sans empattement	
+➊	chiffre un sans empattement cerclé de noir	
+➋	chiffre deux sans empattement cerclé de noir	
+➌	chiffre trois sans empattement cerclé de noir	
+➍	chiffre quatre sans empattement cerclé de noir	
+➎	chiffre cinq sans empattement cerclé de noir	
+➏	chiffre six sans empattement cerclé de noir	
+➐	chiffre sept sans empattement cerclé de noir	
+➑	chiffre huit sans empattement cerclé de noir	
+➒	chiffre neuf sans empattement cerclé de noir	
+➓	chiffre dix sans empattement cerclé de noir	
+⓿	chiffre zéro cerclé de noir	
+❶	chiffre un entouré de noir	
+❷	chiffre deux entouré de noir	
+❸	chiffre trois entouré de noir	
+❹	chiffre quatre entouré de noir	
+❺	chiffre cinq entouré de noir	
+❻	chiffre six entouré de noir	
+❼	chiffre sept entouré de noir	
+❽	chiffre huit entouré de noir	
+❾	chiffre neuf cerclé de noir	
+❿	numéro dix cerclé de noir	
+㈠	caractère chinois "un" entre parenthèses	
+㈡	caractère chinois "deux" entre parenthèses	
+㈢	caractère chinois "trois" entre parenthèses	
+㈣	caractère chinois "quatre" entre parenthèses	
+㈤	caractère chinois "cinq" entre parenthèses	
+㈥	caractère chinois "six" entre parenthèses	
+㈦	caractère chinois "sept" entre parenthèses	
+㈧	caractère chinois "huit" entre parenthèses	
+㈨	caractère chinois "neuf" entre parenthèses	
+㈩	caractère chinois "dix" entre parenthèses	
+㊀	caractère chinois entouré "un"	
+㊁	caractère chinois entouré "deux"	
+㊂	caractère chinois entouré "trois"	
+㊃	caractère chinois entouré "quatre"	
+㊄	caractère chinois entouré "cinq"	
+㊅	caractère chinois cerclé "six"	
+㊆	caractère chinois entouré "sept"	
+㊇	caractère chinois cerclé "huit"	
+㊈	caractère chinois cerclé "neuf"	
+㊉	caractère chinois cerclé "dix"	
+０	Chiffre zéro pleine largeur	
+１	Chiffre un pleine largeur	
+２	Chiffre deux pleine largeur	
+３	Chiffre trois pleine largeur	
+４	Chiffre quatre pleine largeur	
+５	Chiffre cinq pleine largeur	
+６	Chiffre six à pleine largeur	
+７	Chiffre sept pleine largeur	
+８	Chiffre huit pleine largeur	
+９	Chiffre neuf à pleine largeur	
+𝟬	Chiffre zéro gras en mathématiques	
+𝟭	Chiffre un en gras mathématique	
+𝟮	Chiffre deux en gras	
+𝟯	Chiffre trois en gras mathématique	
+𝟰	Chiffre quatre en gras	
+𝟱	Chiffre cinq en gras mathématique	
+𝟲	Chiffre six en gras	
+𝟳	Chiffre sept en gras (Mathematical Bold Digit Seven)	
+𝟴	Chiffre huit en gras mathématique	
+𝟵	Chiffre neuf en gras mathématique

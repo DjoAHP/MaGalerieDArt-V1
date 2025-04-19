@@ -1,0 +1,63 @@
+⊞	carré plus	
+▀	moitié supérieure du bloc carré	
+▁	abaisser un huitième de bloc carré	
+▂	abaisser un quart de bloc carré	
+▃	trois huitièmes inférieurs de bloc carré	
+▄	moitié inférieure du bloc carré	
+▅	cinq huitièmes inférieurs de bloc carré	
+▆	trois quarts inférieurs du bloc carré	
+▇	sept huitièmes inférieurs de bloc carré	
+█	bloc carré complet	
+▉	gauche sept huitièmes de bloc carré	
+▊	gauche trois quarts de bloc carré	
+▋	laissé cinq huitièmes de bloc carré	
+▋	laissé cinq huitièmes de bloc carré	
+▌	moitié gauche du bloc carré	
+▍	gauche trois huitièmes de bloc carré	
+▎	gauche un quart de bloc carré	
+▏	gauche un huitième de bloc carré	
+▐	moitié droite du bloc carré	
+░	ombre claire du bloc carré	
+▒	teinte moyenne du bloc carré	
+▓	teinte foncée du bloc carré	
+▔	huitième supérieur d'un bloc carré	
+■	carré noir	
+□	carré blanc	
+▢	carré blanc avec coins arrondis	
+▣	carré blanc contenant un petit carré noir	
+▤	carré avec remplissage horizontal	
+▥	carré avec remplissage vertical	
+▦	carré avec remplissage hachuré orthogonal	
+▧	carré avec remplissage supérieur gauche à inférieur droit	
+▨	carré avec remplissage supérieur droit à inférieur gauche	
+▩	carré avec remplissage croisé diagonal	
+▪	petit carré noir	
+▫	petit carré blanc	
+▬	rectangle noir	
+▭	rectangle blanc	
+▮	rectangle vertical noir	
+▯	rectangle vertical blanc	
+◘	balle inversée	
+◙	cercle blanc inversé	
+◚	demi cercle blanc inversé supérieur	
+◛	demi cercle blanc inverse inférieur	
+◧	carré avec moitié gauche noire	
+◨	carré avec moitié droite noire	
+◩	carré avec diagonale supérieure gauche moitié noire	
+◪	carré avec demi diagonale inférieure droite noire	
+◫	carré blanc avec ligne bissectrice verticale	
+▖	quadrant en bas à gauche dans un bloc carré	
+▗	quadrant en bas à droite dans un bloc carré	
+▘	quadrant supérieur gauche dans un bloc carré	
+▙	le bloc carré comprend un quadrant en haut à gauche et en bas à gauche et en bas à droite	
+▚	le bloc carré comprend un quadrant supérieur gauche et inférieur droit	
+▛	le bloc carré comprend un quadrant supérieur gauche et supérieur droit et inférieur gauche	
+▜	le bloc carré comprend un quadrant supérieur gauche et supérieur droit et inférieur droit	
+▝	le bloc carré comprend un quadrant en haut à droite	
+▞	le bloc carré comprend un quadrant supérieur droit et inférieur gauche	
+▟	le bloc carré comprend un quadrant en haut à droite et en bas à gauche et en bas à droite	
+◰	carré blanc avec quadrant supérieur gauche	
+◱	carré blanc avec quadrant inférieur gauche	
+◲	carré blanc avec quadrant inférieur droit	
+◳	carré blanc avec quadrant supérieur droit
+❐

@@ -1,0 +1,189 @@
+⬅	flèche noire vers la gauche	
+⬆	flèche noire vers le haut	
+⬇	flèche noire vers le bas	
+⮕	flèche noire vers la droite	
+⬈	flèche noire nord-est	
+⬉	flèche noire nord-ouest	
+⬊	flèche noire sud-est	
+⬋	flèche noire sud-ouest	
+⬌	flèche noire gauche droite	
+⬍	flèche noire haut bas	
+⭠	Flèche vers la gauche barrée	
+⭡	flèche vers le haut barrée	
+⭢	flèche vers le bas barrée	
+⭣	flèche vers la droite barrée	
+⭤	Flèche gauche droite barrée	
+⭥	Flèche à tête triangulaire haut et bas	
+⮂	Flèche vers la droite avec pointe vers le bas	
+⮃	Flèche vers la droite avec pointe vers le haut	
+⮐	flèche vers la gauche avec pointe vers le bas	
+⮑	Flèche vers la gauche avec pointe vers le haut	
+⬎	Flèche vers la droite avec pointe vers le bas	
+⬏	Flèche vers la droite avec pointe vers le haut	
+⬐	Flèche vers la gauche avec pointe vers le bas	
+⬑	Flèche vers la gauche avec pointe vers le haut	
+⬱	Trois flèches vers la gauche	
+⬳	Longue flèche ondulée vers la gauche	
+⬸	Flèche vers la gauche à tige pointillée	
+⬿	Flèche en forme de vague pointant directement vers la gauche	
+⭅	Flèche quadruple vers la gauche	
+⭆	Flèche quadruple vers la droite	
+↕	flèche haut bas	
+↖	flèche nord-ouest	
+↗	flèche nord-est	
+↘	flèche sud-est	
+↙	flèche sud-ouest	
+↚	flèche vers la gauche avec trait	
+↛	flèche vers la droite avec trait	
+↜	flèche de vague vers la gauche	
+↝	flèche de vague vers la droite	
+↞	flèche à deux têtes vers la gauche	
+↟	flèche à deux têtes vers le haut	
+↠	flèche à deux têtes vers la droite	
+↡	flèche à deux têtes vers le bas	
+↢	flèche vers la gauche avec queue	
+↣	flèche vers la droite avec queue	
+↤	flèche vers la gauche de la barre	
+↥	flèche vers le haut à partir de la barre	
+↦	flèche vers la droite de la barre	
+↧	flèche vers le bas à partir de la barre	
+↨	flèche vers le haut avec base	
+↩	flèche vers la gauche avec crochet	
+↪	flèche vers la droite avec crochet	
+↫	flèche vers la gauche avec boucle	
+↬	flèche vers la droite avec boucle	
+↭	flèche gauche droite	
+↮	flèche gauche droite avec trait	
+↯	flèche zigzag vers le bas	
+↰	flèche vers le haut avec pointe vers la gauche	
+↱	flèche vers le haut avec pointe vers la droite	
+↲	flèche vers le bas avec pointe vers la gauche	
+↳	flèche vers le bas avec pointe vers la droite	
+↴	flèche vers la droite avec coin vers le bas	
+↶	flèche demi-cercle supérieure dans le sens inverse des aiguilles d'une montre	
+↷	flèche demi-cercle supérieure dans le sens des aiguilles d'une montre	
+↸	flèche nord-ouest à longue barre	
+↹	flèche vers la gauche pour la barre sur la flèche vers la droite pour la barre	
+↺	flèche circulaire dans le sens inverse des aiguilles d'une montre	
+↻	flèche circulaire dans le sens horaire	
+↼	harpon gauche avec barbillon vers le haut	
+↽	harpon vers la gauche avec barbillon vers le bas	
+↾	harpon vers le haut avec barbillon vers la droite	
+↿	harpon vers le haut avec barbillon vers la gauche	
+⇀	harpon à droite avec barbillon vers le haut	
+⇁	harpon vers la droite avec barbillon vers le bas	
+⇂	harpon vers le bas avec barbillon vers la droite	
+⇃	harpon vers le bas avec barbillon vers la gauche	
+⇄	flèche vers la droite sur la flèche vers la gauche	
+⇅	flèche vers le haut à gauche de la flèche vers le bas	
+⇆	flèche vers la gauche sur la flèche vers la droite	
+⇇	flèches appariées vers la gauche	
+⇈	flèches appariées vers le haut	
+⇉	flèches appariées vers la droite	
+⇊	flèches appariées vers le bas	
+⇋	harpon vers la gauche sur harpon vers la droite	
+⇌	harpon à droite sur harpon à gauche	
+⇍	double flèche vers la gauche avec course	
+⇎	double flèche gauche droite avec trait	
+⇏	double flèche vers la droite avec course	
+⇕	haut bas double flèche	
+⇖	flèche double nord-ouest	
+⇗	flèche double nord-est	
+⇘	flèche double sud-est	
+⇙	flèche double sud-ouest	
+⇚	triple flèche vers la gauche	
+⇛	triple flèche vers la droite	
+⇜	Flèche vers la gauche	
+⇝	Flèche vers la droite	
+⇞	flèche vers le haut à double course	
+⇟	flèche vers le bas à double course	
+⇠	flèche pointillée vers la gauche	
+⇡	flèche pointillée vers le haut	
+⇢	flèche pointillée vers la droite	
+⇣	flèche pointillée vers le bas	
+⇤	flèche vers la gauche vers la barre	
+⇥	Symbole de tabulation. Flèche droite vers la barre	
+⇦	flèche blanche vers la gauche	
+⇧	Symbole de la touche Majuscule / Flèche blanche vers le haut	
+⇨	flèche blanche vers la droite	
+⇩	flèche blanche vers le bas	
+⇪	flèche blanche vers le haut à partir de la barre	
+⏎	symbole de la touche retour	
+▶	triangle noir pointant vers la droite	
+☇	Foudre	
+☈	Orage	
+➘	lourde flèche sud-est	
+➙	lourde flèche vers la droite	
+➚	lourde flèche nord-est	
+➛	point de dessin flèche vers la droite	
+➜	lourde flèche arrondie vers la droite	
+➝	flèche à droite triangulaire	
+➞	lourde flèche vers la droite à tête triangulaire	
+➟	flèche pointée vers la droite en triangle	
+➠	flèche à droite triangulaire en pointillés épais	
+➡	flèche droite noire	
+➢	pointe de flèche vers la droite en trois dimensions	
+➣	pointe de flèche vers la droite éclairée par le bas en trois dimensions	
+➤	pointe de flèche noire vers la droite	
+➥	flèche noire courbée vers le bas et vers la droite	
+➦	flèche noire courbée vers le haut et vers la droite	
+➧	squat noir flèche droite	
+➨	lourde flèche noire concave à droite	
+➩	flèche droite blanche ombrée à droite	
+➪	flèche vers la droite blanche ombrée à gauche	
+➫	Flèche blanche vers la droite inclinée vers l'arrière	
+➬	Flèche vers la droite blanche ombrée inclinée vers l'avant	
+➭	lourde flèche inférieure droite ombrée de blanc vers la droite	
+➮	flèche supérieure droite blanche ombrée en haut à droite	
+➯	encoche en bas à droite ombre blanche flèche droite	
+➱	encoche en haut à droite ombre blanche flèche vers la droite	
+➲	flèche droite blanche encerclée	
+➳	flèche droite à plumes blanches	
+➴	flèche sud-est à plumes noires	
+➵	flèche droite à plumes noires	
+➶	flèche nord-est à plumes noires	
+➷	lourde flèche sud-est à plumes noires	
+➸	lourde flèche à plumes noires vers la droite	
+➹	lourde flèche nord-est à plumes noires	
+➺	flèche vers la droite barbelée en forme de larme	
+➻	flèche flèche droite vers le haut en forme de larme	
+➼	flèche vers la droite cunéiforme	
+➽	grosse flèche vers la droite	
+➾	flèche vers la droite à contour ouvert	
+↵	flèche vers le bas avec coin à gauche	
+↓	flèche vers le bas	
+↔	flèche gauche droite	
+←	flèche vers la gauche	
+→	flèche vers la droite	
+↑	flèche vers le haut	
+⇫	flèche blanche vers le haut sur le piédestal	
+⇬	flèche blanche vers le haut sur socle avec	
+⇭	flèche blanche vers le haut sur piédestal avec barre verticale	
+⇮	flèche double blanche vers le haut	
+⇯	flèche double blanche vers le haut sur le piédestal	
+⇰	flèche blanche vers la droite du mur	
+⇱	flèche nord-ouest jusqu'au coin	
+⇲	flèche sud-est jusqu'au coin	
+⇳	haut bas flèche blanche	
+⇴	flèche droite avec petit cercle	
+⇵	flèche vers le bas à gauche de la flèche vers le haut	
+⇶	trois flèches vers la droite	
+⇷	flèche vers la gauche avec course verticale	
+⇸	flèche vers la droite avec course verticale	
+⇹	flèche gauche droite avec course verticale	
+⇺	flèche vers la gauche avec double course verticale	
+⇻	flèche vers la droite à double course verticale	
+⇼	flèche gauche droite avec double course verticale	
+⇽	flèche ouverte vers la gauche	
+⇾	flèche ouverte vers la droite	
+⇿	Flèche à tête ouverte gauche droite	
+⇐	double flèche vers la gauche	
+⇑	double flèche vers le haut	
+⇒	double flèche vers la droite	
+⇓	double flèche vers le bas	
+⇔	gauche droite double flèche	
+⬀	Flèche blanche nord-est	
+⬁	Flèche blanche nord-ouest	
+⬂	Flèche blanche sud-est	
+⬃	Flèche blanche sud-ouest	
+⬄	Flèche blanche gauche droite
