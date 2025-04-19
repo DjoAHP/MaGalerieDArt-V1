@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
     import { ExternalLink, ChevronDown, Search } from "lucide-react";
+    
 
     interface Artwork {
       title: string;

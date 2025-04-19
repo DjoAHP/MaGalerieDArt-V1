@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { ExternalLink, ChevronDown, Search } from "lucide-react";
 
+
 interface Artwork {
   title: string;
   artist: string;
@@ -83,6 +84,8 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
 }
 
 function App() {
+  // NAV HUMBURGER ⬎
+  const [menuOpen, setMenuOpen] = useState(false);
   const [selectedArtist, setSelectedArtist] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
 
@@ -113,9 +116,48 @@ function App() {
     return filtered;
   }, [selectedArtist, searchQuery]);
 
+  // NAV HUMBURGER
+  function NavLinks() {
+    return (
+      <>
+        <a
+          href="./dessins"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Dessins
+        </a>
+        <a
+          href="./livres"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Livres
+        </a>
+        <a
+          href="./scultures"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Scultures
+        </a>
+        <a
+          href="./musees"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Musées
+        </a>
+        <a
+          href="./mythologie"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Ref. Mythologie
+        </a>
+      </>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
       {/* Navbar */}
+      {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
           {/* Logo */}
@@ -131,42 +173,42 @@ function App() {
             </div>
           </div>
 
-          {/* Navigation Buttons */}
-          <div className="flex items-center space-x-4">
-            <a
-              href="./dessins"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+          {/* Hamburger Button */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden text-white focus:outline-none"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Dessins
-            </a>
-            <a
-              href="./livres"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Livres
-            </a>
-            <a
-              href="./scultures"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Scultures
-            </a>
-            <a
-              href="./musees"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Musées
-            </a>
-            <a
-              href="./mythologie"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Ref. Mythologie
-            </a>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d={
+                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+                }
+              />
+            </svg>
+          </button>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-4">
+            <NavLinks />
           </div>
         </div>
-      </nav>
 
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+            <NavLinks />
+          </div>
+        )}
+      </nav>
       {/* Content */}
       <div className="p-8 pt-20 max-w-[2000px] mx-auto">
         <h1
