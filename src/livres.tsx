@@ -20,6 +20,13 @@ function Mythologie() {
   const [traitepeintiOpen, setTraitePeintIOpen] = useState(false);
   const [biovinciiOpen, setBioVinciIOpen] = useState(false);
   // -----
+  /* /// Sandro Botticelli ///  */
+  const [dessbotticelliiOpen, setDessBotticelliIOpen] = useState(false);
+  // -----
+  /* /// CLe Caravage ///  */
+  const [agecaravageOpen, setAgeCaravageOpen] = useState(false);
+    const [realismecaravageOpen, setRealismeCaravageOpen] = useState(false);
+  // -----
 
   // CODE
   return (
@@ -77,12 +84,9 @@ function Mythologie() {
 
       <div className="max-w-6xl mx-auto py-20">
         <h1 className="text-3xl font-bold mb-4">Livres et Ouvrages</h1>
-        <p className="text-gray-300">
-          Bienvenue sur la page des Livres et des Ouvrages.
-        </p>
         {/* FIN CODE  */}
         {/* -------------------------ELLEMENTS---------------------------  */}
-        {/* //---------- LECTURE ----------// */}
+        <h2>༺𓆩 ℒ𝑒𝒸𝓉𝓊𝓇𝑒 𓆪༻</h2>
         <div className="LECTURE">
           {/* OVIDE - LES METAMORPHOSES (8 ap.J-C) */}
           <div className="mt-8">
@@ -121,7 +125,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        {/* //---------- OUVRAGE DIVERS ----------// */}
+        <h2>༺𓆩 𝒪𝓊𝓋𝓇𝒶𝑔𝑒𝓈 𝒟𝒾𝓋𝑒𝓇𝓈 𓆪༻</h2>
         <div className="OUVRAGES DIVERS">
           {/* Cours complet d'études pour la figure (1830) */}
           <div className="mt-8">
@@ -159,7 +163,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        {/* /// ---------COLLECTIONS--------- ///  */}
+        <h2>༺𓆩 𝒞𝑜𝓁𝓁𝑒𝒸𝓉𝒾𝑜𝓃𝓈 𓆪༻</h2>
         <div className="COLLECTIONS">
           {/*  Collection I (Dessins des maîtres anciens 1910) */}
           <div className="mt-8">
@@ -280,17 +284,8 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        {/* ---------Léonard de Vinci-----------  */}
+        <h2>༺𓆩 ℒ𝑒𝑜𝓃𝒶𝓇𝒹 𝒟𝑒 𝒱𝒾𝓃𝒸𝒾 𓆪༻</h2>
         <div className="Léonard de Vinci">
-          <h2>꧁༺𓆩 Léonard de Vinci 𓆪༻꧂</h2>
-          <a
-            href="https://archive.org/details/leonardo_da_vinci_paintings/468px-Verrocchio%20workshop%20-%20Tobias%20and%20the%20Angel%20-%20NG%20%5BWww.Etoile.App%5D.jpeg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-          >
-            Léonard de Vinci (Toutes ces oeuvres) 
-          </a>
           {/*  Léonard de Vinci / Biographie I (2024) */}
           <div className="mt-8">
             <button
@@ -402,6 +397,110 @@ function Mythologie() {
                 </p>
                 <a
                   href="https://fr.wikisource.org/wiki/Trait%C3%A9_%C3%A9l%C3%A9mentaire_de_la_peinture/Texte_entier"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+        </div>
+        <h2>༺𓆩 𝒮𝒶𝓃𝒹𝓇𝑜 ℬ𝑜𝓉𝓉𝒾𝒸𝑒𝓁𝓁𝒾 𓆪༻</h2>
+        <div className="LECTURE">
+          {/* Dessins Ⅰ de Sandro Botticelli  (1896) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setDessBotticelliIOpen(!dessbotticelliiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Dessins Ⅰ de Sandro Botticelli (1896) ⮯
+            </button>
+            {dessbotticelliiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Dessins de Sandro Botticelli pour la Divina commedia de
+                  Dante : fac-similés réduits d'après les originaux conservés au
+                  Musée royal de Berlin et à la Bibliothèque du Vatican.
+                  <br />
+                  <br />- Date de publication: 1896
+                </p>
+                <a
+                  href="https://archive.org/details/drawingsbysandro00bott/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+        </div>
+        <h2>༺𓆩 ℒ𝑒 𝒞𝒶𝓇𝒶𝓋𝒶𝑔𝑒 𓆪༻</h2>
+        <div className="Le Caravage">
+          <a
+            href="https://archive.org/details/caravaggio0000gash/mode/thumb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          >
+            Toutes ces oeuvres
+          </a>
+          <br />
+          <a
+            href="https://archive.org/details/caravaggio_201908/mode/thumb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          >
+            Toutes ces oeuvres 2
+          </a>
+          {/* L'Âge du Caravage  (1985) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setAgeCaravageOpen(!agecaravageOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              L'Âge du Caravage (1985) ⮯
+            </button>
+            {agecaravageOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">- L'Âge du Caravage 1985</p>
+                <a
+                  href="https://archive.org/details/theageofcaravaggio1985/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/* L'art du réalisme  (2006) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setRealismeCaravageOpen(!realismecaravageOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              L'art du réalisme (2006) ⮯
+            </button>
+            {realismecaravageOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Le réalisme dramatique de l'art de Caravage fascine les
+                  spectateurs depuis le XVIIe siècle. Pourtant, aucune
+                  monographie antérieure ne présente l'analyse approfondie du «
+                  réalisme » de Caravage entreprise dans le remarquable ouvrage
+                  de John Varriano.
+                </p>
+                <a
+                  href="https://archive.org/details/caravaggioartofr0000varr/page/n11/mode/thumb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"

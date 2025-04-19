@@ -20,8 +20,7 @@ Artus Quellinus I (Sculteur)
       "DESCRIPTION",
   },
   // #endregion
-
-----------------
+DessBotticelliI----------------
 
 MYTHES
 
@@ -50,6 +49,9 @@ MYTHES
 
 --------------
 https://fr.piliapp.com/symbol/
+
+POLICE:
+https://fr.piliapp.com/cool-text/cursive/
 
 SEPARATION:
 
