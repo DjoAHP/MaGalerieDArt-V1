@@ -35,6 +35,12 @@ function Mythologie() {
               Dessins
             </a>
             <a
+              href="./livres"
+              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+            >
+              Livres
+            </a>
+            <a
               href="./scultures"
               className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
             >

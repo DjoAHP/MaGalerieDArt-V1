@@ -1233,6 +1233,8 @@ import React, { useState, useMemo } from "react";
       // #endregion
 
       // #endregion
+
+      // #endregion
     ];
     function ArtworkCard({ artwork }: { artwork: Artwork }) {
       return (
@@ -1328,6 +1330,12 @@ import React, { useState, useMemo } from "react";
                   className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
                 >
                   Dessins
+                </a>
+                <a
+                  href="./livres"
+                  className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+                >
+                  Livres
                 </a>
                 <a
                   href="./scultures"

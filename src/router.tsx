@@ -5,6 +5,7 @@ import Musees from "./musees";
 import Mythologie from "./mythologie";
 import Scultures from "./scultures";
 import Dessins from "./dessins";
+import Livres from "./livres";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/dessins",
     element: <Dessins />,
+  },
+  {
+    path: "/livres",
+    element: <Livres />,
   },
   {
     path: "/scultures",

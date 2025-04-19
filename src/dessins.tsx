@@ -14,13 +14,15 @@ const artworks: Artwork[] = [
   // #region PEINTRE Alphabetique
 
   // #region🔹 -----A-----
-  // #region "Artus Quellinus I (Sculteur) [BEL / 1609-1668]"
+
+  // #region "Andrea Mantegna (Graveur/Peintre) [ITA / 1431-1506]"
   {
-    title: "Le peintre Jan Gossaert",
-    artist: "Artus Quellinus I (Sculteur) [BEL / 1609-1668]",
-    year: "Inconnu",
-    imageUrl: "https://mdl.artvee.com/sftb/55246dr.jpg",
-    link: "https://kmska.be/fr/chefdoeuvre/le-sculpteur-artus-quellinus-i-a-amsterdam-0",
+    title: "Judith et sa servante Abra",
+    artist: "Andrea Mantegna (Graveur/Peintre) [ITA / 1431-1506]",
+    year: "1491",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mantegna%2C_giuditta%2C_disegno%2C_uffizi%2C_gabinetto.jpg",
+    link: "https://commons.wikimedia.org/wiki/File:Mantegna,_giuditta,_disegno,_uffizi,_gabinetto.jpg",
     description: "...",
   },
   // #endregion
@@ -218,7 +220,7 @@ function App() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Head_of_the_Virgin_in_Three-Quarter_View_Facing_Right_MET_DP102382.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />
@@ -233,6 +235,12 @@ function App() {
               className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
             >
               Dessins
+            </a>
+            <a
+              href="./livres"
+              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+            >
+              Livres
             </a>
             <a
               href="./scultures"
