@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { ExternalLink, ChevronDown, Search } from "lucide-react";
 
-
 interface Artwork {
   title: string;
   artist: string;
@@ -12,7 +11,6 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  // #region PEINTRE Alphabetique
 
   // #region🔹 -----I-----
   // #region "Inconnu [ITA / 1598-1680]"
@@ -29,7 +27,7 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #endregion
-  
+
   // #region🔹 -----L-----
   // #region "Le Bernin (Gian Lorenzo Bernini) [ITA / 1598-1680]"
   {

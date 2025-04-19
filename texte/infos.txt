@@ -1,3 +1,16 @@
+  Fermer uniquement les #region avec un raccourci clavier
+Étapes :
+1. Ouvre la palette de commandes :
+Ctrl + Shift + P (ou Cmd + Shift + P sur Mac)
+
+2. Tape :
+Fold All Regions (ou en français : Réduire toutes les régions)
+
+3. Clique dessus → toutes les #region seront repliées, et uniquement elles ✅
+
+
+  -----------------------------------------
+  
   // #region🔹 -----L-----
   ---
   // #endregion

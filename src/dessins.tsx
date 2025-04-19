@@ -11,7 +11,6 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-  // #region PEINTRE Alphabetique
 
   // #region🔹 -----A-----
 
