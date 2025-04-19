@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 function Mythologie() {
-    const [edfigOpen, setEdfigOpen] = useState(false);
-
+  const [edfigOpen, setEdfigOpen] = useState(false);
+  const [collmaitresOpen, setCollMaitresOpen] = useState(false);
+  const [recueilaOpen, setRecueilAOpen] = useState(false);
 
   // CODE
   return (
@@ -52,7 +53,7 @@ function Mythologie() {
               href="/mythologie"
               className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
             >
-              Livres et Ouvrages
+              Ref. Mythologie
             </a>
           </div>
         </div>
@@ -62,32 +63,96 @@ function Mythologie() {
         <p className="text-gray-300">
           Bienvenue sur la page des Livres et des Ouvrages.
         </p>
+        {/* FIN CODE  */}
 
-        {/*---------- LIVRES ---------- */}
-
-        {/* Cours complet d'études pour la figure */}
+        {/* //---------- LIVRES ----------// */}
+        {/* Cours complet d'études pour la figure (1830) */}
         <div className="mt-8">
           <button
             onClick={() => setEdfigOpen(!edfigOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Cours complet d'études pour la figure:
+            Cours complet d'études pour la figure (1830):
           </button>
           {edfigOpen && (
             <div className="mt-2">
               <p className="text-gray-300">
-                Cours complet d'études pour la figure : d'après les plus beaux
+                - Cours complet d'études pour la figure : d'après les plus beaux
                 modèles de l'antiquité et les tableaux des grands maîtres.
                 <br />
+                - Date de publication: 1830
                 <br />
-                Date de publication: 1830 <br />
-                Thèmes Dessin de la figure , Dessin -- Technique Éditeur [A
-                Paris ;<br />A Genève : Chez Reverdin ; A Londres : Chez M.
-                Lévèque] Collection Getty ; Americana Donateur Institut de
-                recherche Getty Langue Français.
+                - Thèmes Dessin de la figure , Dessin -- Technique Éditeur [A
+                Paris ;
+                <br />- A Genève : Chez Reverdin ; A Londres : Chez M. Lévèque]
+                Collection Getty ; Americana Donateur Institut de recherche
+                Getty Langue Français.
               </p>
               <a
                 href="https://archive.org/details/gri_33125009329638/mode/2up"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+              >
+                Voir l' ouvrage
+              </a>
+            </div>
+          )}
+        </div>
+        {/* FIN  */}
+        {/* --------------------  */}
+        {/* /// COLLECTIONS ///  */}
+        {/*  Collection I (Dessins des maîtres anciens 1910) */}
+        <div className="mt-8">
+          <button
+            onClick={() => setCollMaitresOpen(!collmaitresOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Collection I (Dessins des maîtres anciens 1910):
+          </button>
+          {collmaitresOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Une sélection de la collection de dessins des maîtres anciens
+                constituée par C. Fairfax Murray.
+                <br />
+                Date de publication: 1910
+                <br />
+                Bibliothèque de référence d'art Frick
+              </p>
+              <a
+                href="https://archive.org/details/frick-31072001181264/page/n49/mode/2up"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+              >
+                Voir l' ouvrage
+              </a>
+            </div>
+          )}
+        </div>
+        {/* FIN  */}
+        {/* --------------------  */}
+        {/*  Recueil de dessins I (1780) */}
+        <div className="mt-8">
+          <button
+            onClick={() => setRecueilAOpen(!recueilaOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Recueil de dessins I (1780):
+          </button>
+          {recueilaOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                - Recueil de desseins gravés d'après les fameux maitres : tirés
+                de la collection de l'Academie Electorale Palatine des beaux
+                Arts à Düsseldorff
+                <br />
+                - Date de publication: 1780
+                <br />- Institut de recherche Getty
+              </p>
+              <a
+                href="https://archive.org/details/gri_33125008513414/page/n84/mode/thumb"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
