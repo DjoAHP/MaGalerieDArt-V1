@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 function Mythologie() {
+  // NAV HUMBURGER ⬎
+  const [menuOpen, setMenuOpen] = useState(false);
   {
     /* /// LIVRES (Lecture) ///  */
   }
@@ -25,12 +27,50 @@ function Mythologie() {
   // -----
   /* /// CLe Caravage ///  */
   const [agecaravageOpen, setAgeCaravageOpen] = useState(false);
-    const [realismecaravageOpen, setRealismeCaravageOpen] = useState(false);
+  const [realismecaravageOpen, setRealismeCaravageOpen] = useState(false);
   // -----
 
+  // NAV HUMBURGER
+  function NavLinks() {
+    return (
+      <>
+        <a
+          href="./dessins"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Dessins
+        </a>
+        <a
+          href="./livres"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Livres
+        </a>
+        <a
+          href="./scultures"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Scultures
+        </a>
+        <a
+          href="./musees"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Musées
+        </a>
+        <a
+          href="./mythologie"
+          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+        >
+          Ref. Mythologie
+        </a>
+      </>
+    );
+  }
   // CODE
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+      {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
           {/* Logo */}
@@ -38,7 +78,7 @@ function Mythologie() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2020/05/cda2020_diapo_2019_heros-mythologie-museum-week-2-tt-width-1200-height-630-fill-0-crop-1-bgcolor-ffffff.jpg"
+                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />
@@ -46,40 +86,41 @@ function Mythologie() {
             </div>
           </div>
 
-          {/* Navigation Buttons */}
-          <div className="flex items-center space-x-4">
-            <a
-              href="./dessins"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
+          {/* Hamburger Button */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden text-white focus:outline-none"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Dessins
-            </a>
-            <a
-              href="./livres"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Livres
-            </a>
-            <a
-              href="./scultures"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Scultures
-            </a>
-            <a
-              href="/musees"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Musées
-            </a>
-            <a
-              href="/mythologie"
-              className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-            >
-              Ref. Mythologie
-            </a>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d={
+                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+                }
+              />
+            </svg>
+          </button>
+
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-4">
+            <NavLinks />
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+            <NavLinks />
+          </div>
+        )}
       </nav>
 
       <div className="max-w-6xl mx-auto py-20">
