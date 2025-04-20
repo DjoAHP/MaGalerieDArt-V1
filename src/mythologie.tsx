@@ -10,9 +10,13 @@ function Mythologie() {
   const [endymionOpen, setEndymionOpen] = useState(false);
   const [cupidonOpen, setCupidonOpen] = useState(false);
   const [judholoOpen, setJudHoloOpen] = useState(false);
+  const [dianeacteOpen, setDianeActeOpen] = useState(false);
+  const [eduachilleOpen, setEduAchilleOpen] = useState(false);
+  const [perseeandroOpen, setPerseeAndroOpen] = useState(false);
+  const [enleveeuropeOpen, setEnleveEuropeOpen] = useState(false);
+  const [armideiOpen, setArmideIOpen] = useState(false);
 
-
-  // NAV HUMBURGER
+  // NAV HUMBURGER & BOUTONS
   function NavLinks() {
     return (
       <>
@@ -20,7 +24,7 @@ function Mythologie() {
           href="./dessins"
           className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
         >
-          Dessins
+          Dessins & Gravures
         </a>
         <a
           href="./livres"
@@ -58,7 +62,7 @@ function Mythologie() {
     );
   }
 
-  // CODE
+  // CODE, MYTHES & HISTOIRES
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
       {/* // NAV HUMBURGER  */}
@@ -113,6 +117,8 @@ function Mythologie() {
           </div>
         )}
       </nav>
+
+      {/* MYTHES & HISTOIRES  */}
       <div className="max-w-6xl mx-auto py-20">
         <h1 className="text-3xl font-bold mb-4">Reference Mythologique</h1>
         <p className="text-gray-300">
@@ -509,7 +515,201 @@ function Mythologie() {
             </div>
           )}
         </div>
+        {/* Diane et Actéon */}
+        <div className="mt-8">
+          <button
+            onClick={() => setDianeActeOpen(!dianeacteOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Diane et Actéon ↓
+          </button>
+          {dianeacteOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Artémis pour les Grecs ou Diane pour les Romains, est la déesse
+                de la chasse et de la faune sauvage. Actéon est un célèbre
+                chasseur, fils d'Aristée et de Cadmos (ou Autonoé). Il a été
+                élevé par le centaure Chiron. La légende raconte que lors d'une
+                de ses chasses en forêt, il découvrit la déesse Artémis alors
+                qu'elle était nue et prenait un bain avec ses compagnes.
+                Celle-ci, furieuse, le transforma en cerf. Les chiens d'Actéon,
+                l'ayant pris pour une simple bête des bois, rendus fous de rage
+                par la déesse, le tuèrent. Artémis était également très en
+                colère contre Actéon car celui-ci s'était vanté d'être meilleur
+                chasseur que la déesse.
+                <br />
+                <br />
+                Fils du dieu mineur Aristée qui est le fils d’Apollon, et de la
+                fille de Cadmos, Autonoé, Actéon est élevé par le centaure
+                Chiron et devient un chasseur très habile. Selon la version la
+                plus populaire, il surprend un jour, au cours d’une chasse, la
+                déesse Artémis (ou Diane) prenant son bain. Furieuse, elle le
+                transforme en cerf. Impuissant, Actéon meurt déchiré par ses
+                propres chiens (limiers, lévriers, dogues et mâtins) qui ne le
+                reconnaissent pas et sont rendus fous de rage par la déesse.
+              </p>
+            </div>
+          )}
+        </div>
+        {/* L'Éducation d'Achille */}
+        <div className="mt-8">
+          <button
+            onClick={() => setEduAchilleOpen(!eduachilleOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            L'Éducation d'Achille ↓
+          </button>
+          {eduachilleOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                La légende veut que Thétis, la mère d'Achille, ait confié son
+                fils au centaure Chiron, un centaure qui a initié de nombreux
+                héros grecs aux enseignements les plus importants de l'époque,
+                la musique, la médecine, l'équitation et la chasse étant les
+                principales activités enseignées par cet être mythique. Dans ce
+                cas, nous pouvons observer Achille dans une classe équestre, il
+                est monté sur Chiron, bien qu'il ne faille pas seulement
+                regarder cela, mais aussi différents détails autour du tableau
+                qui allégorisent tous les enseignements de Chiron.
+                <br />
+              </p>
+            </div>
+          )}
+        </div>
+        {/* Persée et Andromède */}
+        <div className="mt-8">
+          <button
+            onClick={() => setPerseeAndroOpen(!perseeandroOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Persée et ! Andromède ! ↓
+          </button>
+          {perseeandroOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Les principales sources sont le pseudo-Apollodore (La
+                Bibliothèque), Ovide (Les Métamorphoses) et Hygin (Les Fables).
+                <br />
+                <br />
+                Cassiopée s'est attiré la colère de Poséidon en ayant proclamé
+                que sa fille (ou, selon d'autres versions, elle-même) était
+                d'une beauté égale à celle des Néréides, les nymphes marines qui
+                servent d'escorte au dieu de la mer. Pour se venger, celui-ci
+                provoque une inondation et envoie un monstre marin (Céto) qui se
+                met à détruire hommes et bétail. Désespéré, le roi Céphée
+                consulte l'oracle d'Ammon qui révèle qu'aucun répit n'aura lieu
+                tant que le roi n'aura pas livré sa fille au monstre. Andromède
+                est donc enchaînée à un rocher près du rivage. Persée, de retour
+                après sa victoire sur la Gorgone Méduse, l'aperçoit du ciel et
+                s'informe de ce qui lui est arrivé. Il en tombe immédiatement
+                amoureux et promet à Céphée de tuer le monstre à condition de
+                pouvoir épouser Andromède. Il attaque alors le monstre avec son
+                glaive et le massacre après une lutte acharnée au corps à corps,
+                sans recourir au pouvoir pétrifiant de la tête de Méduse. Selon
+                Ovide, après sa victoire, Persée dépose cette tête sur un lit
+                d'algues, qui rougissent et durcissent à son contact, devenant
+                ainsi la source du corail.
+                <br />
+                <br />
+                Persée épouse Andromède, bien qu'elle ait été auparavant fiancée
+                à son oncle Phinée, qui convoitait le trône de son frère Céphée.
+                Lors du mariage, une querelle a lieu entre les deux prétendants
+                et Phinée est à son tour changé en pierre grâce à la tête de la
+                Gorgone.
+                <br />
+                <br />
+                Andromède suit son époux à Tirynthe en Argolide et ils ont six
+                fils : Persès, Alcée, Héléos, Mestor, Sthénélos et Électryon, et
+                une fille : Gorgophoné. Ils sont à l'origine de la lignée des
+                Perséides par l'intermédiaire de Persès. Leurs descendants
+                dirigent la Mycénie à partir d'Électryon jusqu'à Eurysthée, puis
+                Atrée dont la funeste descendance (les Atrides) inspirera les
+                grandes tragédies de l'époque classique ; le grand héros
+                Héraclès fait aussi partie de cette descendance.
+              </p>
+            </div>
+          )}
+        </div>
+        {/*  L'enlèvement d'Europe */}
+        <div className="mt-8">
+          <button
+            onClick={() => setEnleveEuropeOpen(!enleveeuropeOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            L'enlèvement d'Europe ↓
+          </button>
+          {enleveeuropeOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Dans la mythologie grecque, Europe (en grec ancien : Εὐρώπη /
+                Eurṓpē) est une princesse phénicienne, fille d'Agénor, roi de
+                Tyr, et de Téléphassa, et sœur notamment de Cadmos. Les
+                institutions de l'Union européenne favorisent le nom de cette
+                figure mythologique comme étymologie du nom du continent
+                européen.
+                <br />
+                <br />
+                Selon une version du mythe, Europe, fille d'Agénor, roi de Tyr,
+                une ville de Phénicie (actuel Liban) fit un rêve. Le jour même,
+                Zeus la rencontra sur une plage de Sidon, se métamorphosa en
+                taureau blanc, afin de l'approcher sans l'apeurer et d'échapper
+                à la jalousie de son épouse Héra. Europe s'approche de lui.
+                Chevauchant l'animal, elle est enlevée sur l'île de Crète à
+                Gortyne (ou, au nord du Bosphore, selon certaines versions). À
+                Gortyne, sous un platane, qui depuis lors est toujours vert,
+                Europe s'accouple avec Zeus, sous forme humaine cette fois. De
+                leur union naissent Minos, Rhadamanthe, et Sarpédon, qui s'exila
+                en Anatolie, à Milet. Plus tard, Europe est donnée par Zeus,
+                comme épouse au roi de Crète, Astérion.
+              </p>
+            </div>
+          )}
+        </div>
+        {/*  La Destruction du palais d'Armide */}
+        <div className="mt-8">
+          <button
+            onClick={() => setArmideIOpen(!armideiOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            La Destruction du palais d'Armide ↓
+          </button>
+          {armideiOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Armide (en italien Armida) est un personnage de La Jérusalem
+                délivrée du poète italien Le Tasse, qui fait le récit épique de
+                la croisade dirigée par Godefroy de Bouillon (1096 1099). C'est
+                une magicienne musulmane, nièce d'Hidraot (Idraote). Son
+                aventure la plus célèbre est celle qui la lie au croisé Renaud
+                (Rinaldo) : bien qu'il soit son ennemi, elle tombe amoureuse de
+                lui. Elle tente alors en vain de le retenir par des
+                enchantements.
+                <br />
+                <br />
+                Au XIe siècle dans les jardins enchantés des îles Fortunées
+                (îles des Bienheureux), Renaud est retenu loin de l'armée des
+                croisés, par les enchantements d’Armide, laquelle, sous la garde
+                d’Oriane, se prépare à devenir fée. Par un subterfuge, Armide
+                manipule les sentiments de Renaud lui renvoyant, à chaque regard
+                une image idéale grâce à un jeu de miroir lui assurant
+                l’efficacité de ses appas. Lascif, le héros se féminise.
+                Armide en retour touchée par la beauté de Renaud devient une
+                séductrice séduite. Tiraillée entre la volonté de préserver son
+                amour et la nécessité de combattre l'ennemi Armide hésite. Deux
+                chevaliers, Ubolde et le Danois, arrivent à lever le sortilège.
+                Renaud prend alors conscience de sa condition de prisonnier,
+                alangui et efféminé. Malgré les suppliques et les promesses
+                d'Armide pour garder son amour à ses côtés, Renaud part avec les
+                croisés qui l'ont délivré et abandonne celle qui l'avait
+                envouté. Le personnage d’Armide connaît en France de nouveaux
+                succès artistique et littéraire avec l'opéra de Jean-Baptiste
+                Lully joué pour la première fois le 15 février 1686.
+              </p>
+            </div>
+          )}
+        </div>
       </div>
+      {/* -------- MYTHES & HISTOIRES /FIN/ ------- */}
     </div>
   );
 }

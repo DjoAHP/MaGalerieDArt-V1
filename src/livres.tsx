@@ -26,6 +26,7 @@ function Mythologie() {
   const [dessbotticelliiOpen, setDessBotticelliIOpen] = useState(false);
   // -----
   /* /// CLe Caravage ///  */
+  const [caravageliensOpen, setCaravageLiensOpen] = useState(false);
   const [agecaravageOpen, setAgeCaravageOpen] = useState(false);
   const [realismecaravageOpen, setRealismeCaravageOpen] = useState(false);
   // -----
@@ -38,7 +39,7 @@ function Mythologie() {
           href="./dessins"
           className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
         >
-          Dessins
+          Dessins & Gravures
         </a>
         <a
           href="./livres"
@@ -135,7 +136,7 @@ function Mythologie() {
         <h1 className="text-3xl font-bold mb-4">Livres et Ouvrages</h1>
         {/* FIN CODE  */}
         {/* -------------------------ELLEMENTS---------------------------  */}
-        <h2>༺𓆩 ℒ𝑒𝒸𝓉𝓊𝓇𝑒 𓆪༻</h2>
+        <h1>༺𓆩 𝑳𝒆𝒄𝒕𝒖𝒓𝒆 𓆪༻</h1>
         <div className="LECTURE">
           {/* OVIDE - LES METAMORPHOSES (8 ap.J-C) */}
           <div className="mt-8">
@@ -174,7 +175,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h2>༺𓆩 𝒪𝓊𝓋𝓇𝒶𝑔𝑒𝓈 𝒟𝒾𝓋𝑒𝓇𝓈 𓆪༻</h2>
+        <h1>༺𓆩 𝑶𝒖𝒗𝒓𝒂𝒈𝒆𝒔 𝑫𝒊𝒗𝒆𝒓𝒔 𓆪༻</h1>
         <div className="OUVRAGES DIVERS">
           {/* Cours complet d'études pour la figure (1830) */}
           <div className="mt-8">
@@ -212,7 +213,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h2>༺𓆩 𝒞𝑜𝓁𝓁𝑒𝒸𝓉𝒾𝑜𝓃𝓈 𓆪༻</h2>
+        <h1>༺𓆩 𝑪𝒐𝒍𝒍𝒆𝒄𝒕𝒊𝒐𝒏𝒔 𓆪༻</h1>
         <div className="COLLECTIONS">
           {/*  Collection I (Dessins des maîtres anciens 1910) */}
           <div className="mt-8">
@@ -333,7 +334,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h2>༺𓆩 ℒ𝑒𝑜𝓃𝒶𝓇𝒹 𝒟𝑒 𝒱𝒾𝓃𝒸𝒾 𓆪༻</h2>
+        <h1>༺𓆩 𝑳𝒆𝒐𝒏𝒂𝒓𝒅 𝑫𝒆 𝑽𝒊𝒏𝒄𝒊 𓆪༻</h1>
         <div className="Léonard de Vinci">
           {/*  Léonard de Vinci / Biographie I (2024) */}
           <div className="mt-8">
@@ -457,7 +458,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h2>༺𓆩 𝒮𝒶𝓃𝒹𝓇𝑜 ℬ𝑜𝓉𝓉𝒾𝒸𝑒𝓁𝓁𝒾 𓆪༻</h2>
+        <h1>༺𓆩 𝑺𝒂𝒏𝒅𝒓𝒂 𝑩𝒐𝒕𝒕𝒊𝒄𝒆𝒍𝒍𝒊 𓆪༻</h1>
         <div className="LECTURE">
           {/* Dessins Ⅰ de Sandro Botticelli  (1896) */}
           <div className="mt-8">
@@ -489,25 +490,39 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h2>༺𓆩 ℒ𝑒 𝒞𝒶𝓇𝒶𝓋𝒶𝑔𝑒 𓆪༻</h2>
+        <h1>༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
         <div className="Le Caravage">
-          <a
-            href="https://archive.org/details/caravaggio0000gash/mode/thumb"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-          >
-            Toutes ces oeuvres
-          </a>
-          <br />
-          <a
-            href="https://archive.org/details/caravaggio_201908/mode/thumb"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
-          >
-            Toutes ces oeuvres 2
-          </a>
+          {/* Liens utile */}
+          <div className="mt-8">
+            <button
+              onClick={() => setCaravageLiensOpen(!caravageliensOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Liens utile ⮯
+            </button>
+            {caravageliensOpen && (
+              <div className="mt-2">
+                <a
+                  href="https://archive.org/details/caravaggio0000gash/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Toutes ces oeuvres
+                </a>
+                <br />
+                <a
+                  href="https://archive.org/details/caravaggio_201908/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Toutes ces oeuvres 2
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
           {/* L'Âge du Caravage  (1985) */}
           <div className="mt-8">
             <button

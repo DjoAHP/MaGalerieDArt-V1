@@ -11,7 +11,7 @@ function Musees() {
           href="./dessins"
           className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
         >
-          Dessins
+          Dessins & Gravures
         </a>
         <a
           href="./livres"

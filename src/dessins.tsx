@@ -11,7 +11,6 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
-
   // #region🔹 -----A-----
 
   // #region "Andrea Mantegna (Graveur/Peintre) [ITA / 1431-1506]"
@@ -36,6 +35,20 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
     description:
       "Albrecht Dürer, né le 21 mai 1471 à Nuremberg (Saint-Empire), où il est mort le 6 avril 1528, est un dessinateur, graveur, peintre allemand de la Renaissance, également connu comme théoricien de la géométrie et de la perspective linéaire. Né à Nuremberg, Dürer établit sa réputation et son influence à travers l'Europe dans sa vingtaine grâce à ses gravures sur bois de haute qualité. Il est en contact avec les grands artistes italiens de son temps, dont Raphaël, Giovanni Bellini et Léonard de Vinci, et à partir de 1512, il est patronné par l'empereur Maximilien Ier.",
+  },
+  // #endregion
+  // #endregion
+
+  // #region🔹 -----G-----
+  // #region "Gilles Demarteau [BLG / 1729-1776]"
+  {
+    title: "les amants Armide et Renaud",
+    artist: "Gilles Demarteau [BLG / 1729-1776]",
+    year: "XVIIIe siècle",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Armide.jpg",
+    link: "https://commons.wikimedia.org/wiki/File:Armide.jpg",
+    description:
+      "Cette gravure sanguine représente les amants Armide et Renaud réalisé à la sanguine par Gilles Demarteau d'après 'un tableau d'Annibale Carracci, peintre italien du XVIIe siècle.",
   },
   // #endregion
   // #endregion
@@ -219,7 +232,7 @@ function App() {
           href="./dessins"
           className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
         >
-          Dessins
+          Dessins & Gravures
         </a>
         <a
           href="./livres"
