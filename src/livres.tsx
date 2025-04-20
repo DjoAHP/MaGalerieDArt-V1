@@ -64,6 +64,14 @@ function Mythologie() {
         >
           Ref. Mythologie
         </a>
+        <a
+          href="https://maitrecappelli.fr/frises-chrono/frise-01.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+        >
+          Chrono. Arts
+        </a>
       </>
     );
   }
