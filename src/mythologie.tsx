@@ -9,6 +9,8 @@ function Mythologie() {
   const [perséeetandromèdeOpen, setPerséeetAndromèdeOpen] = useState(false);
   const [endymionOpen, setEndymionOpen] = useState(false);
   const [cupidonOpen, setCupidonOpen] = useState(false);
+  const [judholoOpen, setJudHoloOpen] = useState(false);
+
 
   // NAV HUMBURGER
   function NavLinks() {
@@ -125,7 +127,7 @@ function Mythologie() {
             onClick={() => setVenusOpen(!venusOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            La Naissance de Vénus
+            La Naissance de Vénus ↓
           </button>
           {venusOpen && (
             <div className="mt-2">
@@ -159,7 +161,7 @@ function Mythologie() {
             onClick={() => setAdonisOpen(!adonisOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Vénus et Adonis
+            Vénus et Adonis ↓
           </button>
           {adonisOpen && (
             <div className="mt-2">
@@ -276,7 +278,7 @@ function Mythologie() {
             onClick={() => setPrometheeOpen(!prometheeOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Prométhée
+            Prométhée ↓
           </button>
           {prometheeOpen && (
             <div className="mt-2">
@@ -341,7 +343,7 @@ function Mythologie() {
             onClick={() => setPerséeetAndromèdeOpen(!perséeetandromèdeOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Persée et Andromède
+            Persée et Andromède ↓
           </button>
           {perséeetandromèdeOpen && (
             <div className="mt-2">
@@ -391,7 +393,7 @@ function Mythologie() {
             onClick={() => setEndymionOpen(!endymionOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Endymion
+            Endymion ↓
           </button>
           {endymionOpen && (
             <div className="mt-2">
@@ -429,7 +431,7 @@ function Mythologie() {
             onClick={() => setCupidonOpen(!cupidonOpen)}
             className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
           >
-            Cupidon
+            Cupidon ↓
           </button>
           {cupidonOpen && (
             <div className="mt-2">
@@ -458,6 +460,51 @@ function Mythologie() {
                 besoin de retour. On représentait Antéros, comme son frère, sous
                 la figure d'un petit enfant, avec des ailes, un carquois, des
                 flèches et un baudrier.
+              </p>
+            </div>
+          )}
+        </div>
+        {/* Judith et Holopherne */}
+        <div className="mt-8">
+          <button
+            onClick={() => setJudHoloOpen(!judholoOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Judith et Holopherne ↓
+          </button>
+          {judholoOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Holopherne est un personnage du livre de Judith, qui fait partie
+                des livres deutérocanoniques de l'Ancien Testament. C'est un
+                général envoyé en campagne par le roi Nabuchodonosor II.
+                <br />
+                Nabuchodonosor II, qui désigne ailleurs dans la Bible un roi des
+                Chaldéens régnant sur Babylone de 605 à 562 av. J.-C., est
+                présenté dans ce texte comme roi d'Assyrie.
+                <br />
+                <br />
+                Nabuchodonosor II a envoyé Holopherne, un de ses généraux,
+                châtier les peuples de l'ouest parce qu'ils ont refusé de le
+                soutenir dans la guerre qu'il a menée contre le roi perse
+                Arphaxad (cf. Judith I, 1). Après avoir pillé, tué et ravagé
+                tout le Proche-Orient, Holopherne assiège Béthulie, une ville
+                juive (probablement Massalah) qui barre un passage dans les
+                montagnes de Judée. Comme l'eau vient à manquer, les habitants
+                sont sur le point de se rendre, mais une jeune veuve, Judith,
+                d'une extraordinaire beauté et d'une richesse considérable,
+                prend la décision de sauver la ville. Avec sa servante et des
+                cruches de vin elle pénètre dans le camp d'Holopherne ; ce
+                dernier est tout de suite ensorcelé par la beauté et
+                l'intelligence de cette femme ; il organise en son honneur un
+                grand banquet à la fin duquel ses domestiques se retirent
+                discrètement pour ne pas troubler la nuit d'amour qui,
+                pensent-ils, attend leur maître. Mais elle continue à l'enivrer
+                et, quand il est hors d'état de se défendre, elle le décapite
+                avec l'aide de sa servante et revient à Béthulie avec la tête.
+                Quand les soldats découvrent au matin leur chef assassiné, ils
+                sont pris de panique : beaucoup s'enfuient et les juifs
+                vainquent facilement ceux qui restent.
               </p>
             </div>
           )}
