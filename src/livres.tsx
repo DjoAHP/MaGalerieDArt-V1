@@ -78,7 +78,7 @@ function Mythologie() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://thumbs.dreamstime.com/b/le-livre-antique-3621428.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />

@@ -59,7 +59,7 @@ function Mythologie() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://img-31.ccm2.net/RJ4La9i8P9OF_8DTxvXWbTvE1Cs=/910x/smart/d6d9a9d5cd3b49d783c53f9c1f929c0e/ccmcms-hugo/25336466.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />

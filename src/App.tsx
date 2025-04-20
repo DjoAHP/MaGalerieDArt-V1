@@ -881,6 +881,31 @@ const artworks: Artwork[] = [
       "Christ couronné d’épines / Huile sur toile / 227x350 cm / La Valette, Oratoire de Saint-Jean",
   },
   // #endregion
+
+  // #region "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]"
+  {
+    title: "Plafond de la chapelle Sixtine",
+    artist:
+      "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]",
+    year: "de 1508 à 1512",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/CAPPELLA_SISTINA_Ceiling.jpg",
+    link: "https://fr.wikipedia.org/wiki/Plafond_de_la_chapelle_Sixtine",
+    description:
+      "Le plafond de la chapelle Sixtine comprend principalement une fresque réalisée par Michel-Ange entre 1508 et 1512 et inaugurée par le pape Jules II le 31 octobre 1512 ; c'est un chef-d'œuvre de la peinture de la Renaissance italienne considéré comme l'un des plus importants de l'art occidental. La peinture recouvre l'intégralité du plafond de la chapelle Sixtine construite au Vatican sous le pape Sixte IV, entre 1477 et 1483, pour abriter des cérémonies solennelles, dont les conclaves.",
+  },
+  {
+    title: "Ignudo (Details: Plafond de la Chapelle Sixtine)",
+    artist:
+      "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]",
+    year: "de 1508 à 1512",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Michelangelo%2C_ignudo_02.jpg?uselang=fr",
+    link: "https://commons.wikimedia.org/wiki/File:Michelangelo,_ignudo_02.jpg?uselang=fr",
+    description:
+      "Vingt ignudi, personnifiés par de jeunes hommes athlétiques, sont placés aux coins des scènes centrales. Ils portent divers objets ou s'en entourent, tels un ruban rose, une guirlande de glands, un coussin vert… Il n'en reste aujourd'hui que dix-neuf et la tête du vingtième dont la représentation du corps fut détruit lors de l'explosion de 1797 au château Saint-Ange.",
+  },
+  // #endregion
   // #endregion
 
   // #region🔹 -----N-----
@@ -1354,7 +1379,7 @@ function App() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />

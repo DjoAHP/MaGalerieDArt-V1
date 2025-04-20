@@ -51,7 +51,7 @@ function Musees() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2021/02/marbres-thasos-main-1-tt-width-1200-height-900-fill-0-crop-1-bgcolor-ffffff.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />

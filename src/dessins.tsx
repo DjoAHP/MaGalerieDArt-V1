@@ -260,7 +260,7 @@ function App() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://api-www.louvre.fr/sites/default/files/2021-12/victoire-de-samothrace.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Durer-self-portrait-at-the-age-of-thirteen.jpg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />

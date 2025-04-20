@@ -11,9 +11,41 @@ interface Artwork {
 }
 
 const artworks: Artwork[] = [
+  // #region🔹 -----Collaborations-----
+  // #region "Laocoon [Grèce antique / vers 40 av. J.-C.]"
+  {
+    title: "Laocoon [Grèce antique / vers 40 av. J.-C.]",
+    artist: "Agésandros, Athénodore et Polydore",
+    year: "vers 40 av. J.-C.",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg",
+    link: "https://fr.wikipedia.org/wiki/Groupe_du_Laocoon",
+    description:
+      "Le groupe du Laocoon est une copie romaine en marbre d'une sculpture grecque antique en bronze représentant le prêtre troyen Laocoon et ses deux fils attaqués par des serpents. La statue pourrait dater de 40 av. J.-C.",
+  },
+  // #endregion
+
+  // #endregion
+
+  // #region🔹 -----A-----
+  // #region "Antonio Canova [ITA / 1757-1822 ]"
+  {
+    title: "Persée triomphant",
+    artist: "Antonio Canova [ITA / 1757-1822 ]",
+    year: "1797",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Persus-with-the-head-of-med.jpg",
+    link: "https://fr.wikipedia.org/wiki/Pers%C3%A9e_triomphant",
+    description:
+      "Persée triomphant est une sculpture en marbre réalisée par l'artiste néo-classique italien Antonio Canova entre 1797 et 1801. L'œuvre fait 2,35 m de hauteur et est exposée aux musées du Vatican à Rome[1]. Une autre version de 1804 est conservée au Metropolitan Museum of Art de New York.",
+  },
+  // #endregion
+
+  // #endregion
 
   // #region🔹 -----I-----
-  // #region "Inconnu [ITA / 1598-1680]"
+
+  // #region "Inconnu"
   {
     title: "Victoire de Samothrace",
     artist: "Inconnu [l'île de Samothrace / Vers 200-185 av. J.-C.]",
@@ -23,6 +55,16 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Victoire_de_Samothrace",
     description:
       "La Victoire de Samothrace est un monument votif trouvé sur l'île de Samothrace, au nord de la mer Égée, dans le sanctuaire des Grands Dieux. C'est un chef-d'œuvre de la sculpture hellénistique, datant du début du IIe siècle av. J.-C. Il est composé d'une statue représentant la déesse Niké (la Victoire), dont il manque la tête et les bras, et de sa base en forme de proue de navire. La hauteur totale du monument est de 5,12 mètres ; la statue seule mesure 2,75 mètres. L'ensemble est exposé au musée du Louvre, en haut de l'escalier principal depuis 1884.",
+  },
+  {
+    title: "Vénus de Milo",
+    artist: "Inconnu [L' île grecque de Milos / vers 150-130 av. J.-C.",
+    year: "1820",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg",
+    link: "https://fr.wikipedia.org/wiki/V%C3%A9nus_de_Milo",
+    description:
+      "La Vénus de Milo est une statue en marbre représentant la déesse grecque Aphrodite (désignée par son équivalent latin Vénus), retrouvée dans l'île grecque de Milos en avril 1820 dans un état fragmentaire, sans bras. Il s'agit d'une œuvre originale de l'époque hellénistique, créée vers 150-130 av. J.-C.",
   },
   // #endregion
 
@@ -40,7 +82,57 @@ const artworks: Artwork[] = [
     description:
       "Le groupe à sujet mythologique d'Apollon et Daphné est commandé par le cardinal Scipione Cappellolli-Borghese, neveu de Paul V, au sculpteur Gian Lorenzo Bernini, alors âgé d'une vingtaine d'années[1]. Cette œuvre est la dernière d'une série de quatre œuvres importantes commandées par le cardinal pour sa villa, qui contribuèrent à définir la sculpture baroque[2] avec Énée, Anchise et Ascagne (1619-1620), L'Enlèvement de Perséphone (1621-1622) et David (1623-1624).",
   },
+  {
+    title: "L'Enlèvement de Proserpine",
+    artist: "Le Bernin (Gian Lorenzo Bernini) [ITA / 1598-1680]",
+    year: "1621-1622 env.",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/Rape_of_Prosepina_September_2015-3a.jpg",
+    link: "https://fr.wikipedia.org/wiki/L%27Enl%C3%A8vement_de_Proserpine_(Le_Bernin)",
+    description:
+      "L'Enlèvement de Proserpine ou Le Rapt de Proserpine est un grand groupe baroque sculpté en marbre de l'artiste italien Le Bernin, exécuté entre 1621 et 1622, lorsque sa carrière est à ses débuts. Le groupe, achevé alors qu'il n'a que 23 ans, représente le « rapt de Proserpine » (Perséphone dans la mythologie grecque), capturée et emmenée aux Enfers par le dieu Pluton (Hadès). On y voit Pluton soulevant Proserpine et un Cerbère symbolisant la frontière vers le monde souterrain dans lequel Pluton la transporte.",
+  },
   // #endregion
+  // #endregion
+
+  // #region🔹 -----M-----
+
+  // #region "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]"
+  {
+    title: "La Pietà",
+    artist:
+      "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]",
+    year: "1499",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/Piet%C3%A0_(Michel-Ange)",
+    description:
+      "La Pietà est un groupe en marbre de Michel-Ange de la basilique Saint-Pierre du Vatican à Rome, représentant le thème biblique de la « Vierge Marie douloureuse » (Mater dolorosa en latin ou Pietà), tenant sur ses genoux le corps du Christ descendu de la Croix avant sa Mise au tombeau, sa Résurrection et son Ascension. Elle est sculptée entre 1498 et 1499.",
+  },
+  {
+    title: "David",
+    artist:
+      "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]",
+    year: "1501",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/80/Michelangelo%27s_David_-_right_view_2.jpg",
+    link: "https://fr.wikipedia.org/wiki/David_(Michel-Ange)",
+    description:
+      "Initialement placé devant le palazzo Vecchio pour symboliser la détermination d'une jeune république face au tyran, l'original est, depuis 1873, exposé dans la Galleria dell'Accademia de Florence. Le David que l'on peut désormais voir devant la façade du palazzo Vecchio est une réplique installée en 1910.",
+  },
+  {
+    title: "Le Moïse",
+    artist:
+      "Michel-Ange (Michelangelo di Lodovico Buonarroti Simoni) [1475 - 1564]",
+    year: "entre 1513 et 1515",
+    imageUrl:
+      "https://cdn.shopify.com/s/files/1/0503/5730/5497/files/Michelangelo_s_Moses.jpg?v=1697453683",
+    link: "https://fr.wikipedia.org/wiki/Mo%C3%AFse_(Michel-Ange)",
+    description:
+      "Cette statue de Moïse faisait partie du projet initial du tombeau de Jules II dans la basilique Saint-Pierre de Rome. Après quarante années de discussions, un ensemble réduit fut transféré par les héritiers à la basilique Saint-Pierre-aux-Liens.",
+  },
+  // #endregion
+
   // #endregion
 ];
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
