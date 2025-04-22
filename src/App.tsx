@@ -925,6 +925,19 @@ const artworks: Artwork[] = [
 
   // #region🔹 -----P-----
 
+  // #region "Paul Delaroche [FRA / 1797-1856]"
+  {
+    title: "Le Supplice de Jane Grey",
+    artist: "Paul Delaroche [FRA / 1797-1856]",
+    year: "1590",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg",
+    link: "https://fr.wikipedia.org/wiki/Le_Supplice_de_Jane_Grey",
+    description:
+      "La toile représente les instants précédant l'exécution de Lady Jane Grey, placée ici au centre du tableau, héritière d'Édouard VI, proclamée reine d'Angleterre à l'âge de 16 ans au tout début de février 1554, destituée neuf jours après son couronnement. L'action figurée ici montre donc le moment où, le 12 février, elle est sur le point d'être décapitée à la tour de Londres sur ordre de Marie Tudor, également prétendante au trône. Jane est surnommée, du fait de la brièveté de son règne, la « reine de neuf jours ». Elle fut suivie dans son supplice par son mari puis, onze jours plus tard, par son père.",
+  },
+  // #endregion
+
   // #region "Pâris Bordone (Bordon) [ITA / 1500-1570]"
   {
     title: "Vénus, Cupidon et un satyre",
