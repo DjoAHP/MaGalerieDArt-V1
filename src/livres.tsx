@@ -14,6 +14,7 @@ function Mythologie() {
   const [recueilaOpen, setRecueilAOpen] = useState(false);
   const [dessmaitresaOpen, setDessMaitresAOpen] = useState(false);
   const [artdessaOpen, setArtDessAOpen] = useState(false);
+    const [mythepeintureOpen, setMythePeintureOpen] = useState(false);
   {
     /* /// Léonard de Vinci ///  */
   }
@@ -202,6 +203,47 @@ function Mythologie() {
                 </p>
                 <a
                   href="https://archive.org/details/gri_33125009329638/mode/2up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/* La mythologie expliquée par la peinture (2017) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setMythePeintureOpen(!mythepeintureOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              La mythologie expliquée par la peinture (2017) ⮯
+            </button>
+            {mythepeintureOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  La 4e de couv. indique : "Chronique des âges farouches qui
+                  mènent de la création du monde aux civilisations antiques, la
+                  mythologie ignore la demi-mesure. Les monstres les plus
+                  terrifiants y sont vaincus par des héros à la force
+                  titanesque, à l'image de l'effroyable Hydre de Lerne dont
+                  Héraclès parvient à trancher les cinquante têtes! Les déesses
+                  y sont aussi belles qu'inflexibles, les dieux aussi cruels que
+                  sournois, les hommes aussi faibles qu'ingénieux. Apprenez à
+                  lire et déchiffrer les tableaux des plus grands peintres,
+                  commentés du double point de vue mythologique et artistique.
+                  De la sombre apparition des divinités premières jusqu'à la
+                  dictature de l'empire romain, en passant par la victoire des
+                  Dieux sur les Géants, ce sont cinquante épisodes majeurs de la
+                  mythologie que vous allez redécouvrir au travers de
+                  chefs-d'œuvre répartis sur deux millénaires. Un ouvrage clé
+                  pour connaître et décrypter les plus belles œuvres picturales
+                  portant sur la mythologie gréco-romaine."
+                </p>
+                <a
+                  href="https://archive.org/details/lamythologieexpl0000deni/mode/2up"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"

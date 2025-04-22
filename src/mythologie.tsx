@@ -15,6 +15,8 @@ function Mythologie() {
   const [perseeandroOpen, setPerseeAndroOpen] = useState(false);
   const [enleveeuropeOpen, setEnleveEuropeOpen] = useState(false);
   const [armideiOpen, setArmideIOpen] = useState(false);
+   const [jupithetisOpen, setJupiThetisOpen] = useState(false);
+
 
   // NAV HUMBURGER & BOUTONS
   function NavLinks() {
@@ -515,6 +517,27 @@ function Mythologie() {
             </div>
           )}
         </div>
+        {/* Jupiter et Thétis */}
+        <div className="mt-8">
+          <button
+            onClick={() => setJupiThetisOpen(!jupithetisOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Jupiter et Thétis ↓
+          </button>
+          {jupithetisOpen && (
+            <div className="mt-2">
+              <a
+                href="https://archive.org/details/lamythologieexpl0000deni/page/16/mode/2up?view=theater"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+              >
+               Lien Larousse
+              </a>
+            </div>
+          )}
+        </div>
         {/* Diane et Actéon */}
         <div className="mt-8">
           <button
@@ -692,18 +715,18 @@ function Mythologie() {
                 d’Oriane, se prépare à devenir fée. Par un subterfuge, Armide
                 manipule les sentiments de Renaud lui renvoyant, à chaque regard
                 une image idéale grâce à un jeu de miroir lui assurant
-                l’efficacité de ses appas. Lascif, le héros se féminise.
-                Armide en retour touchée par la beauté de Renaud devient une
-                séductrice séduite. Tiraillée entre la volonté de préserver son
-                amour et la nécessité de combattre l'ennemi Armide hésite. Deux
-                chevaliers, Ubolde et le Danois, arrivent à lever le sortilège.
-                Renaud prend alors conscience de sa condition de prisonnier,
-                alangui et efféminé. Malgré les suppliques et les promesses
-                d'Armide pour garder son amour à ses côtés, Renaud part avec les
-                croisés qui l'ont délivré et abandonne celle qui l'avait
-                envouté. Le personnage d’Armide connaît en France de nouveaux
-                succès artistique et littéraire avec l'opéra de Jean-Baptiste
-                Lully joué pour la première fois le 15 février 1686.
+                l’efficacité de ses appas. Lascif, le héros se féminise. Armide
+                en retour touchée par la beauté de Renaud devient une séductrice
+                séduite. Tiraillée entre la volonté de préserver son amour et la
+                nécessité de combattre l'ennemi Armide hésite. Deux chevaliers,
+                Ubolde et le Danois, arrivent à lever le sortilège. Renaud prend
+                alors conscience de sa condition de prisonnier, alangui et
+                efféminé. Malgré les suppliques et les promesses d'Armide pour
+                garder son amour à ses côtés, Renaud part avec les croisés qui
+                l'ont délivré et abandonne celle qui l'avait envouté. Le
+                personnage d’Armide connaît en France de nouveaux succès
+                artistique et littéraire avec l'opéra de Jean-Baptiste Lully
+                joué pour la première fois le 15 février 1686.
               </p>
             </div>
           )}
