@@ -266,6 +266,14 @@ function App() {
         >
           Chrono. Arts
         </a>
+        <a
+          href="https://ulysse-voyage.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+        >
+          Le Voyage d' Ulysse
+        </a>
       </>
     );
   }
