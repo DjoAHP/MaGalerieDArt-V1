@@ -14,7 +14,7 @@ function Mythologie() {
   const [recueilaOpen, setRecueilAOpen] = useState(false);
   const [dessmaitresaOpen, setDessMaitresAOpen] = useState(false);
   const [artdessaOpen, setArtDessAOpen] = useState(false);
-    const [mythepeintureOpen, setMythePeintureOpen] = useState(false);
+  const [mythepeintureOpen, setMythePeintureOpen] = useState(false);
   {
     /* /// Léonard de Vinci ///  */
   }
@@ -32,45 +32,38 @@ function Mythologie() {
   const [realismecaravageOpen, setRealismeCaravageOpen] = useState(false);
   // -----
 
+  // DEBUT NAVBAR
+
   // NAV HUMBURGER
   function NavLinks() {
+    const linkClass =
+      "w-60 px-2 py-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors";
+
     return (
       <>
-        <a
-          href="./dessins"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./" className={linkClass}>
+          Galerie des peintures
+        </a>
+        <a href="./dessins" className={linkClass}>
           Dessins & Gravures
         </a>
-        <a
-          href="./livres"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./livres" className={linkClass}>
           Livres
         </a>
-        <a
-          href="./scultures"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./scultures" className={linkClass}>
           Scultures
         </a>
-        <a
-          href="./musees"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./musees" className={linkClass}>
           Musées
         </a>
-        <a
-          href="./mythologie"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./mythologie" className={linkClass}>
           Ref. Mythologie
         </a>
         <a
           href="https://maitrecappelli.fr/frises-chrono/frise-01.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center mt-2"
         >
           Chrono. Arts
         </a>
@@ -78,16 +71,17 @@ function Mythologie() {
           href="https://ulysse-voyage.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center"
         >
-          Le Voyage d' Ulysse
+          Le Voyage d'Ulysse
         </a>
       </>
     );
   }
-  // CODE
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+      {/* Navbar */}
       {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
@@ -96,7 +90,7 @@ function Mythologie() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://thumbs.dreamstime.com/b/le-livre-antique-3621428.jpg"
+                  src="https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />
@@ -104,48 +98,54 @@ function Mythologie() {
             </div>
           </div>
 
-          {/* Hamburger Button */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-white focus:outline-none"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          {/* Bouton hamburger – positionné à droite */}
+          <div className="flex items-center">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-white focus:outline-none"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                }
-              />
-            </svg>
-          </button>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-4">
-            <NavLinks />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    menuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
+              </svg>
+            </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+        {/* Menu déroulant centré sous la navbar */}
+        <div
+          className={`transition-all duration-300 overflow-hidden ${
+            menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="px-4 pb-4 flex flex-col items-end space-y-2">
             <NavLinks />
           </div>
-        )}
+        </div>
       </nav>
+      {/* FIN NAVBAR  */}
 
       <div className="max-w-6xl mx-auto py-20">
-        <h1 className="text-3xl font-bold mb-4">Livres et Ouvrages</h1>
+        <h1 className="text-3xl font-bold mb-4 text-white">
+          Livres et Ouvrages
+        </h1>
         {/* FIN CODE  */}
         {/* -------------------------ELLEMENTS---------------------------  */}
-        <h1>༺𓆩 𝑳𝒆𝒄𝒕𝒖𝒓𝒆 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑳𝒆𝒄𝒕𝒖𝒓𝒆 𓆪༻</h1>
         <div className="LECTURE">
           {/* OVIDE - LES METAMORPHOSES (8 ap.J-C) */}
           <div className="mt-8">
@@ -184,7 +184,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1>༺𓆩 𝑶𝒖𝒗𝒓𝒂𝒈𝒆𝒔 𝑫𝒊𝒗𝒆𝒓𝒔 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑶𝒖𝒗𝒓𝒂𝒈𝒆𝒔 𝑫𝒊𝒗𝒆𝒓𝒔 𓆪༻</h1>
         <div className="OUVRAGES DIVERS">
           {/* Cours complet d'études pour la figure (1830) */}
           <div className="mt-8">
@@ -263,7 +263,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1>༺𓆩 𝑪𝒐𝒍𝒍𝒆𝒄𝒕𝒊𝒐𝒏𝒔 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑪𝒐𝒍𝒍𝒆𝒄𝒕𝒊𝒐𝒏𝒔 𓆪༻</h1>
         <div className="COLLECTIONS">
           {/*  Collection I (Dessins des maîtres anciens 1910) */}
           <div className="mt-8">
@@ -384,7 +384,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1>༺𓆩 𝑳𝒆𝒐𝒏𝒂𝒓𝒅 𝑫𝒆 𝑽𝒊𝒏𝒄𝒊 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑳𝒆𝒐𝒏𝒂𝒓𝒅 𝑫𝒆 𝑽𝒊𝒏𝒄𝒊 𓆪༻</h1>
         <div className="Léonard de Vinci">
           {/*  Léonard de Vinci / Biographie I (2024) */}
           <div className="mt-8">
@@ -508,7 +508,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1>༺𓆩 𝑺𝒂𝒏𝒅𝒓𝒂 𝑩𝒐𝒕𝒕𝒊𝒄𝒆𝒍𝒍𝒊 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑺𝒂𝒏𝒅𝒓𝒂 𝑩𝒐𝒕𝒕𝒊𝒄𝒆𝒍𝒍𝒊 𓆪༻</h1>
         <div className="LECTURE">
           {/* Dessins Ⅰ de Sandro Botticelli  (1896) */}
           <div className="mt-8">
@@ -540,7 +540,7 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1>༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
+        <h1 className="text-white">༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
         <div className="Le Caravage">
           {/* Liens utile */}
           <div className="mt-8">

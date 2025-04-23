@@ -600,7 +600,6 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
     description:
       "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis. ",
-      
   },
   {
     title: "Œdipe explique l'énigme du sphinx",
@@ -1344,45 +1343,44 @@ function App() {
     return filtered;
   }, [selectedArtist, searchQuery]);
 
+
+
+
+
+
+
+  // DEBUT NAVBAR 
+  
   // NAV HUMBURGER
   function NavLinks() {
+    const linkClass =
+      "w-60 px-2 py-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors";
+
     return (
       <>
-        <a
-          href="./dessins"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./" className={linkClass}>
+          Galerie des peintures
+        </a>
+        <a href="./dessins" className={linkClass}>
           Dessins & Gravures
         </a>
-        <a
-          href="./livres"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./livres" className={linkClass}>
           Livres
         </a>
-        <a
-          href="./scultures"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./scultures" className={linkClass}>
           Scultures
         </a>
-        <a
-          href="./musees"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./musees" className={linkClass}>
           Musées
         </a>
-        <a
-          href="./mythologie"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./mythologie" className={linkClass}>
           Ref. Mythologie
         </a>
         <a
           href="https://maitrecappelli.fr/frises-chrono/frise-01.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center mt-2"
         >
           Chrono. Arts
         </a>
@@ -1390,9 +1388,9 @@ function App() {
           href="https://ulysse-voyage.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center"
         >
-          Le Voyage d' Ulysse
+          Le Voyage d'Ulysse
         </a>
       </>
     );
@@ -1417,42 +1415,50 @@ function App() {
             </div>
           </div>
 
-          {/* Hamburger Button */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-white focus:outline-none"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          {/* Bouton hamburger – positionné à droite */}
+          <div className="flex items-center">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-white focus:outline-none"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                }
-              />
-            </svg>
-          </button>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-4">
-            <NavLinks />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    menuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
+              </svg>
+            </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+        {/* Menu déroulant centré sous la navbar */}
+        <div
+          className={`transition-all duration-300 overflow-hidden ${
+            menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="px-4 pb-4 flex flex-col items-end space-y-2">
             <NavLinks />
           </div>
-        )}
+        </div>
       </nav>
+      {/* FIN NAVBAR  */}
+
+
+
+
 
       {/* Content */}
       <div className="p-8 pt-20 max-w-[2000px] mx-auto">

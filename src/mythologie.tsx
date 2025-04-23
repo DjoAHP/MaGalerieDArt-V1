@@ -15,48 +15,40 @@ function Mythologie() {
   const [perseeandroOpen, setPerseeAndroOpen] = useState(false);
   const [enleveeuropeOpen, setEnleveEuropeOpen] = useState(false);
   const [armideiOpen, setArmideIOpen] = useState(false);
-   const [jupithetisOpen, setJupiThetisOpen] = useState(false);
+  const [jupithetisOpen, setJupiThetisOpen] = useState(false);
 
+  // DEBUT NAVBAR
 
-  // NAV HUMBURGER & BOUTONS
+  // NAV HUMBURGER
   function NavLinks() {
+    const linkClass =
+      "w-60 px-2 py-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors";
+
     return (
       <>
-        <a
-          href="./dessins"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./" className={linkClass}>
+          Galerie des peintures
+        </a>
+        <a href="./dessins" className={linkClass}>
           Dessins & Gravures
         </a>
-        <a
-          href="./livres"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./livres" className={linkClass}>
           Livres
         </a>
-        <a
-          href="./scultures"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./scultures" className={linkClass}>
           Scultures
         </a>
-        <a
-          href="./musees"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./musees" className={linkClass}>
           Musées
         </a>
-        <a
-          href="./mythologie"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./mythologie" className={linkClass}>
           Ref. Mythologie
         </a>
         <a
           href="https://maitrecappelli.fr/frises-chrono/frise-01.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center mt-2"
         >
           Chrono. Arts
         </a>
@@ -64,17 +56,17 @@ function Mythologie() {
           href="https://ulysse-voyage.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center"
         >
-          Le Voyage d' Ulysse
+          Le Voyage d'Ulysse
         </a>
       </>
     );
   }
 
-  // CODE, MYTHES & HISTOIRES
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+      {/* Navbar */}
       {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
@@ -83,7 +75,7 @@ function Mythologie() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://img-31.ccm2.net/RJ4La9i8P9OF_8DTxvXWbTvE1Cs=/910x/smart/d6d9a9d5cd3b49d783c53f9c1f929c0e/ccmcms-hugo/25336466.jpg"
+                  src="https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />
@@ -91,46 +83,52 @@ function Mythologie() {
             </div>
           </div>
 
-          {/* Hamburger Button */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-white focus:outline-none"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          {/* Bouton hamburger – positionné à droite */}
+          <div className="flex items-center">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-white focus:outline-none"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                }
-              />
-            </svg>
-          </button>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-4">
-            <NavLinks />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    menuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
+              </svg>
+            </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+        {/* Menu déroulant centré sous la navbar */}
+        <div
+          className={`transition-all duration-300 overflow-hidden ${
+            menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="px-4 pb-4 flex flex-col items-end space-y-2">
             <NavLinks />
           </div>
-        )}
+        </div>
       </nav>
+      {/* FIN NAVBAR  */}
 
       {/* MYTHES & HISTOIRES  */}
       <div className="max-w-6xl mx-auto py-20">
-        <h1 className="text-3xl font-bold mb-4">Reference Mythologique</h1>
+        <h1 className="text-3xl font-bold mb-4 text-white">
+          Reference Mythologique
+        </h1>
         <p className="text-gray-300">
           Bienvenue sur la page de référence mythologique.
         </p>
@@ -181,7 +179,7 @@ function Mythologie() {
           </button>
           {adonisOpen && (
             <div className="mt-2">
-              <p className="text-gray-300">
+              <p className="text-gray-300 ">
                 Dans la mythologie grecque, Adonis Écouter (en grec ancien
                 Ἄδωνις / Ádônis) est le fils de Cinyras et de sa fille Myrrha.
                 Il existe plusieurs versions sur l'identité de ses parents,
@@ -195,8 +193,8 @@ function Mythologie() {
                 certainement sémitique, la racine « Adon » signifiant « seigneur
                 ». Il apparaît en Orient, avec le même mythe à peu de détails
                 près, sous les noms de Tammouz ou de Thamous.
-              </p>
-              <p>
+                <br />
+                <br />
                 Adonis est fils de Cinyras, roi de Chypre et fondateur de la
                 ville de Paphos dans l’île de Chypre, et de la fille de
                 celui-ci, Myrrha, qu'il eut avec son épouse Cenchreis. La femme
@@ -223,68 +221,70 @@ function Mythologie() {
                 son fils et petit-fils Adonis, devenu adulte, le défia en
                 concours pour déterminer lequel d'eux était meilleur joueur de
                 lyre : Cinyras perdit et se suicida.
+                <br />
+                <br />
+                Dès sa naissance, Adonis est d'une grande beauté : « il pourrait
+                plaire même aux yeux de l’Envie. » (Ovide, les Métamorphoses).
+                Il fut aimé d'Aphrodite. Selon le pseudo-Apollodore, touchée par
+                la beauté de l'enfant, Aphrodite l'envoya dans un coffre en bois
+                à Perséphone, afin que celle-ci le garde en sécurité. Perséphone
+                eut la curiosité d'ouvrir le coffre et, trouvant Adonis, s'en
+                éprit et le disputa à Aphrodite, qui s'était rendue aux Enfers
+                pour le reprendre. Perséphone refusa de le rendre. Aphrodite en
+                appela à Zeus tout puissant afin de régler le différend entre
+                les deux déesses. Zeus refusa d'être juge dans une querelle
+                aussi déplaisante aussi confia-t-il l'affaire à un tribunal
+                inférieur, présidé par la Muse Calliope.
+                <br />
+                <br />
+                Celle-ci ordonna au jeune homme de passer un tiers de l'année
+                avec Aphrodite, un autre tiers avec Perséphone et le dernier
+                avec la personne de son choix. La décision de Calliope sembla,
+                dans un premier temps, apaiser les tensions entre les deux
+                déesses. Cependant, si Adonis respecta à la lettre les exigences
+                du roi des dieux, il choisit de consacrer le tiers de l'année
+                restant à Aphrodite, afin de vivre pleinement son amour pour
+                elle. Dès lors, le partage n'était plus équitable et l'amour qui
+                liait Aphrodite à Adonis attisa la colère de Perséphone et des
+                autres dieux. Car si la déesse de l'Amour, épouse légitime
+                d'Héphaïstos, avait coutume de multiplier les infidélités, elle
+                semblait cette fois-ci véritablement éprise de son jeune amant.
+                Un jour Adonis, qui parcourait la forêt idalienne pour chasser,
+                fut mortellement blessé à la jambe par le sanglier qu'il avait
+                touché. Une goutte de son sang tomba par terre et Aphrodite
+                versa une larme sur cette goutte de sang, qui donna naissance à
+                l'adonis goutte-de-sang. Monument funéraire en terre cuite
+                polychrome représentant Adonis mourant, entre 250 et 100 av.
+                J.-C. Musée grégorien étrusque Toutes les légendes s'accordent
+                sur cette fin tragique, mais elles diffèrent quant à
+                l'instigateur de ce drame. Certains mythes affirment qu'Arès
+                (dieu de la Guerre), l'amant officiel d'Aphrodite, ne supportait
+                pas d'être ainsi délaissé au profit d'un autre. Fou de jalousie,
+                il décida de reconquérir la déesse de l'Amour en éliminant
+                Adonis qu'il fit tuer par un sanglier. D'autres prétendent
+                qu'Apollon (dieu des Arts et de la Divination entre autres) fut
+                à l'origine de la mort d'Adonis.
+                <br />
+                <br />
+                Furieux contre Aphrodite, qui avait rendu aveugle son fils,
+                Érymanthe, pour l'avoir surprise dans son bain, Apollon aurait
+                arraché son bel amant à la déesse. Dans une autre version (Apol.
+                III, 183) c'est Artémis, peut-être jalouse de son habileté de
+                chasseur, qui lança contre lui un sanglier furieux. Une version
+                indique que c'est le sang d'Adonis qui donne sa couleur
+                brun-rouge à la rivière Adonis du Liban, lors des crues (cette
+                rivière prend source dans la grotte d'Aphaca où Adonis est censé
+                être né). Les amours d'Adonis avec Aphrodite et Perséphone
+                symbolisent les cycles des saisons et de leurs capacités à
+                produire des richesses dont pouvaient profiter les hommes. « On
+                reconnaît dans ce mythe une personnification des forces
+                productrices de la nature et une image du rythme des saisons. »
+                On a aussi rapproché le mythe de la mort d'Adonis par les faits
+                d'un sanglier, de celui du sanglier d'Érymanthe où c'est
+                l'animal qui succombe. Une autre version, rapportée par Servius,
+                indique que ce sont plutôt les roses qui apparaissent grâce au
+                sang d'Adonis et aux larmes d'Aphrodite.
               </p>
-              <br />
-              <br />
-              Dès sa naissance, Adonis est d'une grande beauté : « il pourrait
-              plaire même aux yeux de l’Envie. » (Ovide, les Métamorphoses). Il
-              fut aimé d'Aphrodite. Selon le pseudo-Apollodore, touchée par la
-              beauté de l'enfant, Aphrodite l'envoya dans un coffre en bois à
-              Perséphone, afin que celle-ci le garde en sécurité. Perséphone eut
-              la curiosité d'ouvrir le coffre et, trouvant Adonis, s'en éprit et
-              le disputa à Aphrodite, qui s'était rendue aux Enfers pour le
-              reprendre. Perséphone refusa de le rendre. Aphrodite en appela à
-              Zeus tout puissant afin de régler le différend entre les deux
-              déesses. Zeus refusa d'être juge dans une querelle aussi
-              déplaisante aussi confia-t-il l'affaire à un tribunal inférieur,
-              présidé par la Muse Calliope.
-              <br />
-              <br />
-              Celle-ci ordonna au jeune homme de passer un tiers de l'année avec
-              Aphrodite, un autre tiers avec Perséphone et le dernier avec la
-              personne de son choix. La décision de Calliope sembla, dans un
-              premier temps, apaiser les tensions entre les deux déesses.
-              Cependant, si Adonis respecta à la lettre les exigences du roi des
-              dieux, il choisit de consacrer le tiers de l'année restant à
-              Aphrodite, afin de vivre pleinement son amour pour elle. Dès lors,
-              le partage n'était plus équitable et l'amour qui liait Aphrodite à
-              Adonis attisa la colère de Perséphone et des autres dieux. Car si
-              la déesse de l'Amour, épouse légitime d'Héphaïstos, avait coutume
-              de multiplier les infidélités, elle semblait cette fois-ci
-              véritablement éprise de son jeune amant. Un jour Adonis, qui
-              parcourait la forêt idalienne pour chasser, fut mortellement
-              blessé à la jambe par le sanglier qu'il avait touché. Une goutte
-              de son sang tomba par terre et Aphrodite versa une larme sur cette
-              goutte de sang, qui donna naissance à l'adonis goutte-de-sang.
-              Monument funéraire en terre cuite polychrome représentant Adonis
-              mourant, entre 250 et 100 av. J.-C. Musée grégorien étrusque
-              Toutes les légendes s'accordent sur cette fin tragique, mais elles
-              diffèrent quant à l'instigateur de ce drame. Certains mythes
-              affirment qu'Arès (dieu de la Guerre), l'amant officiel
-              d'Aphrodite, ne supportait pas d'être ainsi délaissé au profit
-              d'un autre. Fou de jalousie, il décida de reconquérir la déesse de
-              l'Amour en éliminant Adonis qu'il fit tuer par un sanglier.
-              D'autres prétendent qu'Apollon (dieu des Arts et de la Divination
-              entre autres) fut à l'origine de la mort d'Adonis.
-              <br />
-              <br />
-              Furieux contre Aphrodite, qui avait rendu aveugle son fils,
-              Érymanthe, pour l'avoir surprise dans son bain, Apollon aurait
-              arraché son bel amant à la déesse. Dans une autre version (Apol.
-              III, 183) c'est Artémis, peut-être jalouse de son habileté de
-              chasseur, qui lança contre lui un sanglier furieux. Une version
-              indique que c'est le sang d'Adonis qui donne sa couleur brun-rouge
-              à la rivière Adonis du Liban, lors des crues (cette rivière prend
-              source dans la grotte d'Aphaca où Adonis est censé être né). Les
-              amours d'Adonis avec Aphrodite et Perséphone symbolisent les
-              cycles des saisons et de leurs capacités à produire des richesses
-              dont pouvaient profiter les hommes. « On reconnaît dans ce mythe
-              une personnification des forces productrices de la nature et une
-              image du rythme des saisons. » On a aussi rapproché le mythe de la
-              mort d'Adonis par les faits d'un sanglier, de celui du sanglier
-              d'Érymanthe où c'est l'animal qui succombe. Une autre version,
-              rapportée par Servius, indique que ce sont plutôt les roses qui
-              apparaissent grâce au sang d'Adonis et aux larmes d'Aphrodite.
             </div>
           )}
         </div>
@@ -541,7 +541,7 @@ function Mythologie() {
                 rel="noopener noreferrer"
                 className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
               >
-               Lien Larousse
+                Lien Larousse
               </a>
             </div>
           )}

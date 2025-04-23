@@ -3,45 +3,38 @@ import React, { useState } from "react";
 function Musees() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // DEBUT NAVBAR
+
   // NAV HUMBURGER
   function NavLinks() {
+    const linkClass =
+      "w-60 px-2 py-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors";
+
     return (
       <>
-        <a
-          href="./dessins"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./" className={linkClass}>
+          Galerie des peintures
+        </a>
+        <a href="./dessins" className={linkClass}>
           Dessins & Gravures
         </a>
-        <a
-          href="./livres"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./livres" className={linkClass}>
           Livres
         </a>
-        <a
-          href="./scultures"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./scultures" className={linkClass}>
           Scultures
         </a>
-        <a
-          href="./musees"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./musees" className={linkClass}>
           Musées
         </a>
-        <a
-          href="./mythologie"
-          className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors"
-        >
+        <a href="./mythologie" className={linkClass}>
           Ref. Mythologie
         </a>
         <a
           href="https://maitrecappelli.fr/frises-chrono/frise-01.html"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center mt-2"
         >
           Chrono. Arts
         </a>
@@ -49,16 +42,17 @@ function Musees() {
           href="https://ulysse-voyage.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center"
         >
-          Le Voyage d' Ulysse
+          Le Voyage d'Ulysse
         </a>
       </>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+      {/* Navbar */}
       {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
@@ -67,7 +61,7 @@ function Musees() {
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
                 <img
-                  src="https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2021/02/marbres-thasos-main-1-tt-width-1200-height-900-fill-0-crop-1-bgcolor-ffffff.jpg"
+                  src="https://www.vice.com/wp-content/uploads/sites/2/2018/04/1523290548731-medusablack.jpeg"
                   alt="Logo"
                   className="object-cover w-full h-full"
                 />
@@ -75,42 +69,47 @@ function Musees() {
             </div>
           </div>
 
-          {/* Hamburger Button */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-white focus:outline-none"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          {/* Bouton hamburger – positionné à droite */}
+          <div className="flex items-center">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-white focus:outline-none"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
-                }
-              />
-            </svg>
-          </button>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-4">
-            <NavLinks />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    menuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
+              </svg>
+            </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden px-4 pb-4 flex flex-col space-y-2">
+        {/* Menu déroulant centré sous la navbar */}
+        <div
+          className={`transition-all duration-300 overflow-hidden ${
+            menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="px-4 pb-4 flex flex-col items-end space-y-2">
             <NavLinks />
           </div>
-        )}
+        </div>
       </nav>
+      {/* FIN NAVBAR  */}
+
       <div className="max-w-6xl mx-auto py-20">
         <h1 className="text-3xl font-bold mb-4">Les Musées du monde</h1>
         <p className="text-gray-300">
