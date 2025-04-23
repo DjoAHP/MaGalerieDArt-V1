@@ -111,13 +111,15 @@ function Musees() {
       {/* FIN NAVBAR  */}
 
       <div className="max-w-6xl mx-auto py-20">
-        <h1 className="text-3xl font-bold mb-4">Les Musées du monde</h1>
+        <h1 className="text-3xl font-bold mb-4 text-white">
+          Les Musées du monde
+        </h1>
         <p className="text-gray-300">
           Bienvenue sur la page des Musées du monde.
         </p>
         {/* LOUVRE  */}
         <div className="mt-8">
-          <h2 className="text-2xl font-semibold mb-2">Le Louvre</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-white">Le Louvre</h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/fr/9/9f/Musee_du_Louvre_1992_logo.png"
             alt="Louvre"
@@ -139,7 +141,9 @@ function Musees() {
 
         {/* Galerie Borghèse  */}
         <div className="mt-8">
-          <h2 className="text-2xl font-semibold mb-2">Galerie Borghèse</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-white">
+            Galerie Borghèse
+          </h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Galleria_Borghese_-_logo_%28Italy%2C_2022-%29.svg/1200px-Galleria_Borghese_-_logo_%28Italy%2C_2022-%29.svg.png"
             alt="Galerie Borghèse"
@@ -163,7 +167,9 @@ function Musees() {
 
         {/* Palais Farnèse  */}
         <div className="mt-8">
-          <h2 className="text-2xl font-semibold mb-2">Palais Farnèse</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-white">
+            Palais Farnèse
+          </h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Volta_della_Galleria_Farnese_dopo_il_restauro_del_2015.jpg/960px-Volta_della_Galleria_Farnese_dopo_il_restauro_del_2015.jpg"
             alt="Palais Farnèse"
@@ -187,7 +193,9 @@ function Musees() {
         {/* FIN  */}
         {/* National Gallery  */}
         <div className="mt-8">
-          <h2 className="text-2xl font-semibold mb-2">National Gallery</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-white">
+            National Gallery
+          </h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/National_Gallery_London_logo.svg/2560px-National_Gallery_London_logo.svg.png"
             alt="Palais Farnèse"
@@ -217,7 +225,7 @@ function Musees() {
         {/* FIN  */}
         {/* The Uffizi  */}
         <div className="mt-8">
-          <h2 className="text-2xl font-semibold mb-2">The Uffizi</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-white">The Uffizi</h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Uffizi_Galleres_logo.svg/2880px-Uffizi_Galleres_logo.svg.png"
             alt="Palais Farnèse"
