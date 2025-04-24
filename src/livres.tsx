@@ -16,6 +16,16 @@ function Mythologie() {
   const [artdessaOpen, setArtDessAOpen] = useState(false);
   const [mythepeintureOpen, setMythePeintureOpen] = useState(false);
   {
+    /* /// Cours de dessins ///  */
+  }
+  const [desspaspasOpen, setDessPasPasOpen] = useState(false);
+  const [principeiOpen, setPrincipeIOpen] = useState(false);
+  const [estampesiOpen, setEstampesIOpen] = useState(false);
+  {
+    /* /// Cours de peinture///  */
+  }
+  const [courspeintIOpen, setCoursPeintIOpen] = useState(false);
+  {
     /* /// Léonard de Vinci ///  */
   }
   const [carnetiOpen, setCarnetIOpen] = useState(false);
@@ -373,6 +383,149 @@ function Mythologie() {
                 </p>
                 <a
                   href="https://archive.org/details/gri_33125008463644/mode/2up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+        </div>
+        <h1 className="text-white">༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒅𝒆𝒔𝒔𝒊𝒏𝒔 𓆪༻</h1>
+        <div className="COURS DE DESSINS">
+          {/* Dessiner pas à pas (2009) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setDessPasPasOpen(!desspaspasOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Dessiner pas à pas (2009) ⮯
+            </button>
+            {desspaspasOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Méthode d'apprentissage décrivant les techniques basiques de
+                  représentation (croquis, ombres, pointillé, etc.). Avec plus
+                  de 1.000 illustrations, une introduction aux principes de la
+                  perspective et des conseils pratiques, le guide montre pas à
+                  pas comment maîtriser les structures, les motifs et les lignes
+                  afin de donner vitalité et profondeur à ses dessins.
+                  <br />
+                  <br />- Date de publication: 2009
+                </p>
+                <a
+                  href="https://archive.org/details/dessinerpasapas0000dubo/page/10/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/* Les principes de la figure, anatomie & perspective (1803) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setPrincipeIOpen(!principeiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Les principes de la figure, anatomie & perspective (1803) ⮯
+            </button>
+            {principeiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Cours de dessin : comprenant les principes de la figure,
+                  dans les trois états d'enfance, de virilité et de décrépitude
+                  : l'anatomie (myologie et osteologie), la perspective, un
+                  traité des ombres et du clairobscur, et une méthode pour
+                  dessiner les paysages, les fleurs et les ornemens, avec un
+                  grand nombre de figures en tailledouce, pour l'application des
+                  principes : précédé de réflexions sur une nouvelle méthode,
+                  propre à accélérer l'avancement de la jeunesse dans l'étude du
+                  dessin.
+                  <br />
+                  <br />- Date de publication: 1803
+                </p>
+                <a
+                  href="https://archive.org/details/nouveaucoursdede00pine/page/n11/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          {/* Recueil d'estampes (1729) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setEstampesIOpen(!estampesiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Recueil d'estampes (1729) ⮯
+            </button>
+            {estampesiOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - Planches gravées par Chereau, Surugue, Edelinck, Valée,
+                  Simonneau, Cochin, Tardieu, Le Sueur, et al. d'après des
+                  peintures de Raphaël, Michel-Ange, Titien, Véronèse, et al. ;
+                  coiffe de F. Horthemels d'après JB Van Loo Connu sous le nom
+                  de Cabinet de Crozat ou Recueil de Crozat. Recueilli par
+                  Joseph Antoine Crozat, ou selon une opinion plus récente, par
+                  Pierre Crozat 2 volumes : 53 cm (fol.) Un certain nombre de
+                  planches sont montées et en états multiples Planches gravées
+                  par Chereau, Surugue, Edelinck, Valée, Simonneau, Cochin,
+                  Tardieu, Le Sueur, et al. d'après des peintures de Raphaël,
+                  Michel-Ange, Titien, Véronèse, et al. ; coiffe de F.
+                  Horthemels d'après JB Van Loo Connu sous le nom de Cabinet de
+                  Crozat ou Recueil de Crozat. Recueilli par Joseph Antoine
+                  Crozat, ou, selon une opinion exprimée plus récemment, par
+                  Pierre Crozat.
+                  <br />
+                  <br />- Date de publication: 1729
+                </p>
+                <a
+                  href="https://archive.org/details/gri_33125008635365/page/n11/mode/thumb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+        </div>
+        <h1 className="text-white">༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒑𝒆𝒊𝒏𝒕𝒖𝒓𝒆 (𝑯𝒖𝒊𝒍𝒆) 𓆪༻</h1>
+        <div className="COURS DE PEINTURE">
+          {/* Cours complet de peinture a l'huile Ⅰ (1900) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setCoursPeintIOpen(!courspeintiOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Cours complet de peinture a l'huile Ⅰ (1900) ⮯
+            </button>
+            {courspeintIOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - pt. 1. L'outillage et materiel -- pt. 2. Natures mortes --
+                  pt. 3. Fleurs, fruits, legumes et gibier -- pt. 4. Paysages --
+                  pt. 5. Marines -- pt. 6. Animaux -- pt. 7. Figures
+                  <br />
+                  <br />- Date de publication: 1900
+                </p>
+                <a
+                  href="https://archive.org/details/courscompletdepe02hare/page/n11/mode/thumb"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
