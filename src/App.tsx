@@ -182,6 +182,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Charles West Cope [GRB / 1811-1890]"
+  {
+    title: "L'Alarme de nuit : l'Avance !",
+    artist: "Charles West Cope [GRB / 1811-1890]",
+    year: "1871",
+    imageUrl:
+      "https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,cs_tinysrgb,dn_72,f_auto,fl_progressive.keep_iptc,w_1200/zx2bqhllf01jec57qzis.jpeg",
+    link: "https://www.royalacademy.org.uk/art-artists/work-of-art/the-night-alarm-the-advance",
+    description:
+      "Cope étudia à la Royal Academy Schools à partir de 1828, puis voyagea en France et en Italie entre 1832 et 1835. Il peignit des sujets littéraires, historiques et bibliques, ainsi que des scènes de genre domestiques...",
+  },
+  // #endregion
+
   // #region "Cavalier D'Arpin [ITA / 1568-1640]"
   {
     title: "Persée et Andromède",
@@ -230,6 +243,7 @@ const artworks: Artwork[] = [
       "Armide est une magicienne Sarrasine, fille de Hidraot, roi de Damas, envoyée pour capturer les plus grands paladins croisés et tuer le chevalier chrétien Renaud. Elle tombe amoureuse de lui et l'enferme dans un Jardin fabuleux où elle l'envoûte de ses délices.",
   },
   // #endregion
+  
   // #endregion
 
   // #region🔹 -----D-----
