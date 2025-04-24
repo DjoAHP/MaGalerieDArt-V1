@@ -71,6 +71,7 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region🔹 -----L-----
+
   // #region "Le Bernin (Gian Lorenzo Bernini) [ITA / 1598-1680]"
   {
     title: "Apollon et Daphné",
@@ -93,6 +94,20 @@ const artworks: Artwork[] = [
       "L'Enlèvement de Proserpine ou Le Rapt de Proserpine est un grand groupe baroque sculpté en marbre de l'artiste italien Le Bernin, exécuté entre 1621 et 1622, lorsque sa carrière est à ses débuts. Le groupe, achevé alors qu'il n'a que 23 ans, représente le « rapt de Proserpine » (Perséphone dans la mythologie grecque), capturée et emmenée aux Enfers par le dieu Pluton (Hadès). On y voit Pluton soulevant Proserpine et un Cerbère symbolisant la frontière vers le monde souterrain dans lequel Pluton la transporte.",
   },
   // #endregion
+
+  // #region "Lambert Sigisbert Adam [FRA / 1700-1759]"
+  {
+    title: "Buste d'Amphitrite",
+    artist: "Lambert Sigisbert Adam [FRA / 1700-1759]",
+    year: "1720-1730",
+    imageUrl:
+      "https://www.artrenewal.org/secureimages/artwork/399/3998/84590/c41e7f41-1d2d-447e-8b55-be740fac0920..jpg?mode=max&width=800&height=800&format=JPEG",
+    link: "https://www.artrenewal.org/artworks/lambert-sigisbert-adam/bust-of-amphitrite/84590",
+    description:
+      "Amphitrite (en grec ancien Ἀμφιτρίτη / Amphitrítē) est la déesse Néréide grècenne de la mer à être la reine des mers et des océans dans la mythologie grecque, fille de Nérée et de Doris selon certaines sources tardives), épouse de Poséidon.",
+  },
+  // #endregion
+
   // #endregion
 
   // #region🔹 -----M-----
