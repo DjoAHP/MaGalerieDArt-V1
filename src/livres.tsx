@@ -154,8 +154,19 @@ function Mythologie() {
           Livres et Ouvrages
         </h1>
         {/* FIN CODE  */}
-        {/* -------------------------ELLEMENTS---------------------------  */}
-        <h1 className="text-white">༺𓆩 𝑳𝒆𝒄𝒕𝒖𝒓𝒆 𓆪༻</h1>
+        {/* -------------------------LECTURE---------------------------  */}
+
+        {/* vignette LECTURE  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://img.freepik.com/photos-premium/composition-livres-table_756748-63684.jpg" // ou un lien complet vers ton image
+            alt="Catégorie Lecture"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑳𝒆𝒄𝒕𝒖𝒓𝒆 𓆪༻</h1>
+        </div>
+        {/* FIN vignette LECTURE  */}
+
         <div className="LECTURE">
           {/* OVIDE - LES METAMORPHOSES (8 ap.J-C) */}
           <div className="mt-8">
@@ -194,7 +205,19 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑶𝒖𝒗𝒓𝒂𝒈𝒆𝒔 𝑫𝒊𝒗𝒆𝒓𝒔 𓆪༻</h1>
+        {/* -------------------------OUVRAGES DIVERS---------------------------  */}
+
+        {/* vignette OUVRAGES DIVERS  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://img.freepik.com/photos-premium/bibliotheque-medievale-contient-vieux-textes-religieux-sombres-ai-generative_188544-8956.jpg"
+            alt="Catégorie Ouvrages divers"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑶𝒖𝒗𝒓𝒂𝒈𝒆𝒔 𝑫𝒊𝒗𝒆𝒓𝒔 𓆪༻</h1>
+        </div>
+        {/* FIN vignette OUVRAGES DIVERS  */}
+
         <div className="OUVRAGES DIVERS">
           {/* FIN  */}
           {/* La mythologie expliquée par la peinture (2017) */}
@@ -239,7 +262,20 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒅𝒆𝒔𝒔𝒊𝒏𝒔 𓆪༻</h1>
+
+        {/* -------------------------COURS DE DESSIN---------------------------  */}
+
+        {/* vignette COURS DE DESSINS  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://www.shutterstock.com/image-illustration/black-white-sketch-two-horse-600nw-2430175799.jpg"
+            alt="Catégorie Cours de dessins"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒅𝒆𝒔𝒔𝒊𝒏𝒔 𓆪༻</h1>
+        </div>
+        {/* FIN vignette COURS DE DESSINS  */}
+
         <div className="COURS DE DESSINS">
           {/* Cours complet d'études pour la figure (1830) */}
           <div className="mt-8">
@@ -502,7 +538,22 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒑𝒆𝒊𝒏𝒕𝒖𝒓𝒆 (𝑯𝒖𝒊𝒍𝒆) 𓆪༻</h1>
+
+        {/* -------------------------COURS DE PEINTURE (HUILE)---------------------------  */}
+
+        {/* vignette COURS DE PEINTURE  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Oil_painting_palette.jpg/250px-Oil_painting_palette.jpg"
+            alt="Catégorie Cours de peinture"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">
+            ༺𓆩 𝑪𝒐𝒖𝒓𝒔 𝒅𝒆 𝒑𝒆𝒊𝒏𝒕𝒖𝒓𝒆 (𝑯𝒖𝒊𝒍𝒆) 𓆪༻
+          </h1>
+        </div>
+        {/* FIN vignette COURS DE PEINTURE  */}
+
         <div className="COURS DE PEINTURE">
           {/* Cours complet de peinture a l'huile Ⅰ (1900) */}
           <div className="mt-8">
@@ -534,7 +585,20 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑳𝒆𝒐𝒏𝒂𝒓𝒅 𝑫𝒆 𝑽𝒊𝒏𝒄𝒊 𓆪༻</h1>
+
+        {/* -------------------------LEONAD DE VINCI---------------------------  */}
+
+        {/* vignette LEONAD DE VINCI  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://www.singulart.com/blog/wp-content/uploads/2023/12/Leonardo-Da-Vinci-1024x1024.webp"
+            alt="Catégorie LEONAD DE VINCI"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑳𝒆𝒐𝒏𝒂𝒓𝒅 𝑫𝒆 𝑽𝒊𝒏𝒄𝒊 𓆪༻</h1>
+        </div>
+        {/* FIN vignette LEONAD DE VINCI  */}
+
         <div className="Léonard de Vinci">
           {/*  Léonard de Vinci / Biographie I (2024) */}
           <div className="mt-8">
@@ -658,7 +722,20 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑺𝒂𝒏𝒅𝒓𝒐 𝑩𝒐𝒕𝒕𝒊𝒄𝒆𝒍𝒍𝒊 𓆪༻</h1>
+
+        {/* -------------------------SANDRO BOTTICELLI---------------------------  */}
+
+        {/* vignette BOTTICELLI  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sandro_Botticelli_Self-portrait_ca_1475.jpg/1200px-Sandro_Botticelli_Self-portrait_ca_1475.jpg"
+            alt="Catégorie BOTTICELLI"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑺𝒂𝒏𝒅𝒓𝒐 𝑩𝒐𝒕𝒕𝒊𝒄𝒆𝒍𝒍𝒊 𓆪༻</h1>
+        </div>
+        {/* FIN vignette BOTTICELLI  */}
+
         <div className="LECTURE">
           {/* Dessins Ⅰ de Sandro Botticelli  (1896) */}
           <div className="mt-8">
@@ -690,7 +767,20 @@ function Mythologie() {
           </div>
           {/* FIN  */}
         </div>
-        <h1 className="text-white">༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
+
+        {/* -------------------------CARAVAGE---------------------------  */}
+
+        {/* vignette CARAVAGE  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://media.beauxarts.com/uploads/2018/09/portrait-de-michelangelo-merisi-da-caravaggio-recadree-964x1273.jpg"
+            alt="Catégorie CARAVAGE"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
+        </div>
+        {/* FIN vignette CARAVAGE  */}
+        
         <div className="Le Caravage">
           {/* Liens utile */}
           <div className="mt-8">
