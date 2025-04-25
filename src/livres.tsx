@@ -7,6 +7,8 @@ function Mythologie() {
     /* /// LIVRES (Lecture) ///  */
   }
   const [metaovidOpen, setMetaOvidOpen] = useState(false);
+    const [iliadeOpen, setIliadeOpen] = useState(false);
+        const [odysseeOpen, setOdysseeOpen] = useState(false);
 
   //   -----
   const [edfigOpen, setEdfigOpen] = useState(false);
@@ -194,6 +196,75 @@ function Mythologie() {
                 </p>
                 <a
                   href="https://bcs.fltr.ucl.ac.be/METAM/Met00-Intro.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+          
+          {/* HOMERE - L' ILIADE (entre -850 et -750) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setIliadeOpen(!iliadeOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              HOMERE - L' ILIADE (entre -850 et -750) ⮯
+            </button>
+            {iliadeOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - La guerre de Troie dure depuis bientôt dix ans. Elle oppose
+                  les Achéens venus de toute la Grèce, aux Troyens et à leurs
+                  alliés. Face à la cité fortifiée, les centaines de navires des
+                  assiégeants reposent sur la plage et leur servent de
+                  campement. L’Iliade relate, dans l'ordre chronologique, six
+                  journées et nuits de la guerre ; le chant XXIV se déroule
+                  douze jours après les événements du chant XXIII. En aucune
+                  partie du texte n’est annoncée la prise de Troie grâce à la
+                  ruse du cheval de bois.
+                  <br />
+                  <br />- Date de publication: entre -850 et -750
+                </p>
+                <a
+                  href="https://archive.org/details/A316390/mode/2up"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Voir l' ouvrage
+                </a>
+              </div>
+            )}
+          </div>
+          {/* FIN  */}
+
+          {/* HOMERE - L' ODYSSEE (fin du VIIIe siècle av. J.-C) */}
+          <div className="mt-8">
+            <button
+              onClick={() => setOdysseeOpen(!odysseeOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              HOMERE - L' ODYSSEE (fin du VIIIe siècle av. J.-C) ⮯
+            </button>
+            {odysseeOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  - L’Odyssée raconte le retour d’Ulysse, roi d’Ithaque, dans
+                  son pays, après la guerre de Troie dont l’Iliade ne raconte
+                  qu'une petite partie. L'Odyssée contient aussi un certain
+                  nombre d'épisodes qui complètent le récit de la guerre, par
+                  exemple la construction du cheval de Troie et la chute de la
+                  ville, qui ne sont pas évoquées dans l’Iliade.
+                  <br />
+                  <br />- Date de publication: fin du VIIIe siècle av. J.-C
+                </p>
+                <a
+                  href="https://archive.org/details/lodyssee0000home_c9b5/page/10/mode/thumb?q=%22pas+si+sot%22"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
@@ -780,7 +851,7 @@ function Mythologie() {
           <h1 className="text-white text-2xl">༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
         </div>
         {/* FIN vignette CARAVAGE  */}
-        
+
         <div className="Le Caravage">
           {/* Liens utile */}
           <div className="mt-8">
