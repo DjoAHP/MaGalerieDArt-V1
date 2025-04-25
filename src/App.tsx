@@ -243,7 +243,7 @@ const artworks: Artwork[] = [
       "Armide est une magicienne Sarrasine, fille de Hidraot, roi de Damas, envoyée pour capturer les plus grands paladins croisés et tuer le chevalier chrétien Renaud. Elle tombe amoureuse de lui et l'enferme dans un Jardin fabuleux où elle l'envoûte de ses délices.",
   },
   // #endregion
-  
+
   // #endregion
 
   // #region🔹 -----D-----
@@ -645,6 +645,17 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
     description:
       "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
+  },
+
+  {
+    title: "La Maladie d'Antiochus",
+    artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
+    year: "1840",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/Jean-Auguste-Dominique_Ingres_-_La_maladie_d%27Antiochus%2C_ou_Antiochus_et_Stratonice_-_Google_Art_Project.jpg",
+    link: "https://fr.wikipedia.org/wiki/La_Maladie_d%27Antiochus",
+    description:
+      "Ingres prend pour sujet une scène décrite par de nombreux auteurs antiques : Plutarque dans sa Vie de Démétrios, Diodore de Sicile, Pline l'Ancien, Lucien de Samosate, Appien, Valère Maxime, et mentionné dans la Suda. Antiochos Ier (325-261 av. J.-C.) est le fils de Séleucos Ier, général d'Alexandre le Grand et fondateur de la dynastie des Séleucides. Il tombe secrètement amoureux de la nouvelle épouse de son père, Stratonice, fille du roi de Macédoine Démétrios Ier Poliorcète. La passion coupable le ronge et il en tombe malade. Alors qu'il est mourant, le médecin Érasistrate découvre la source de sa maladie : il s'agite et son cœur s'accélère lorsque Stratonice rentre dans la pièce. Son père s'effondre alors au pied du lit.",
   },
   // #endregion
 
