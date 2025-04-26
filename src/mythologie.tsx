@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Mythologie() {
+   const [searchQuery, setSearchQuery] = useState("");
   // NAV HUMBURGER ⬎
   const [menuOpen, setMenuOpen] = useState(false);
   const [venusOpen, setVenusOpen] = useState(false);
@@ -16,6 +17,9 @@ function Mythologie() {
   const [enleveeuropeOpen, setEnleveEuropeOpen] = useState(false);
   const [armideiOpen, setArmideIOpen] = useState(false);
   const [jupithetisOpen, setJupiThetisOpen] = useState(false);
+  const [ganymedeOpen, setGanymedeOpen] = useState(false);
+  const [davgoOpen, setDavGoOpen] = useState(false);
+  const [apomasOpen, setApoMasOpen] = useState(false);
 
   // DEBUT NAVBAR
 
@@ -63,6 +67,9 @@ function Mythologie() {
       </>
     );
   }
+
+
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
@@ -165,6 +172,18 @@ function Mythologie() {
                 Vénus est divisée en deux versions complémentaires, la Vénus
                 céleste et la Vénus terrestre, symbolisant l'amour spirituel et
                 l'amour matériel, théorie dérivée du Banquet de Platon.
+                <br />
+                <br />
+                Selon la légende, Vénus (Aphrodite dans la mythologie grecque),
+                déesse de l'amour, est née des parties génitales du dieu Uranus,
+                coupées par son fils Saturne puis jetées à la mer. Selon le
+                mythe, la déesse fut transportée par Zéphyr, dieu du vent
+                d'ouest, jusqu'à la terre ferme, et accueillie par les Heures,
+                déesses des saisons, qui l'habillèrent et la conduisirent à la
+                demeure des dieux. Par exemple: Botticelli se concentre sur la sortie de
+                la déesse de la mer et son arrivée sur la terre ferme poussée
+                par les vents, au milieu d'une pluie de fleurs symbolisant la
+                fécondation de la mer par le ciel.
               </p>
             </div>
           )}
@@ -736,6 +755,214 @@ function Mythologie() {
                 artistique et littéraire avec l'opéra de Jean-Baptiste Lully
                 joué pour la première fois le 15 février 1686.
               </p>
+            </div>
+          )}
+        </div>
+        {/*  Le viol de Ganymède */}
+        <div className="mt-8">
+          <button
+            onClick={() => setGanymedeOpen(!ganymedeOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Le viol de Ganymède ↓
+          </button>
+          {ganymedeOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Si l'on en croit le nombre de fois et le large éventail
+                d'auteurs qui font référence à ce récit, celui-ci dut être très
+                populaire. Il n'existe pas de version unique de l'histoire
+                jusqu'à ce qu'elle ne soit reprise par l'écrivain romain Ovide
+                (l. 43 av. JC - 17 ap. JC), mais chaque auteur entre Homère et
+                Ovide semble faire référence à la même histoire, qui diffère
+                pourtant de celle d'Homère.
+                <br />
+                <br />
+                Le mythe raconte l'histoire de Tros, fondateur de la ville de
+                Troie, et de ses trois fils, beaux et sans défaut, dont
+                Ganymède, le plus jeune et le plus beau. Un jour, alors qu'il
+                gardait ses troupeaux sur le mont Ida, il est aperçu par Zeus
+                qui, sous la forme d'un aigle, l'attrape et l'emporte dans
+                l'Olympe. Une fois sur place, Ganymède devient le jeune amant et
+                l'échanson de Zeus, remplaçant Hébé, déesse de la jeunesse, qui
+                occupait le poste d'échanson. Héra, reine des dieux, épouse de
+                Zeus et mère d'Hébé, est furieuse de ce nouvel arrivant et, dans
+                certaines versions ultérieures, lui cause divers problèmes à la
+                cour. Ganymède, se rendant compte des problèmes qu'elle pourrait
+                lui causer ainsi qu'à tous les autres membres de la cour, et
+                cherchant un moyen pour que Zeus le libère, et en même temps
+                souhaitant aider les habitants de la terre, verse l'eau des
+                dieux pour les mortels. Zeus réalise qu'il a mal traité le jeune
+                homme, ainsi que le père du garçon, et place Ganymède dans les
+                cieux sous la forme de la constellation du Verseau tout en
+                récompensant Tros avec des chevaux divins. Ganymède devient le
+                porteur d'eau de l'humanité, Hébé reprend son rôle d'échanson
+                pour Zeus, et Héra est apaisée pour le moment jusqu'à la
+                prochaine escapade de Zeus.
+                <br />
+                <br />
+                C'est la forme de base du conte, mais les différentes versions
+                incluent des détails variés. Dans certaines versions, Zeus
+                envoie un aigle géant pour enlever le jeune homme, dans
+                d'autres, il apparaît lui même en tant qu'homme. Dans certaines
+                versions, Ganymède semble n'avoir que 12 ans, dans d'autres, il
+                peut avoir environ 16 ans. Héra ne met pas toujours à exécution
+                son désir de rendre la vie de Ganymède impossible, et Hébé ne
+                reprend pas toujours son poste d'échanson. Toutes les versions
+                semblent cependant s'accorder sur la relation romantique et
+                sexuelle de Zeus avec Ganymède. Certaines sources critiquent
+                cette relation spécifique, mais la plupart considèrent les
+                relations homosexuelles comme parfaitement naturelles,
+                conformément à l'éthique du monde homérique et à l'acceptation
+                de ce qui, aujourd'hui, serait défini comme des relations
+                homosexuelles dans la Grèce des VIe et IVe siècles avant notre
+                ère.
+              </p>
+            </div>
+          )}
+        </div>
+        {/*  David et Goliath */}
+        <div className="mt-8">
+          <button
+            onClick={() => setDavGoOpen(!davgoOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            David et Goliath ↓
+          </button>
+          {davgoOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Le combat de David contre Goliath (Samuel 17, 1-58), cité
+                également dans le Coran (sourate 2, verset 251), dans lequel le
+                futur roi d'Israël David, fils du berger Isaï, le plus petit de
+                ses 7 frères et encore adolescent, abat le héros des Philistins,
+                le géant et courageux Goliath, d’un caillou lancé avec une
+                fronde.
+                <br />
+                <br />
+                Récit biblique: Le récit décrit Goliath comme étant un géant
+                d'une taille « de six coudées et un empan » soit environ 2,90 m,
+                avec une cotte de mailles en cuivre d'une masse de 5 000 sicles,
+                soit 57 kg, et la lame en fer de sa lance de 600 sicles soit
+                près de 7 kg. Goliath partit du camp philistin et mit l'armée
+                d'Israël au défi de trouver un homme suffisamment fort pour
+                gagner un duel déterminant l'issue du combat entre les deux
+                nations. Cette provocation fut réitérée quotidiennement pendant
+                40 jours, matin et soir dans la vallée des Térébinthes.
+                Finalement, David, jeune berger agréé par Dieu, releva le défi
+                lancé par Goliath. Après avoir déclaré qu'il venait contre lui
+                avec l'appui de Dieu, David lui jeta une pierre avec sa fronde.
+                Celle-ci s'enfonça dans le front de Goliath qui tomba à terre.
+                David lui prit son épée et acheva le géant en lui coupant la
+                tête. Plus tard, David se rend chez le prêtre Achimélech dans la
+                ville de Nob et reprend l'épée de Goliath. Goliath a un frère
+                appelé Lahmi qui est tué par Elchanan le fils de Jaïr. Goliath
+                et Lahmi sont des descendants des Rephaïm.
+                <br />
+                <br />
+                La trame du récit de Goliath a pour but de montrer que Saül
+                n'est plus digne d'être roi (et que David l'est). Goliath était
+                le champion des Philistins, qui se battaient pour dominer le
+                territoire. Pourtant, selon le pasteur luthérien Mark Koonz de
+                la Emmanuel Lutheran Church, il y avait un homme du camp
+                israélite qui pouvait presque l'égaler en taille : c'était le
+                roi Saül. Selon le verset 2 du chapitre 9 du Premier livre de
+                Samuel, Saül était plus grand que les autres Israélites,
+                c'est-à-dire qu'il était, selon Mark Koonz, le plus proche de
+                Goliath en taille. D'après lui, Saül était le seul Israélite à
+                posséder une armure corporelle de qualité comparable à celle de
+                Goliath donc il aurait dû être le champion qui représentait
+                Israël. De plus, selon lui, contrairement aux autres soldats
+                israélites, Saül craignait son habileté et son entraînement et
+                non sa taille. Le pasteur Mark Koonz explique qu'il est
+                sous-entendu que si Saül avait placé sa confiance en Dieu pour
+                sa protection et son aide et lui avait obéi, Dieu l'aurait
+                honoré et lui aurait donné la victoire sur Goliath. En
+                combattant et en battant le champion des philistins, David agit
+                comme le roi aurait dû le faire. En fait, selon J. Daniel Hays,
+                un doyen de la Pruet School of Christian Studies et un
+                professeur de l'Ancien Testament à l' Université baptiste
+                d'Ouachita (en), le jeune David endosse officieusement le rôle
+                de roi dans cette bataille, en échangeant le troupeau de moutons
+                au sens propre de son père humain contre le troupeau de moutons
+                au sens figuré (les Israélites) de son père céleste, puis en
+                tuant celui qui menace le troupeau. Hays estime qu'il ne fait
+                aucun doute que David aurait pu se proclamer roi à ce moment-là,
+                et que la nation israélite l'aurait suivi. Cependant, Hays
+                rappelle que David, contrairement à Saül, est un homme selon le
+                cœur de Dieu, et il attend que Dieu destitue Saül du trône pour
+                être le roi. Hays estime que si Goliath mesure 1,80 m, cela met
+                encore plus en évidence le fait qu'il incombait à Saül d'aller
+                le combattre, soulignant ainsi le contraste important entre le
+                roi effrayé et le jeune berger courageux, contraste qui
+                caractérise selon lui la majeure partie de 1 Samuel.
+              </p>
+            </div>
+          )}
+        </div>
+        {/*  Apollon et Marsyas */}
+        <div className="mt-8">
+          <button
+            onClick={() => setApoMasOpen(!apomasOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Apollon et Marsyas ↓
+          </button>
+          {apomasOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Après avoir inventé la flûte, Athéna s’aperçut que son visage se
+                déformait lorsqu’elle en jouait, et décida de s’en débarrasser
+                aussitôt. Un jour, le satyre Marsyas trouva l’instrument par
+                hasard et fut émerveillé par les sons majestueux qu’elle
+                produisait. Persuadé que sa musique était la plus belle qui pût
+                exister et fier de sa découverte, il s’empressa de lancer un
+                défi musical au grand dieu Apollon, réputé comme étant le dieu
+                par excellence de la musique.
+                <br />
+                <br />
+                Ce dernier accepta de défier Marsyas mais imposa que le
+                vainqueur ait un pouvoir absolu sur le vaincu. La victoire
+                d’Apollon fut décrétée par les Muses après qu’il eut réussi à
+                jouer de sa lyre retournée sans que son adversaire y parvienne
+                avec sa flûte. Afin de respecter les conditions du duel, Apollon
+                décida de punir l’insolence de Marsyas en l’attachant à un arbre
+                et en l’écorchant vif.
+                <br />
+                <br />
+                Pris de désespoir, les Satyres ainsi que les autres divinités
+                des bois se lamentèrent de sa mort en pleurant. Ainsi, les
+                larmes versées donnèrent naissance à une rivière qui prit le nom
+                du malheureux.
+                <br />
+                <br />
+                (Ovide, Métamorphoses, VI, 382-399) : Après qu'on eut raconté la
+                triste aventure des pâtres de Lycie, on se rappela celle du
+                Satyre si cruellement puni par le fils de Latone, vainqueur au
+                combat de la flûte inventée par Minerve : « Pourquoi me
+                déchires-tu ? s'écriait Marsyas. Ah ! je me repens de mon
+                audace. Fallait-il qu'une flûte me coûtât si cher ! » Cependant
+                tous ses membres sont dépouillés de la peau qui les couvre. Son
+                corps n'est qu'une plaie. Son sang coule de toutes parts. Ses
+                nerfs sont découverts. On voit le mouvement de ses veines ; on
+                voit ses entrailles palpitantes, et l'œil peut compter ses
+                fibres transparentes.Les dieux des forêts, les Faunes
+                champêtres, les Satyres ses frères, Olympus, son disciple
+                célèbre, les Nymphes, et tous les bergers de ces contrées,
+                donnent des pleurs à son malheureux sort. La terre s'abreuve de
+                tant de larmes ; elle les rassemble, et les faisant couler sur
+                son sein, elle en forme un nouveau fleuve, qui, sous le nom de
+                Marsyas, roule les eaux les plus limpides de la Phrygie, et va,
+                par une pente rapide, se perdre dans la mer.
+              </p>
+              <a
+                href="https://mediterranees.net/polyxenia/cinq_enfants/apollon_marsyas.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+              >
+                Lire le mythe complet
+              </a>
             </div>
           )}
         </div>

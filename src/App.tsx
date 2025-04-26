@@ -14,6 +14,7 @@ const artworks: Artwork[] = [
   // #region PEINTRE Alphabetique
 
   // #region🔹 -----A-----
+
   // #region "Abraham Bloemaert [NLD / 1564-1651]"
   {
     title: "Vénus et Adonis",
@@ -24,6 +25,20 @@ const artworks: Artwork[] = [
     link: "https://open.smk.dk/artwork/image/KMSsp343?q=*&page=3",
     description:
       "Alors qu'Adonis se prépare pour la chasse, Vénus « saisit sa main humide » et « elle le pousse en arrière, comme elle voudrait être poussée » (afin de procéder à l'acte sexuel). Plus tard, « il est étendu haletant, son souffle arrive au visage de Vénus » tandis qu'elle lui dit : « sois donc plus hardi, nos ébats n'ont pas de témoins ». Elle le séduit et ils entament une romance passionnée, mais Adonis ne s'y engage pas vraiment car il s'estime trop jeune et ne s'intéresse qu'à la chasse. Adonis finit par trouver la mort dans un accident de chasse, laissant Vénus éplorée.",
+  },
+  // #endregion
+
+  // #region "Anselm Feuerbach [GER / 1829-1880]"
+  {
+    title: "Le Banquet de Platon",
+    artist: "Anselm Feuerbach [GER / 1829-1880]",
+    year: "1869",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Plato%27s_Symposium_-_Anselm_Feuerbach_-_Google_Cultural_Institute.jpg?uselang=fr",
+    link: "https://commons.wikimedia.org/wiki/File:Plato%27s_Symposium_-_Anselm_Feuerbach_-_Google_Cultural_Institute.jpg?uselang=fr",
+    description:
+      "Le jeune Agathon remporte le concours des grandes Dionysies (vers 416 av. J.-C.), avec sa première tragédie, jouée « en présence de plus de trente mille Grecs ». Il organise une grande fête de sacrifice de victoire avec ses choreutes, qui se termine en beuverie. Le lendemain, il donne à nouveau une réception, plus intime, plus calme, en invitant des personnalités importantes à fêter son succès. À l'initiative de Phèdre, relayé par Eryximaque, chacun est invité à faire à tour de rôle un éloge de l'Amour; divinité qui, selon Phèdre, n'est pas assez louée. Le Banquet est l'histoire de cette longue nuit, où l'on entend se succéder ces éloges, ainsi que les discussions et les multiples incidents qui interrompent ce protocole.",
+      
   },
   // #endregion
 
