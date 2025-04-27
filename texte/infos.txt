@@ -80,19 +80,9 @@ SEPARATION:
 ┏━━━━━━━━━━━━━━━━━┓
 
 ┗━━━━━━━━━━━━━━━━━┛
+--------------------------------
+{("Loth et ses filles".toLowerCase().includes(searchTerm.toLowerCase())) && (
 
+CODE 
 
-
-
-
-
-        {/* vignette CARAVAGE  */}
-        <div className="flex items-center space-x-4 mb-4">
-          <img
-            src="https://media.beauxarts.com/uploads/2018/09/portrait-de-michelangelo-merisi-da-caravaggio-recadree-964x1273.jpg" 
-            alt="Catégorie CARAVAGE"
-            className="w-10 h-10 rounded" // taille et arrondis
-          />
-          <h1 className="text-white text-2xl">༺𓆩 𝑳𝒆 𝑪𝒂𝒓𝒂𝒗𝒂𝒈𝒆 𓆪༻</h1>
-        </div>
-        {/* FIN vignette CARAVAGE  */}
+)}
