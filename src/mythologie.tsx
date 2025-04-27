@@ -25,7 +25,10 @@ function Mythologie() {
   const [davgoOpen, setDavGoOpen] = useState(false);
   const [apomasOpen, setApoMasOpen] = useState(false);
   const [lothOpen, setLothOpen] = useState(false);
-    const [oedipeOpen, setOedipeOpen] = useState(false);
+  const [oedipeOpen, setOedipeOpen] = useState(false);
+  const [semeleOpen, setSemeleOpen] = useState(false);
+  const [cupsyOpen, setCuPsyOpen] = useState(false);
+  const [rogerOpen, setRogerOpen] = useState(false);
 
   // DEBUT NAVBAR
 
@@ -134,12 +137,13 @@ function Mythologie() {
       </nav>
       {/* FIN NAVBAR  */}
 
+      {/* ------------------------  */}
+
       {/* MYTHES & HISTOIRES & BARRE DE RECHERCHE  */}
       <div className="max-w-6xl mx-auto py-20">
         <h1 className="text-3xl font-bold mb-4 text-white">
           Référence Mythologique & Histoires
         </h1>
-
 
         {/* ---------- BARRE DE RECHERCHE ---------  */}
         <div className="relative w-80 mb-6">
@@ -1193,6 +1197,154 @@ function Mythologie() {
                   className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
                 >
                   Plus d' informations
+                </a>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/*  Jupiter et Sémélé */}
+        {"Jupiter et Sémélé"
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase()) && (
+          <div className="mt-8">
+            <button
+              onClick={() => setSemeleOpen(!semeleOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Jupiter et Sémélé ↓
+            </button>
+            {semeleOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  Junon (Héra) jalousait déjà la famille de Cadmos (à cause de
+                  la faute d'Europe avec son divin époux) quand elle découvrit
+                  que Jupiter (Zeus) recommençait et courtisait la belle Sémélé,
+                  l'une des filles de Cadmos. Ses obligations de grande déesse,
+                  sœur et épouse du grand Jupiter, fille de Saturne (Cronos)
+                  l'obligeait à juger et chatier fermement.
+                  <br />
+                  <br />
+                  Elle prit les traits de Béroé, la nourrice de Sémélé, et
+                  obtint de la jeune fille toutes ses confidences. Son ventre
+                  était fécondé. Junon (sous les traits de la nourrice) lui
+                  suggéra de vérifier la réalité de son amant, tant de gens
+                  usurpant le nom des dieux, s'étant introduits dans de chastes
+                  couches. Et elle proposa à l'innocente jeune fille, de
+                  s'assurer de Jupiter, en lui demandant une étreinte semblable
+                  à celle qu'il prodigue à la noble Junon.
+                  <br />
+                  <br />
+                  Sans rien lui préciser, Sémélé demanda une faveur à son amant.
+                  Jupiter éperdument amoureux lui assure qu'elle n'éprouvera
+                  aucun refus. Et pour certifier sa confiance, il promet sur le
+                  Styx, ce que les dieux mêmes ne peuvent plus modifier ensuite.
+                  <br />
+                  <br />
+                  Sémélé alors lui demande d'apparaître dans toute sa puissance.
+                  Jupiter aurait voulu arrêter sa demande, mais les mots étaient
+                  trop rapides. Triste et accablé, il prit de la hauteur,
+                  rassembla les nuages et les tempêtes, les éclairs et le vent,
+                  le tonnerre et la foudre. Encore, il ne choisit pas la foudre
+                  des Géants aux cent bras (Hécatonchires) mais celle, plus
+                  légère, des Cyclopes et ainsi vêtu de sa puissance, il pénètre
+                  dans la demeure de Sémélé.
+                  <br />
+                  <br />
+                  Le corps d'une mortelle ne put supporter le tumulte céleste,
+                  et Sémélé périt dans les flammes, dons de son époux. L'enfant
+                  qu'elle portait (Dionysos) fut greffé dans la cuisse du dieu
+                  jusqu'au temps de la gestation maternelle et au berceau fut
+                  confié à sa tante Ino, puis élevé par les Nymphes de Nysa qui
+                  le cachèrent dans leurs grottes et le nourrirent de lait.
+                </p>
+                <a
+                  href="https://www.mythologie.fr/Ovide%20Metamorph%20Livre%20III%20Vers%20253%20p1.htm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Site ref
+                </a>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/*  Cupidon et Psyché */}
+        {"Cupidon et Psyché"
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase()) && (
+          <div className="mt-8">
+            <button
+              onClick={() => setCuPsyOpen(!cupsyOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Cupidon et Psyché ↓
+            </button>
+            {cupsyOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  Psyché est une princesse d'une beauté si parfaite qu'elle
+                  éveille la jalousie d'Aphrodite à laquelle on la compare. Elle
+                  a deux sœurs aînées, d'une grande beauté également, mais sur
+                  lesquelles Psyché l'emporte de loin. Toutefois, contrairement
+                  à ses sœurs, elle ne trouve pas d'époux. Les foules se
+                  contentent de venir la contempler comme une œuvre d'art et de
+                  la vénérer comme une déesse au point d'oublier de célébrer
+                  Aphrodite.
+                  <br />
+                  <br />
+                  La déesse, jalouse de cette rivale et offensée par un tel
+                  sacrilège, ordonne à son fils Éros de la rendre amoureuse du
+                  mortel le plus méprisable qui soit. Alors que le dieu
+                  s'apprête à remplir sa mission, il tombe lui-même amoureux de
+                  Psyché en se blessant avec l'une de ses flèches...
+                </p>
+                <a
+                  href="https://fr.wikipedia.org/wiki/Psych%C3%A9_(mythologie)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Lire la suite...
+                </a>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/*  Roger délivrant Angélique */}
+        {"Roger délivrant Angélique"
+          .toLowerCase()
+          .includes(searchTerm.toLowerCase()) && (
+          <div className="mt-8">
+            <button
+              onClick={() => setRogerOpen(!rogerOpen)}
+              className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              Roger délivrant Angélique ↓
+            </button>
+            {rogerOpen && (
+              <div className="mt-2">
+                <p className="text-gray-300">
+                  Angélique est une héroïne de Boiardo, puis du Roland furieux
+                  de L'Arioste. Princesse du royaume de Cathay, aux Indes, elle
+                  est amenée par Roland en France qui souhaitait qu'elle tombe
+                  amoureuse de lui. Cependant ne l'aimant pas elle profite de la
+                  défaite des chrétiens pour échapper à ses nombreux prétendants
+                  ; auxquels s'ajoutent alors Renaud, Ferragus et Sacripant.
+                  Mais elle est capturée par des pirates qui l'abandonnent sur
+                  une île pour l'offrir en pâture à l'Orque marine. Roger
+                  intervient alors, sur l'Hippogriffe, pour la sauver.
+                </p>
+                <a
+                  href="https://fr.wikipedia.org/wiki/Roger_d%C3%A9livrant_Ang%C3%A9lique"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+                >
+                  Wikipedia
                 </a>
               </div>
             )}

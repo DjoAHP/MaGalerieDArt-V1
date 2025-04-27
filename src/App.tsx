@@ -38,7 +38,6 @@ const artworks: Artwork[] = [
     link: "https://commons.wikimedia.org/wiki/File:Plato%27s_Symposium_-_Anselm_Feuerbach_-_Google_Cultural_Institute.jpg?uselang=fr",
     description:
       "Le jeune Agathon remporte le concours des grandes Dionysies (vers 416 av. J.-C.), avec sa première tragédie, jouée « en présence de plus de trente mille Grecs ». Il organise une grande fête de sacrifice de victoire avec ses choreutes, qui se termine en beuverie. Le lendemain, il donne à nouveau une réception, plus intime, plus calme, en invitant des personnalités importantes à fêter son succès. À l'initiative de Phèdre, relayé par Eryximaque, chacun est invité à faire à tour de rôle un éloge de l'Amour; divinité qui, selon Phèdre, n'est pas assez louée. Le Banquet est l'histoire de cette longue nuit, où l'on entend se succéder ces éloges, ainsi que les discussions et les multiples incidents qui interrompent ce protocole.",
-      
   },
   // #endregion
 
@@ -652,7 +651,7 @@ const artworks: Artwork[] = [
   },
 
   {
-    title: "Angélique sauvée par Ruggiero",
+    title: "Roger délivrant Angélique",
     artist: "Jean-Auguste-Dominique Ingres [FRA / 1780-1867]",
     year: "1819-1839",
     imageUrl:
