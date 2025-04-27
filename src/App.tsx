@@ -261,6 +261,7 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region🔹 -----D-----
+
   // #region "Damiano Mazza [ITA / 1550-1576]"
   {
     title: "Le viol de Ganymède",
@@ -284,6 +285,19 @@ const artworks: Artwork[] = [
     link: "https://collections.louvre.fr/ark:/53355/cl010067107",
     description:
       "Le David et Goliath ou David tuant Goliath de Daniele da Volterra, est un tableau à double face huile sur ardoise, conservé au musée du Louvre. Le tableau représente une scène très connue : David vient de toucher Goliath au front, avec une pierre lancée de sa fronde. Le géant est à terre, et David s’est emparé de son épée (un cimeterre) pour l’achever.",
+  },
+  // #endregion
+
+  // #region "Diego Vélasquez [ESP / 1599-1660]"
+  {
+    title: "Les Ménines",
+    artist: "Diego Vélasquez [ESP / 1599-1660]",
+    year: "1656-1657",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/960px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+    link: "https://fr.wikipedia.org/wiki/Les_M%C3%A9nines",
+    description:
+      "Ce tableau dépeint une très grande pièce du palais du roi Philippe IV dans laquelle se trouvent plusieurs personnages de la cour. La jeune infante Marguerite-Thérèse est entourée de demoiselles d'honneur, d'un chaperon, d'un garde du corps, d'une naine, d'un enfant italien et d'un chien...",
   },
   // #endregion
 
