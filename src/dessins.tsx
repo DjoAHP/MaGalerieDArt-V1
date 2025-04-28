@@ -53,6 +53,21 @@ const artworks: Artwork[] = [
   // #endregion
   // #endregion
 
+  // #region🔹 -----J-----
+  // #region "Jean Lapautre [FRA / 1618-1682]"
+  {
+    title: "Études de têtes",
+    artist: "Jean Lapautre [FRA / 1618-1682]",
+    year: "1882 ?",
+    imageUrl:
+      "https://c8.alamy.com/comp/2WECM1P/studies-van-hoofden-jean-lepautre-1682-1706-print-at-the-bottom-is-a-young-man-seen-from-the-side-with-an-oval-medallion-in-the-hand-on-which-a-emperors-bust-stands-from-the-second-edition-print-maker-france-possiblyafter-own-design-by-france-possiblypublisher-paris-paper-engraving-2WECM1P.jpg",
+    link: "https://www.rijksmuseum.nl/nl/collectie/object/---ce272027b3c20b9c787e60011f3fbf2a",
+    description:
+      "...",
+  },
+  // #endregion
+  // #endregion
+
   // #region🔹 -----L-----
   // #region "Leonardo Da Vinci [ITA / 1452-1519]"
   {
@@ -237,7 +252,7 @@ function App() {
           Galerie des peintures
         </a>
         <a href="./dessins" className={linkClass}>
-          Dessins & Gravures
+          Dessins & Estampes
         </a>
         <a href="./livres" className={linkClass}>
           Livres

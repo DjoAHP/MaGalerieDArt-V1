@@ -1048,6 +1048,16 @@ const artworks: Artwork[] = [
     description:
       "Selon l'Ancien Testament, Samson , un héros juif doté d'une force surhumaine, tua mille soldats philistins avec la mâchoire d'un âne. Les chefs philistins voulurent se venger. Ils soudoyèrent Dalila, la femme que Samson aimait, pour qu'elle découvre la source de sa force. Après plusieurs tentatives, elle le persuada de lui révéler son secret : sa force divine résidait dans ses cheveux, non coupés depuis sa naissance.",
   },
+  {
+    title: "Tête de Méduse",
+    artist: "Pierre Paul Rubens [DEU / 1577-1640]",
+    year: "vers 1617-1618",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rubens_Medusa.jpeg",
+    link: "https://www.europeana.eu/fr/item/15502/GG_3834",
+    description:
+      "Tête de Méduse est un tableau de Pierre Paul Rubens peint vers 1617-1618. Frans Snyders a pu participer à sa création[1]. Cette huile sur bois et toile est actuellement conservée au musée d'Histoire de l'art de Vienne.",
+  },
   // #endregion
 
   // #region "Pietro Paolini (Mouvement Caravagesque) [ITA / 1603-1681]"
@@ -1415,7 +1425,7 @@ function App() {
           Galerie des peintures
         </a>
         <a href="./dessins" className={linkClass}>
-          Dessins & Gravures
+          Dessins & Estampes
         </a>
         <a href="./livres" className={linkClass}>
           Livres

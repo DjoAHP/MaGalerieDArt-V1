@@ -16,7 +16,7 @@ function Musees() {
           Galerie des peintures
         </a>
         <a href="./dessins" className={linkClass}>
-          Dessins & Gravures
+          Dessins & Estampes
         </a>
         <a href="./livres" className={linkClass}>
           Livres
