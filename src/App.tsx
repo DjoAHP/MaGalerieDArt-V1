@@ -1445,6 +1445,14 @@ function App() {
         >
           Le Voyage d'Ulysse
         </a>
+        <a
+          href="https://www.europeana.eu/fr/themes/art"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-40 text-blue-400 underline hover:text-blue-300 text-sm text-center"
+        >
+          Europeana
+        </a>
       </>
     );
   }
