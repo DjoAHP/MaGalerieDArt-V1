@@ -8,6 +8,7 @@ interface Artwork {
   imageUrl: string;
   link: string;
   description: string;
+
 }
 
 const artworks: Artwork[] = [
@@ -46,6 +47,42 @@ const artworks: Artwork[] = [
     description:
       "Cette œuvre se distingue par sa richesse symbolique ; elle a fait l'objet d'une vaste littérature dans le domaine de l'histoire de l'art, suscitant de nombreuses études[1]. Elle est l'une des estampes de vieux maître les plus connues, et elle pose encore aujourd'hui de nombreuses questions d'interprétation...",
   },
+  {
+    title: "Némésis (La Grande Fortune)",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "1501",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Albrecht%20Drer%20-%20Nemesis%20%28The%20Great%20Fortune%29%20-%20%28MeisterDrucke-7548%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Albrecht-D%C3%BCrer/7548/N%C3%A9m%C3%A9sis-%28La-Grande-Fortune%29.html",
+    description: "...",
+  },
+  {
+    title: "Le Rhinocéros",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "1515",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Albrecht%20Drer%20or%20Duerer%20-%20The%20Rhinoceros%201515%20%20-%20%28MeisterDrucke-151580%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Albrecht-D%C3%BCrer/151580/Le-Rhinoc%C3%A9ros%2C-1515.html",
+    description: "...",
+  },
+  {
+    title: "Aile d'un Rollier Bleu",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "1512",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Albrecht%20Drer%20-%20Wing%20of%20a%20Blue%20Roller%201512%20%28wc%20on%20vellum%20with%20gold%29%20-%20%28MeisterDrucke-41555%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Albrecht-D%C3%BCrer/41555/Aile-d%27un-Rollier-Bleu%2C-1512.html",
+    description: "...",
+  },
+  {
+    title: "Aile d'un Rollier d'Europe",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "Non daté",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Albrecht_Duerer_or_Duerer_-_Wing_of_a_European_Roller_-_%28MeisterDrucke-1172720%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Albrecht-D%C3%BCrer/1172720/Aile-d%27un-Rollier-d%27Europe.html",
+    description: "...",
+  },
   // #endregion
 
   // #region "Adriaen Collaert [BLG / 1560-1618]"
@@ -61,6 +98,39 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #endregion
+
+  // #region🔹 -----C-----
+  // #region "Charles Le Brun [FRA / 1576-1629]"
+  {
+    title: "Profils d'oiseau et « homme-oiseau » ",
+    artist: "Charles Le Brun [FRA / 1576-1629]",
+    year: "Non daté",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Charles_Le_Brun_-_Profiles_of_bird_and_man-bird_%28man-bird%29_-_by_Lebrun_in_Treats_of_the_physiogno_-_%28MeisterDrucke-1027229%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Charles-Le-Brun/1027229/Profils-d%27oiseau-et-%C2%AB-homme-oiseau-%C2%BB---par-Lebrun%2C-dans-%C2%AB-Trait%C3%A9-de-la-physiognomonie-de-l%27homme-compar%C3%A9e-%C3%A0-celle-des-animaux-%C2%BB.html",
+    description: "...",
+  },
+  {
+    title: "La chute des anges rebelles ",
+    artist: "Charles Le Brun [FRA / 1576-1629]",
+    year: "Non daté",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Alexis_Loir_%28I%29_-_De_val_der_opstandige_engelen_-_%28MeisterDrucke-1384816%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Alexis-Loir-%28I%29/1384816/La-chute-des-anges-rebelles.html",
+    description: "...",
+  },
+  {
+    title: "Christ à Gethsémani avec deux anges",
+    artist: "Charles Le Brun [FRA / 1576-1629]",
+    year: "Non daté",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Gilles_Rousselet_-_Christus_in_de_hof_van_Getsemane_met_twee_engelen_-_%28MeisterDrucke-1357728%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Gilles-Rousselet/1357728/Christ-%C3%A0-Geths%C3%A9mani-avec-deux-anges.html",
+    description:
+      "Gilles Rousselet (imprimeur) ,Charles Le Brun (après la peinture de) ,Louis XIV (roi de France)",
+  },
+  // #endregion
   // #endregion
 
   // #region🔹 -----D-----

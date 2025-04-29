@@ -8,6 +8,8 @@ interface Artwork {
   imageUrl: string;
   link: string;
   description: string;
+  // FAVORI
+  isFavorite?: boolean; // ← ici
 }
 
 const artworks: Artwork[] = [
@@ -64,6 +66,7 @@ const artworks: Artwork[] = [
     link: "https://www.haltadefinizione.com/en/viewer/work/prometheus-antonio-mariani-della-corgna",
     description:
       "Prométhée, Titan rebelle, offre le feu aux hommes, défiant ainsi l'autorité de Zeus.Condamné pour son audace, il est enchaîné à un rocher, où un aigle dévore son foie chaque jour, en perpétuelle régénération.Ce mythe symbolise la quête de la connaissance et le sacrifice pour la liberté humaine.L'œuvre d'Antonio Mariani della Corgna met en lumière la tension entre la souffrance héroïque et la grandeur de cet acte révolutionnaire.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -77,6 +80,7 @@ const artworks: Artwork[] = [
     link: "https://www.collezionegalleriaborghese.it/en/opere/jupiter-and-juno",
     description:
       "Selon une légende romaine, Junon était jalouse du fait que Jupiter ait donné naissance à Minerve sans elle. Elle s'en plaignit à Flora qui lui indiqua une herbe qui rendit Junon enceinte sans l'intervention de Jupiter. Elle donna naissance à Mars alors qu'Arès dans la mythologie grecque est le fils des deux époux.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -165,6 +169,7 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Fichier:B%C3%A9nigne_Gagneraux_-_L%27%C3%A9ducation_d%27Achille_%281785%29.jpg",
     description:
       "​Achille, héros de la mythologie grecque, fut confié dès son enfance au centaure Chiron, réputé pour sa sagesse et ses vastes connaissances. Sous sa tutelle, Achille apprit la médecine, la musique, l'équitation, la chasse et le maniement des armes. Chiron lui inculqua également des valeurs morales telles que la justice, la maîtrise de soi et la modération. Cette éducation complète fit d'Achille un modèle du héros accompli dans la Grèce antique.​",
+    isFavorite: true,
   },
   // #endregion
 
@@ -178,6 +183,7 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid",
     description:
       "Le sujet, à la fois érotique et érudit, du tableau convenait parfaitement aux goûts du roi François Ier de France, notoirement lubrique. Il lui fut probablement offert par Cosme Ier de Médicis , souverain de Florence, qui employa Bronzino comme peintre à la cour. Cependant, il ne semble pas exister de trace de sa présence dans la collection royale française.​",
+    isFavorite: true,
   },
   // #endregion
   // #endregion
@@ -206,6 +212,7 @@ const artworks: Artwork[] = [
     link: "https://www.royalacademy.org.uk/art-artists/work-of-art/the-night-alarm-the-advance",
     description:
       "Cope étudia à la Royal Academy Schools à partir de 1828, puis voyagea en France et en Italie entre 1832 et 1835. Il peignit des sujets littéraires, historiques et bibliques, ainsi que des scènes de genre domestiques...",
+    isFavorite: true,
   },
   // #endregion
 
@@ -219,6 +226,7 @@ const artworks: Artwork[] = [
     link: "https://fr.m.wikipedia.org/wiki/Fichier:D%27arpino-Androm%C3%A8de.jpg",
     description:
       "Alors qu’il rentre chez lui à dos de Pégase, il aperçoit la princesse en détresse, tombe amoureux. Il aperçoit alors le monstre marin qui rôde, et les parents d’Andromède qui regardent la scène, pleins d’angoisse. Persée propose donc de la sauver, à condition qu’elle l’épouse et vienne avec lui en Grèce. Les parents n’ont pas vraiment le choix : ils acceptent. et le terrasse d’un coup d’épée.",
+    isFavorite: true,
   },
   {
     title: "L'enlèvement d'Europe",
@@ -272,6 +280,7 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/damiano-mazza-the-rape-of-ganymede",
     description:
       "Il faut prendre ici pour viol le sens d'enlèvement contraint (rapt), Ganymède étant enlevé dans les airs par un aigle (représentant les dieux ou Zeus lui-même) pour être soustrait à la vindicte d'Héra.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -326,6 +335,7 @@ const artworks: Artwork[] = [
     link: "https://upload.wikimedia.org/wikipedia/commons/5/52/Edward_Burne-Jones_-_The_Death_of_Medusa_I%2C_1882.jpg",
     description:
       "Naissance de Pégase et Chrysaor, v. 1876-1885, gouache, Southampton City Art Gallery.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -365,7 +375,8 @@ const artworks: Artwork[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg",
     link: "https://fr.wikipedia.org/wiki/Saint_Joseph_charpentier",
     description:
-      "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome[1].",
+      "La toile représente Joseph et a ses côtés, l'enfant Jésus vêtu d'une tunique, est assis de profil, il tient une chandelle qui éclaire la scène et dont la flamme fait apparaître ses doigts en transparence. La scène est peinte dans des tonalités brunes, presque monochrome.",
+    isFavorite: true,
   },
   {
     title: "La Madeleine pénitente (à la flamme filante)",
@@ -389,6 +400,7 @@ const artworks: Artwork[] = [
     link: "https://gallerix.ru/album/Italian-painters/pic/glrx-804635620",
     description:
       "L'Amour divin et l'Amour profane est un tableau peint à Rome vers 1602 par Giovanni Baglione dans deux versions successives, sur commande du cardinal Benedetto Giustiniani. L'une (probablement la première) est désormais conservée dans la Gemäldegalerie de Berlin; l'autre se trouve au musée du palais Barberini à Rome.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -451,6 +463,7 @@ const artworks: Artwork[] = [
     link: "https://collections.louvre.fr/ark:/53355/cl010054313",
     description:
       "Dans la mythologie grecque, Silène (ou Papposilène) (en grec ancien : Σειληνός / Seilēnós, prononcé : [seːlɛːnós]) est un satyre, père adoptif et précepteur du dieu Dionysos, qu’il accompagne sans cesse. Il passait en effet pour un sage, un prophète et un philosophe.",
+    isFavorite: true,
   },
   {
     title: "Le Joyeux Violoniste",
@@ -460,6 +473,7 @@ const artworks: Artwork[] = [
       "https://upload.wikimedia.org/wikipedia/commons/f/fd/Gerrit_van_Honthorst_-_De_vrolijke_speelman.jpg",
     link: "https://commons.wikimedia.org/wiki/File:Gerrit_van_Honthorst_-_De_vrolijke_speelman.jpg",
     description: "Huile sur toile / 107,2 cm X 88,3 cm",
+    isFavorite: true,
   },
   {
     title: "Le Joyeux Violoniste au verre de vin",
@@ -492,6 +506,7 @@ const artworks: Artwork[] = [
     link: "https://www.metmuseum.org/art/collection/search/437153",
     description:
       "La peinture représente Œdipe rencontrant le Sphinx au carrefour lors de son voyage entre Thèbes et Delphes. Œdipe doit répondre correctement à l'énigme du Sphinx pour réussir. L'échec signifie sa propre mort et celle des Thébains assiégés.",
+    isFavorite: true,
   },
   {
     title: "Jupiter et Sémélé",
@@ -502,6 +517,7 @@ const artworks: Artwork[] = [
     link: "https://fr.gallerix.ru/storeroom/1065654342/N/189018824/",
     description:
       "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
+    isFavorite: true,
   },
   // #endregion
   // #endregion
@@ -544,6 +560,7 @@ const artworks: Artwork[] = [
     link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
     description:
       "Ulysse et les sirènes de John William Waterhouse évoque le mythe d'Ulysse qui, en naviguant, affronte les chants envoûtants des sirènes.Pour ne pas succomber à leur séduction mortelle, il fait boucher les oreilles de ses marins et se fait attacher au mât.Ainsi, il peut écouter leur mélodie sans perdre le contrôle.Ce mythe symbolise la lutte entre la curiosité insatiable et la nécessité de maîtriser ses passions.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -593,6 +610,7 @@ const artworks: Artwork[] = [
     link: "https://www.collezionegalleriaborghese.it/en/opere/cupid-and-psyche",
     description:
       "Le tableau représente le moment décisif du conte de Cupidon et Psyché, tiré de la Métamorphose d'Apulée, lorsque la jeune fille, poussée par la curiosité et encouragée par les sœurs maléfiques, décide de connaître l'identité de l'amant mystérieux qui lui rend visite tous les jours au coucher du soleil sans montrer son visage.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -642,6 +660,7 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Jupiter_et_Th%C3%A9tis",
     description:
       "Peint à Rome, il est conservé au musée Granet d'Aix-en-Provence. Inspiré du premier chant de l'Iliade, le tableau fut critiqué pour ses audaces de composition. Il est acheté par l'État en 1834. François Marius Granet le transfère en dépôt au musée Granet d'Aix-en-Provence où il est accroché depuis. ",
+    isFavorite: true,
   },
   {
     title: "Œdipe explique l'énigme du sphinx",
@@ -652,6 +671,7 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/%C5%92dipe_explique_l%27%C3%A9nigme_du_sphinx",
     description:
       "La créature fut envoyée par Héra pour punir la ville de Thèbes du viol que Laïos, roi de Thèbes, a effectué sur Chrysippe, fils de la nymphe Danaïs. Elle attend la personne qui résoudra son énigme.",
+    isFavorite: true,
   },
   {
     title: "La Grande Odalisque",
@@ -673,6 +693,7 @@ const artworks: Artwork[] = [
     link: "https://www.nationalgallery.org.uk/paintings/jean-auguste-dominique-ingres-angelica-saved-by-ruggiero",
     description:
       "La scène présentée ici est tirée d'un épisode du poème épique du XVIe siècle « Orlando furieux » , de Ludovico Ariosto. Le chevalier chrétien Ruggiero a découvert la princesse païenne Angélique, enlevée par des barbares. Dépouillée et enchaînée à un rocher, elle a été sacrifiée à un monstre marin. Chevauchant un hippogriffe – une bête légendaire mi-cheval, mi-griffon, capable de galoper et de voler – Ruggiero sauve Angélique en plongeant sa lance dans la gueule ouverte du monstre.",
+    isFavorite: true,
   },
 
   {
@@ -743,6 +764,7 @@ const artworks: Artwork[] = [
     link: "https://fr.wikipedia.org/wiki/Bonaparte_franchissant_le_Grand-Saint-Bernard",
     description:
       "Napoléon est représenté lors du franchissement du col alpin du Grand-Saint-Bernard par l'armée de réserve, épisode qui marque le début de la seconde campagne d'Italie.",
+    isFavorite: true,
   },
   {
     title: "Le Sacre de Napoléon",
@@ -776,6 +798,7 @@ const artworks: Artwork[] = [
     link: "https://odysseum.eduscol.education.fr/phaeton-et-le-char-du-soleil-0",
     description:
       "Fils du Soleil et de Clymène. Il voulut conduire le char de son père mais, ne sachant le diriger, il embrase la terre et est foudroyé par Jupiter",
+    isFavorite: true,
   },
   // #endregion
   // #endregion
@@ -859,6 +882,7 @@ const artworks: Artwork[] = [
     link: "https://upload.wikimedia.org/wikipedia/commons/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
     description:
       "Méduse du Caravage, peinte vers 1597, est un bouclier en bois représentant la tête tranchée de la Gorgone au moment précis où elle réalise son sort. Son visage exprime une terreur figée, la bouche ouverte dans un cri muet et les yeux écarquillés d’effroi. Le réalisme saisissant, accentué par le clair-obscur caractéristique du Caravage, donne une impression de mouvement et de tridimensionnalité. Les serpents de sa chevelure semblent s’animer, tandis que le fond sombre met en valeur l’intensité dramatique de la scène. Cette œuvre, destinée aux Médicis, illustre la virtuosité du peintre et sa maîtrise des effets illusionnistes.",
+    isFavorite: true,
   },
   {
     title: "Les Musiciens",
@@ -889,6 +913,7 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=c620f0f6-defb-49ce-9c39-aca7b2592445",
     description:
       "Judith et Holopherne de Caravage, peint vers 1599, illustre la décapitation du général assyrien par Judith. Le clair-obscur dramatique met en lumière son expression déterminée et le visage terrifié d’Holopherne. Le réalisme saisissant accentue la violence et l’intensité de la scène. Le contraste entre la jeunesse de Judith et l’horreur du moment renforce l’impact émotionnel. Cette œuvre témoigne du génie de Caravage pour le dramatique et le naturalisme.",
+    isFavorite: true,
   },
   {
     title: "Le Souper à Emmaüs",
@@ -909,6 +934,7 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=4ff44b6e-f6f8-4bf3-a9dc-4e9f45676913",
     description:
       "Saint Matthieu et l'Ange de Caravage, peint vers 1602, est une œuvre emblématique de la période baroque réalisée pour la chapelle Contarelli à Rome.Dans ce tableau, l'évangéliste saint Matthieu est représenté en train d'écrire son Évangile, guidé par un ange qui lui dicte d'une main assurée.Le jeu de clair-obscur dramatique met en exergue la tension entre le monde terrestre de Matthieu et la lumière divine qui l'inspire.La composition, à la fois ample et intimiste, crée une profondeur expressive et invite le spectateur à partager l'instant de révélation spirituelle.",
+    isFavorite: true,
   },
   {
     title: "La Madone des palefreniers (La Madone au serpent)",
@@ -1184,6 +1210,7 @@ const artworks: Artwork[] = [
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=07c247ad-479a-4619-89a2-b7bbe122b80c",
     description:
       "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
+    isFavorite: true,
   },
   // #endregion
 
@@ -1245,6 +1272,7 @@ const artworks: Artwork[] = [
     link: "https://www.uffizi.it/en/artworks/birth-of-venus",
     description:
       "La Naissance de Vénus de Botticelli est une œuvre emblématique de la Renaissance italienne, réalisée vers 1485. Le tableau représente Vénus, déesse de l’amour et de la beauté, émergeant des flots sur un coquillage, portée par le vent Zéphyr et sa compagne Aura. À droite, une des Heures, divinités des saisons, l’accueille avec un manteau fleuri. La composition est harmonieuse, avec des lignes ondulantes qui accentuent la grâce des personnages. La palette de couleurs douces, dominée par des tons pastel, et l’arrière-plan marin apportent une atmosphère de légèreté et d’élégance à cette scène mythologique.",
+    isFavorite: true,
   },
   // #endregion
   // #endregion
@@ -1328,6 +1356,7 @@ const artworks: Artwork[] = [
     link: "https://www.collezionegalleriaborghese.it/en/opere/man-with-a-candle",
     description:
       "Le sujet retenu pour cette peinture de 1850 s'apparente à celui d'une peinture gothique du XIXe siècle : le jeune peintre veut en effet marquer les esprits et choisit un sujet qui s'éloigne un peu de l'académisme. S'inscrivant dans ce qui a été appelé le romantisme noir, il choisit de s'inspirer de Dante Alighieri et plus précisément du chant XXX de l'Enfer de la Divine Comédie",
+    isFavorite: true,
   },
   // #endregion
 
@@ -1335,10 +1364,16 @@ const artworks: Artwork[] = [
 
   // #endregion
 ];
+
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
   return (
     <div className="relative group">
       <div className="backdrop-blur-md bg-black/30 rounded-xl overflow-hidden transition-all duration-300 group-hover:scale-[1.02]">
+        {/* Gommette jaune FAVORI */}
+        {artwork.isFavorite && (
+          <div className="absolute top-2 left-2 w-2.5 h-2.5 bg-yellow-400 opacity-80 rounded-full z-10" />
+        )}
+        {/* FIN FAVORI  */}
         <div className="p-6">
           <div className="flex justify-between items-start mb-4">
             <div>
@@ -1374,7 +1409,6 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
 }
 
 function App() {
-  // NAV HUMBURGER ⬎
   const [menuOpen, setMenuOpen] = useState(false);
   const [selectedArtist, setSelectedArtist] = useState<string>("");
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -1406,15 +1440,6 @@ function App() {
     return filtered;
   }, [selectedArtist, searchQuery]);
 
-
-
-
-
-
-
-  // DEBUT NAVBAR 
-  
-  // NAV HUMBURGER
   function NavLinks() {
     const linkClass =
       "w-60 px-2 py-1 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded transition-colors";
@@ -1469,11 +1494,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
-      {/* Navbar */}
-      {/* // NAV HUMBURGER  */}
       <nav className="bg-black/20 backdrop-blur-md text-white fixed top-0 left-0 right-0 z-10">
         <div className="max-w-[2000px] mx-auto px-4 py-3 flex items-center justify-between">
-          {/* Logo */}
           <div className="flex items-center">
             <div className="rounded-full overflow-hidden h-10 w-10 mr-3">
               <a href="/">
@@ -1485,8 +1507,6 @@ function App() {
               </a>
             </div>
           </div>
-
-          {/* Bouton hamburger – positionné à droite */}
           <div className="flex items-center">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -1514,7 +1534,6 @@ function App() {
           </div>
         </div>
 
-        {/* Menu déroulant centré sous la navbar */}
         <div
           className={`transition-all duration-300 overflow-hidden ${
             menuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
@@ -1525,13 +1544,7 @@ function App() {
           </div>
         </div>
       </nav>
-      {/* FIN NAVBAR  */}
 
-
-
-
-
-      {/* Content */}
       <div className="p-8 pt-20 max-w-[2000px] mx-auto">
         <h1
           className="text-4xl font-bold mb-8 text-center"
