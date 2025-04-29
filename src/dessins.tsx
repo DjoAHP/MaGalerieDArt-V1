@@ -36,6 +36,45 @@ const artworks: Artwork[] = [
     description:
       "Albrecht Dürer, né le 21 mai 1471 à Nuremberg (Saint-Empire), où il est mort le 6 avril 1528, est un dessinateur, graveur, peintre allemand de la Renaissance, également connu comme théoricien de la géométrie et de la perspective linéaire. Né à Nuremberg, Dürer établit sa réputation et son influence à travers l'Europe dans sa vingtaine grâce à ses gravures sur bois de haute qualité. Il est en contact avec les grands artistes italiens de son temps, dont Raphaël, Giovanni Bellini et Léonard de Vinci, et à partir de 1512, il est patronné par l'empereur Maximilien Ier.",
   },
+  {
+    title: "Melencolia I",
+    artist: "Albrecht Dürer [GER / 1471-1528]",
+    year: "1514",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/D%C3%BCrer_Melancholia_I.jpg",
+    link: "https://fr.wikipedia.org/wiki/Melencolia_I",
+    description:
+      "Cette œuvre se distingue par sa richesse symbolique ; elle a fait l'objet d'une vaste littérature dans le domaine de l'histoire de l'art, suscitant de nombreuses études[1]. Elle est l'une des estampes de vieux maître les plus connues, et elle pose encore aujourd'hui de nombreuses questions d'interprétation...",
+  },
+  // #endregion
+
+  // #region "Adriaen Collaert [BLG / 1560-1618]"
+  {
+    title: "Europe",
+    artist: "Adriaen Collaert [BLG / 1560-1618]",
+    year: "Entre 1551 et 1600",
+    imageUrl:
+      "https://www.meisterdrucke.fr/kunstwerke/1260px/Adriaen_Collaert_-_EuropaDe_vier_werelddelen_%28series_title%29_-_%28MeisterDrucke-1363479%29.jpg",
+    link: "https://www.meisterdrucke.fr/fine-art-prints/Adriaen-Collaert/1363479/Europe.html",
+    description:
+      "Conçu par le peintre flamand/artiste, Marten de Vos et gravée par Adriaen Collaert. Entre 1551 et 1600. 864 Marten de Vos Adriaen Collaert Europa",
+  },
+  // #endregion
+
+  // #endregion
+
+  // #region🔹 -----D-----
+  // #region "David Vinckboons [BLG / 1576-1629]"
+  {
+    title: "Bacchus transforme ses ravisseurs en dauphins",
+    artist: "David Vinckboons [BLG / 1576-1629]",
+    year: "1616",
+    imageUrl:
+      "https://iiif.wellcomecollection.org/image/V0040000/full/2048%2C/0/default.jpg",
+    link: "https://www.europeana.eu/fr/item/90402/RP_P_OB_27_223",
+    description:
+      "Bacchus transforme les pirates tyrrhéniens qui l'ont kidnappé en dauphins. Il fait pousser du lierre sur le mur et des monstres apparaissent, obligeant les marins à sauter par-dessus bord et à se transformer en dauphins. Illustration de livre pour : Lof-sanck van Bacchus, 1616.",
+  },
   // #endregion
   // #endregion
 
@@ -62,8 +101,7 @@ const artworks: Artwork[] = [
     imageUrl:
       "https://c8.alamy.com/comp/2WECM1P/studies-van-hoofden-jean-lepautre-1682-1706-print-at-the-bottom-is-a-young-man-seen-from-the-side-with-an-oval-medallion-in-the-hand-on-which-a-emperors-bust-stands-from-the-second-edition-print-maker-france-possiblyafter-own-design-by-france-possiblypublisher-paris-paper-engraving-2WECM1P.jpg",
     link: "https://www.rijksmuseum.nl/nl/collectie/object/---ce272027b3c20b9c787e60011f3fbf2a",
-    description:
-      "...",
+    description: "...",
   },
   // #endregion
   // #endregion
@@ -166,6 +204,21 @@ const artworks: Artwork[] = [
       "La statue du prophète Jonas faisait partie du décor original de la chapelle, œuvre de Raphaël. L'un des principaux thèmes iconographiques de la chapelle funéraire d' Agostino Chigi était la résurrection des morts. Dans ce contexte, l'aventure de Jonas, avalé par un gros poisson et recraché trois jours plus tard sur ordre de Dieu, symbolisait la victoire sur la mort.",
   },
   // #endregion
+  // #endregion
+
+  // #region🔹 -----W-----
+  // #region "Willem van der Leeuw [PB / 1603-1665]"
+  {
+    title: "La chasse à l'hippopotame",
+    artist: "Willem van der Leeuw [PB / 1603-1665]",
+    year: "Entre 1624 et 1634",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Jacht_op_nijlpaard_en_krokodil%2C_RP-P-OB-67.825.jpg",
+    link: "https://www.europeana.eu/fr/item/15508/H_II_20_60",
+    description: "...",
+  },
+  // #endregion
+
   // #endregion
 ];
 function ArtworkCard({ artwork }: { artwork: Artwork }) {
