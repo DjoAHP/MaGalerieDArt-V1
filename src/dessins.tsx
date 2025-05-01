@@ -101,6 +101,7 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region🔹 -----C-----
+
   // #region "Charles Le Brun [FRA / 1576-1629]"
   {
     title: "Profils d'oiseau et « homme-oiseau » ",
@@ -131,6 +132,21 @@ const artworks: Artwork[] = [
       "Gilles Rousselet (imprimeur) ,Charles Le Brun (après la peinture de) ,Louis XIV (roi de France)",
   },
   // #endregion
+
+  // #region "Cherubino Alberti [ITA / 1553-1615]"
+  {
+    title: "Figure ailée sonnant la trompette",
+    artist: "Cherubino Alberti [ITA / 1553-1615]",
+    year: "1570–1615",
+    imageUrl:
+      "https://collectionapi.metmuseum.org/api/collection/v1/iiif/651194/1361083/main-image",
+    link: "https://www.metmuseum.org/art/collection/search/651194",
+    description:
+      "Titre : Une figure ailée de la renommée debout face à gauche et sonnant d'une trompette Artiste : Cherubino Alberti (Zaccaria Mattia) (italien, Borgo Sansepolcro 1553-1615 Rome) Date : 1570–1615 Support : Gravure Dimensions : Feuille : 12 15/16 × 7 1/16 po (32,9 × 18 cm) Classification : Estampes Crédits : La collection Elisha Whittelsey, Le Fonds Elisha Whittelsey, 1951 Numéro d'objet : 51.501.646",
+  },
+
+  // #endregion
+
   // #endregion
 
   // #region🔹 -----D-----
@@ -177,6 +193,7 @@ const artworks: Artwork[] = [
   // #endregion
 
   // #region🔹 -----L-----
+
   // #region "Leonardo Da Vinci [ITA / 1452-1519]"
   {
     title: "Autoportrait",
@@ -259,6 +276,25 @@ const artworks: Artwork[] = [
       "Vraisemblablement réalisé entre 1507 et 1513, il appartient à une série d'études largement postérieures au début de la création du tableau en 1502-1503 et chacune intéressée à un détail. Le motif de la tresse étant largement différent, mais se retrouvant sur des copies d'atelier ; les chercheurs tiennent ce travail comme un des arguments en faveur de la théorie selon laquelle ces copies seraient autant de prototypes grandeur nature du tableau du Louvre.",
   },
   // #endregion
+
+  // #endregion
+
+  // #region🔹 -----P-----
+
+  // #region "Pierre Paul Rubens [GRM / 1577-1540]"
+  {
+    title: "La Bataille d'Anghiari",
+    artist: "Pierre Paul Rubens [GRM / 1577-1540]",
+    year: "1603",
+    imageUrl:
+      "https://i.pinimg.com/736x/05/99/54/059954627b0631ac3c5b67f0dc941068.jpg",
+    link: "https://commons.wikimedia.org/wiki/File:Peter_Paul_Ruben%27s_copy_of_the_lost_Battle_of_Anghiari.jpg",
+    description:
+      "Copie d'après l'original perdu, Battaglia di Anghiari de Léonard de Vinci, par Rubens (vers 1603). Fresque originale du Palazzo della Signoria à Florence, exécutée en 1504-1505 et détruite vers 1560.",
+  },
+
+  // #endregion
+
   // #endregion
 
   // #region🔹 -----R-----

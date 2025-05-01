@@ -27,6 +27,21 @@ const artworks: Artwork[] = [
 
   // #endregion
 
+  // #region🔹 -----INCONNU-----
+  // #region "Inconnu"
+  {
+    title: "Tête d'une Amazone",
+    artist: "© José Luiz Bernardes Ribeiro",
+    year: "?",
+    imageUrl:
+      "https://i.pinimg.com/736x/e6/4d/c0/e64dc0cd188fa39d726a1d9cb88ae309.jpg",
+    link: "https://fr.m.wikipedia.org/wiki/Fichier:Head_of_an_Amazon_-_Palazzo_dei_Conservatori_-_Musei_Capitolini_-_Rome_2016.jpg",
+    description: "...",
+  },
+  // #endregion
+
+  // #endregion
+
   // #region🔹 -----A-----
   // #region "Antonio Canova [ITA / 1757-1822 ]"
   {
