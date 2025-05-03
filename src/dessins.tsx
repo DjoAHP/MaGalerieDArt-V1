@@ -8,7 +8,7 @@ interface Artwork {
   imageUrl: string;
   link: string;
   description: string;
-
+  rotate?: number;
 }
 
 const artworks: Artwork[] = [
@@ -23,6 +23,19 @@ const artworks: Artwork[] = [
       "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mantegna%2C_giuditta%2C_disegno%2C_uffizi%2C_gabinetto.jpg",
     link: "https://commons.wikimedia.org/wiki/File:Mantegna,_giuditta,_disegno,_uffizi,_gabinetto.jpg",
     description: "...",
+  },
+  // #endregion
+
+  // #region "Adrien de Vries [PB / 1556-1626]"
+  {
+    title: "Mercure & Psyché",
+    artist: "Adrien de Vries [PB / 1556-1626]",
+    year: "?",
+    imageUrl:
+      "https://api.europeana.eu/thumbnail/v3/400/d75a98ca38d7781fdf5ec018a228d4b9",
+    link: "https://pop.culture.gouv.fr/notice/joconde/50520005253",
+    description:
+      "Un roi possède trois filles dont la plus jeune, Psyché, décourage ses prétendants par sa beauté divine. Le roi se rend devant l'oracle, qui lui prédit que Psyché ne pourra être mariée qu'à un monstre, qui viendra la chercher sur un rocher. En effet Vénus, jalouse de sa rivale, a chargé son fils, l'Amour, de lui trouver un mari immonde...",
   },
   // #endregion
 
@@ -309,6 +322,16 @@ const artworks: Artwork[] = [
     description:
       "La statue du prophète Jonas faisait partie du décor original de la chapelle, œuvre de Raphaël. L'un des principaux thèmes iconographiques de la chapelle funéraire d' Agostino Chigi était la résurrection des morts. Dans ce contexte, l'aventure de Jonas, avalé par un gros poisson et recraché trois jours plus tard sur ordre de Dieu, symbolisait la victoire sur la mort.",
   },
+  {
+    title: "Études des têtes de deux apôtres et de leurs mains",
+    artist: "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]",
+    year: "1846",
+    imageUrl:
+      "https://i.pinimg.com/736x/e4/21/11/e421115fcc458d53db0b35ae83a844c6.jpg",
+    link: "https://www.ashmolean.org/studies-two-apostles",
+    description:
+      "Cette étude préparatoire pour le retable de la Transfiguration, conservé au Vatican entre 1518 et 1520, est sans conteste son plus grand dessin. Œuvre sublime, elle illustre à son apogée le pouvoir d'expression reconnu de l'artiste et révèle sa virtuosité technique. Les réactions et les émotions de deux figures contrastées – un homme âgé et un beau jeune homme – sont explorées avec sensibilité et une profonde perspicacité...",
+  },
   // #endregion
   // #endregion
 
@@ -324,6 +347,152 @@ const artworks: Artwork[] = [
     description: "...",
   },
   // #endregion
+
+  // #endregion
+
+  // #region🔹 -----DIVERS-----
+  {
+    title: "Dessin académique français d'un Romain classique",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://a.1stdibscdn.com/archivesE/upload/1121189/f_298863421738942309682/29886342_datamatics.jpg?disable=upscale&auto=webp&quality=60&width=1400",
+    link: "https://www.1stdibs.com/fr/meubles/d%C3%A9corations-murales/dessins/dessin-acad%C3%A9mique-fran%C3%A7ais-dun-romain-classique/id-f_29886342/",
+    description: "/",
+  },
+  {
+    title: "Buste",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.etsystatic.com/50953570/r/il/c6db52/6142160852/il_fullxfull.6142160852_8z3y.jpg",
+    link: "https://i.etsystatic.com/50953570/r/il/c6db52/6142160852/il_fullxfull.6142160852_8z3y.jpg",
+    description: "/",
+  },
+  {
+    title: "Medusa I",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/33/b3/6b/33b36b7aaef927885411147d52c1fb8b.jpg",
+    link: "https://ca.pinterest.com/pin/68187381854770027/",
+    description: "/",
+  },
+  {
+    title: "Medusa II",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/78/6e/ae/786eae653e767df418d6ef36470c897a.jpg",
+    link: "https://ca.pinterest.com/pin/56717276552045956/",
+    description: "/",
+  },
+  {
+    title: "Medusa III",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/16/8f/92/168f925e4b6ce05dc0d264ba01605cd6.jpg",
+    link: "https://ca.pinterest.com/pin/15551561209290518/",
+    description: "/",
+  },
+  {
+    title: "Cranes I",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/b8/03/59/b80359950ab86d65bb9154b2e697582b.jpg",
+    link: "https://ca.pinterest.com/pin/64035625947169102/",
+    description: "/",
+    rotate: 90, // en degrés : 90, 180, 270, etc.
+  },
+  {
+    title: "Mascaron I",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/94/c4/8b/94c48b5cd9047e41d2b0f2ca34e05ac5.jpg",
+    link: "https://ca.pinterest.com/pin/7810999346337047/",
+    description: "/",
+    rotate: 90, // en degrés : 90, 180, 270, etc.
+  },
+  {
+    title: "Mascaron II",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/85/c4/ca/85c4ca1416c6e26b685b5808e6dc8c07.jpg",
+    link: "https://ca.pinterest.com/pin/9359111718229907/",
+    description: "/",
+  },
+  {
+    title: "I",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/f8/4f/77/f84f776af165796a18cda40fa8afba43.jpg",
+    link: "https://ca.pinterest.com/pin/2040762328203253/",
+    description: "/",
+  },
+  {
+    title: "Lune I",
+    artist: "[Divers]",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/7a/32/a7/7a32a70d3f28c2138340bd365f63f19d.jpg",
+    link: "https://ca.pinterest.com/pin/633387442502560/",
+    description: "/",
+  },
+  // #endregion
+
+  // ---------------ETUDES--------------
+
+  // #region🔹 -----DRAPE-----
+  {
+    title: "[Etude]",
+    artist: "[Etude] Drapé",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/736x/ee/97/99/ee9799eaf3be1f60e1f1725b4b51e3c5.jpg",
+    link: "https://i.pinimg.com/736x/ee/97/99/ee9799eaf3be1f60e1f1725b4b51e3c5.jpg",
+    description: "Etudes: Drapé",
+  },
+  // #endregion
+
+  // #region🔹 -----TETE-----
+
+  {
+    title: "[Etude]",
+    artist: "[Etude] Tête",
+    year: "/",
+    imageUrl:
+      "https://latelierdudessin.fr/wp-content/uploads/2021/09/l-atelier-du-dessin-cours-de-dessin-mons-en-baroeul-cachet-1.jpg",
+    link: "https://latelierdudessin.fr/wp-content/uploads/2021/09/l-atelier-du-dessin-cours-de-dessin-mons-en-baroeul-cachet-1.jpg",
+    description: "Etudes: Tête",
+  },
+  {
+    title: "[Etude]",
+    artist: "[Etude] Tête",
+    year: "/",
+    imageUrl:
+      "https://i.pinimg.com/236x/b0/e7/c9/b0e7c9a13998c59676785104b6f44a28.jpg",
+    link: "https://i.pinimg.com/236x/b0/e7/c9/b0e7c9a13998c59676785104b6f44a28.jpg",
+    description: "Etudes: Tête",
+  },
+
+  // #endregion
+
+  // #region🔹 -----BOUCHE-----
+
+  {
+    title: "[Etude]",
+    artist: "[Etude] Bouche",
+    year: "/",
+    imageUrl:
+      "https://www.dessinoupeinture.fr/wp-content/uploads/2020/03/1084_doucet_4EST202-17.jpg",
+    link: "https://www.dessinoupeinture.fr/wp-content/uploads/2020/03/1084_doucet_4EST202-17.jpg",
+    description: "Etudes: Bouche",
+  },
 
   // #endregion
 ];
@@ -349,13 +518,16 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
               <ExternalLink size={24} />
             </a>
           </div>
+
           <a href={artwork.link} target="_blank" rel="noopener noreferrer">
             <img
               src={artwork.imageUrl}
               alt={artwork.title}
-              className="w-full h-auto rounded-lg object-contain mb-4"
+              className="w-full h-auto rounded-lg object-contain mb-4 transition-transform duration-300"
+              style={{ transform: `rotate(${artwork.rotate || 0}deg)` }}
             />
           </a>
+
           <p className="text-gray-400 text-sm italic leading-relaxed">
             {artwork.description}
           </p>
@@ -364,6 +536,7 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
     </div>
   );
 }
+
 
 function App() {
   // NAV HUMBURGER ⬎
@@ -453,6 +626,10 @@ function App() {
     );
   }
 
+
+
+
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
       {/* Navbar */}
@@ -512,6 +689,8 @@ function App() {
         </div>
       </nav>
       {/* FIN NAVBAR  */}
+
+
 
       {/* Content */}
       <div className="p-8 pt-20 max-w-[2000px] mx-auto">
