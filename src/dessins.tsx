@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { ExternalLink, ChevronDown, Search } from "lucide-react";
+import Button from "./components/ui/Button";
 
 interface Artwork {
   title: string;
@@ -622,6 +623,18 @@ function App() {
         >
           Europeana
         </a>
+        {/* BOUTON STUDY PICTURE  */}
+        <a
+          href="https://jocular-empanada-da2a4d.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button title="Ouvrir StudyPicture">
+            <ExternalLink size={18} className="mr-2" />
+            <span className="hidden sm:inline">StudyPicture</span>
+          </Button>
+        </a>
+        {/* ---------  */}
       </>
     );
   }

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ExternalLink } from "lucide-react";
+import Button from "./components/ui/Button";
 
 function Mythologie() {
   // BARRE DE RECHERCHE ⬎
@@ -81,6 +83,18 @@ function Mythologie() {
         >
           Europeana
         </a>
+        {/* BOUTON STUDY PICTURE  */}
+        <a
+          href="https://jocular-empanada-da2a4d.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button title="Ouvrir StudyPicture">
+            <ExternalLink size={18} className="mr-2" />
+            <span className="hidden sm:inline">StudyPicture</span>
+          </Button>
+        </a>
+        {/* ---------  */}
       </>
     );
   }
