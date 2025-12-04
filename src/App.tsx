@@ -1,8 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { ExternalLink, ChevronDown, Search } from "lucide-react";
-// BOUTON 
+// BOUTON
 import Button from "./components/ui/Button";
-
 
 interface Artwork {
   title: string;
@@ -866,7 +865,7 @@ const artworks: Artwork[] = [
     artist: "Luca Giordano [ITA / 1634-1705]",
     year: "1680",
     imageUrl:
-      "https://www.nationalgallery.org.uk/media/34819/n-6633-00-000005-hd.jpg?rxy=0.43188405797101448,0.44289693593314761&width=800&height=800&v=1d6544b6b7ad220",
+      "https://www.latribunedelart.com/IMG/jpg/giordano_2.jpg?41873/2406c99115fca988aa5ea26a37b7ada2a2e23ea87f49e981a882047e629e4dad",
     link: "https://www.nationalgallery.org.uk/paintings/luca-giordano-allegory-of-justice",
     description:
       "Ce modello , ou étude détaillée à l'huile, fait partie d'un groupe de douze que Giordano a réalisés en préparation des fresques du plafond du Palazzo Medici Riccardi entre 1682 et 1685.",
@@ -1546,9 +1545,7 @@ function App() {
                 />
               </svg>
             </button>
-            
           </div>
-          
         </div>
 
         <div
