@@ -1,0 +1,7 @@
+Git infos: (lien depot: https://github.com/DjoAHP/MaGalerieDArt-V1)
+
+1. git add .
+2. git commit -m "INFOS"
+3. git push -u origin main
+
+(Lien Netlify: https://app.netlify.com/projects/ma-galerie-dart/configuration/general)
