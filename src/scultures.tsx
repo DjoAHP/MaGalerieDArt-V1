@@ -370,7 +370,7 @@ function App() {
           className="text-4xl font-bold mb-8 text-center"
           style={{ color: "#FBFBFB" }}
         >
-          Ma Galerie d'Arts
+          Scultures
         </h1>
 
         <div className="relative mb-8 max-w-md mx-auto">
