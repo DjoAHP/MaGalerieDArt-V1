@@ -27,6 +27,19 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "Alfons Mucha (Dessinateur) [ATR / 1860-1939]"
+  {
+    title: "JOB (Series d'affiches)",
+    artist: "Alfons Mucha (Dessinateur) [AUTR / 1860-1939]",
+    year: "1896",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alphonse_Mucha_-_Job_-_Google_Art_Project.jpg/500px-Alphonse_Mucha_-_Job_-_Google_Art_Project.jpg",
+    link: "https://fr.wikipedia.org/wiki/Collection_JOB",
+    description:
+      "La collection JOB est une production d'œuvres graphiques constituée de calendriers, affiches et cartes postales à vocation publicitaire pour la fabrique de papier à cigarettes JOB. De caractère artistique, elle est illustrée par des peintres et affichistes de renom, principalement lors de la période Art nouveau.",
+  },
+  // #endregion
+
   // #region "Adrien de Vries [PB / 1556-1626]"
   {
     title: "Mercure & Psyché",
@@ -538,7 +551,6 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
   );
 }
 
-
 function App() {
   // NAV HUMBURGER ⬎
   const [menuOpen, setMenuOpen] = useState(false);
@@ -639,10 +651,6 @@ function App() {
     );
   }
 
-
-
-
-  
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-900">
       {/* Navbar */}
@@ -702,8 +710,6 @@ function App() {
         </div>
       </nav>
       {/* FIN NAVBAR  */}
-
-
 
       {/* Content */}
       <div className="p-8 pt-20 max-w-[2000px] mx-auto">
