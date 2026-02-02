@@ -9,8 +9,8 @@ function Mythologie() {
     /* /// LIVRES (Lecture) ///  */
   }
   const [metaovidOpen, setMetaOvidOpen] = useState(false);
-    const [iliadeOpen, setIliadeOpen] = useState(false);
-        const [odysseeOpen, setOdysseeOpen] = useState(false);
+  const [iliadeOpen, setIliadeOpen] = useState(false);
+  const [odysseeOpen, setOdysseeOpen] = useState(false);
 
   //   -----
   const [edfigOpen, setEdfigOpen] = useState(false);
@@ -228,7 +228,7 @@ function Mythologie() {
             )}
           </div>
           {/* FIN  */}
-          
+
           {/* HOMERE - L' ILIADE (entre -850 et -750) */}
           <div className="mt-8">
             <button
@@ -630,6 +630,48 @@ function Mythologie() {
             )}
           </div>
           {/* FIN  */}
+        </div>
+
+        {/* -------------------------CHARLES BARGUE---------------------------  */}
+
+        {/* vignette CHARLES BARGUE  */}
+        <div className="flex items-center space-x-4 mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Head_of_Young_man._Study_%28Charles_Bargue%29_-_Nationalmuseum_-_18601.tif/lossy-page1-190px-Head_of_Young_man._Study_%28Charles_Bargue%29_-_Nationalmuseum_-_18601.tif.jpg"
+            alt="Catégorie CHARLES BARGUE"
+            className="w-10 h-10 rounded" // taille et arrondis
+          />
+          <h1 className="text-white text-2xl">༺𓆩 𝓒𝓱𝓪𝓻𝓵𝓮𝓼 𝓑𝓪𝓻𝓰𝓾𝓮 𓆪༻</h1>
+        </div>
+        {/* FIN vignette CHARLES BARGUE  */}
+
+        {/* Charles Bargue Drawing Course (1860) */}
+        <div className="mt-8">
+          <button
+            onClick={() => setEdfigOpen(!edfigOpen)}
+            className="text-xl font-semibold mb-2 text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            Charles Bargue Drawing Course (1860) ⮯
+          </button>
+          {edfigOpen && (
+            <div className="mt-2">
+              <p className="text-gray-300">
+                Le cours de dessin Bargue-Gérôme est une réédition complète d'un
+                célèbre cours de dessin de la fin du XIXe siècle. Il contient un
+                ensemble de près de deux cents lithographies magistrales
+                représentant des sujets que les étudiants en dessin doivent
+                copier avant de s'essayer au dessin d'après nature.
+              </p>
+              <a
+                href="https://archive.org/details/CharlesBargueDrawingCourse/mode/1up"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300 mt-4 inline-block"
+              >
+                Voir l' ouvrage
+              </a>
+            </div>
+          )}
         </div>
 
         {/* -------------------------COURS DE PEINTURE (HUILE)---------------------------  */}
