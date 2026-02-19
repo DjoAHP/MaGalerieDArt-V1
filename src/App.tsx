@@ -566,6 +566,20 @@ const artworks: Artwork[] = [
   },
   // #endregion
 
+  // #region "John Martin [EN / 1789-1854]"
+  {
+    title: "Le Pandemonium",
+    artist: "John Martin [EN / 1789-1854]",
+    year: "1841",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/John_Martin_Le_Pandemonium_Louvre.JPG",
+    link: "https://collections.louvre.fr/ark:/53355/cl010067390",
+    description:
+      "Le Pandemonium est un tableau de John Martin, peint en 1841. Il représente un paysage apocalyptique, d' un palais construit par Satan, inspiré de la description du monde infernal dans le poème de John Milton, Le Paradis perdu.",
+    isFavorite: true,
+  },
+  // #endregion
+
   // #region "Johann Heinrich Füssli [SUISSE / 1741-1824]"
   {
     title: "Thor luttant contre le serpent de Midgard",
