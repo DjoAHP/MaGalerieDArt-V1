@@ -210,7 +210,7 @@ const artworks: Artwork[] = [
     artist: "Charles West Cope [GRB / 1811-1890]",
     year: "1871",
     imageUrl:
-      "https://d1inegp6v2yuxm.cloudfront.net/royal-academy/image/upload/c_limit,cs_tinysrgb,dn_72,f_auto,fl_progressive.keep_iptc,w_1200/zx2bqhllf01jec57qzis.jpeg",
+      "https://cdn.royalacademy.org.uk/images/00tajj7c6fgtfsu5.jpg?format=auto&width=1200",
     link: "https://www.royalacademy.org.uk/art-artists/work-of-art/the-night-alarm-the-advance",
     description:
       "Cope étudia à la Royal Academy Schools à partir de 1828, puis voyagea en France et en Italie entre 1832 et 1835. Il peignit des sujets littéraires, historiques et bibliques, ainsi que des scènes de genre domestiques...",
@@ -451,7 +451,7 @@ const artworks: Artwork[] = [
     artist: "Gerrit van Honthorst [NLD / 1590-1656]",
     year: "1616",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Samson_et_Dalila.JPG/440px-Samson_et_Dalila.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gerrit_van_Honthorst_-_Samson_and_Delilah_-_1968.23_-_Cleveland_Museum_of_Art.tiff/lossy-page1-1280px-Gerrit_van_Honthorst_-_Samson_and_Delilah_-_1968.23_-_Cleveland_Museum_of_Art.tiff.jpg",
     link: "https://www.clevelandart.org/art/1968.23",
     description:
       "Samson avait été promis à sa mère inféconde par un ange et annoncé comme un libérateur du peuple et un être consacré à Dieu qui n’avait pas le droit de se couper les cheveux. Samson, en combattant solitaire, fut souvent inscrit dans la tradition des héros de la mythologie grecque et, au même titre qu’Héraclès, possédait des pouvoirs surhumains. Son caractère était considéré comme impulsif et violent. Selon le Livre des Juges, son adversaire et séductrice Dalila, qui lui arracha son secret, provoquant ainsi sa chute, agissait pour le compte des princes des Philistins.",
@@ -514,8 +514,7 @@ const artworks: Artwork[] = [
     title: "Jupiter et Sémélé",
     artist: "Gustave Moreau [FRA / 1826-1898]",
     year: "1895",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/800px-Jupiter_and_Semele_by_Gustave_Moreau.jpg",
+    imageUrl: "https://cdn.gallerix.asia/sr/M/1065654342/189018824.jpg",
     link: "https://fr.gallerix.ru/storeroom/1065654342/N/189018824/",
     description:
       "Jupiter et Sémélé de Gustave Moreau illustre la passion destructrice de Jupiter, roi des dieux, pour la mortelle Semele.Séduite par l’éclat divin, Semele demande à voir la forme éclatante de Jupiter, scellant ainsi son destin tragique.La révélation de la divinité de Jupiter, trop intense pour une mortelle, consume Semele dans une lumière fulgurante.L’œuvre de Moreau exprime avec finesse le contraste entre désir sensuel et anéantissement face à la puissance divine.",
@@ -840,7 +839,7 @@ const artworks: Artwork[] = [
     artist: "Leonardo Da Vinci [ITA / 1452-1519]",
     year: "1490",
     imageUrl:
-      "https://fr.muzeo.com/sites/default/files/styles/image_moyenne_def/public/oeuvres/peinture/renaissance/la_dame_ea_lhermine137707.jpg?itok=karIBP5i",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/1280px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg",
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=3e020263-b319-4594-a0ff-01fe66b1f21a",
     description:
       "Dame à l’hermine de Léonard de Vinci, peinte vers 1489-1490, représente Cecilia Gallerani tenant une hermine blanche, symbole de pureté et de noblesse. Le sfumato adoucit les contours, donnant profondeur et réalisme à son regard expressif. La lumière met en valeur la finesse de son visage et la texture de sa robe. La posture dynamique apporte une impression de mouvement naturel. Ce chef-d'œuvre illustre la maîtrise du portrait par Léonard.",
@@ -936,7 +935,7 @@ const artworks: Artwork[] = [
     artist: "Michelangelo Merisi (Le Caravage) [ITA / 1571-1610]",
     year: "1601",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg/800px-Supper_at_Emmaus-Caravaggio_%281601%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/Supper_at_Emmaus-Caravaggio_%281601%29.jpg",
     link: "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
     description:
       "Le Souper à Emmaüs ou la Cène à Emmaüs est un tableau de Caravage peint vers 1601 et conservé à la National Gallery de Londres. Il existe une seconde version de ce tableau datant de 1606 et conservée à l'Académie des beaux-arts de Brera de Milan. Il s'agit d'une commande de Ciriaco Mattei, qui représente le moment où les pèlerins d'Emmaüs réalisent brutalement qu'ils ont face à eux le Christ ressuscité.",
@@ -1222,7 +1221,7 @@ const artworks: Artwork[] = [
     artist: "Raphaël (Raffaello Sanzio) [ITA / 1483-1520]",
     year: "1518",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Raffael_099.jpg/800px-Raffael_099.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Raffael_099.jpg",
     link: "https://dam.haltadefinizione.com/images/viewers/dzi/?uuid=07c247ad-479a-4619-89a2-b7bbe122b80c",
     description:
       "La Vision d'Ézéchiel de Raphaël, réalisée vers 1517-1518, est une œuvre emblématique du Haut-Renaissance qui capture l'instant mystique où le prophète Ézéchiel reçoit une révélation divine.Dans ce petit tableau, Raphaël dépeint un Dieu majestueux, assis sur un trône, entouré d'une aura de lumière dorée et de nuages lumineux, symbolisant la gloire céleste.Autour de Dieu, les quatre créatures vivantes – ou tétramorphe – aux visages d'homme, de lion, de taureau et d'aigle évoquent les symboles des quatre Évangélistes, conférant une dimension universelle à la vision.",
@@ -1252,7 +1251,7 @@ const artworks: Artwork[] = [
     artist: "Sandro Botticelli [ITA / 1444-1510]",
     year: "1480",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/640px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg/3840px-Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
     link: "https://fr.gallerix.ru/album/Botticelli/pic/glrx-1297681446",
     description:
       "Le Printemps de Botticelli est une allégorie mythologique célébrant le renouveau et la fertilité de la nature.Au centre, Vénus, déesse de l'amour, rayonne et insuffle la grâce dans le monde.Zéphyr, le vent de l'Est, emporte Chloris, qui se transforme en Flore, symbole de la floraison.L'ensemble exprime l'harmonie entre amour, beauté et l'épanouissement vital du printemps.",
@@ -1322,8 +1321,7 @@ const artworks: Artwork[] = [
     title: "Le Radeau de la Méduse",
     artist: "Théodore Géricault [FR / 1791-1824]",
     year: "1819",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/2560px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
+    imageUrl: "https://cdn.gallerix.asia/sr/W/1628379096/753576713.jpg",
     link: "https://fr.gallerix.ru/album/Waterhouse/pic/glrx-753576713",
     description:
       "Le Radeau de la Méduse, de Théodore Géricault dépeint le naufrage de la frégate française Méduse en 1816, où des survivants dérivent sur un radeau de fortune, confrontés à la faim, la soif et le désespoir. Le tableau illustre la tragédie humaine et la lutte pour la survie face à l'adversité. Géricault a choisi ce sujet contemporain pour critiquer l'incompétence du gouvernement, marquant une rupture avec le néoclassicisme et ouvrant la voie au romantisme.",
