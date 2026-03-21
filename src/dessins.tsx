@@ -144,9 +144,10 @@ const artworks: Artwork[] = [
     artist: "Charles Le Brun [FRA / 1576-1629]",
     year: "Non daté",
     imageUrl:
-      "https://www.meisterdrucke.fr/kunstwerke/1260px/Alexis_Loir_%28I%29_-_De_val_der_opstandige_engelen_-_%28MeisterDrucke-1384816%29.jpg",
-    link: "https://www.meisterdrucke.fr/fine-art-prints/Alexis-Loir-%28I%29/1384816/La-chute-des-anges-rebelles.html",
-    description: "...",
+      "https://collections.louvre.fr/media/cache/original/21/34/75/00/AGO213475-000_PE.jpg",
+    link: "https://collections.louvre.fr/en/ark:/53355/cl020213475",
+    description:
+      "Dessin de l'atelier dont les parties latérales ont été reprises, à partir d'un autre dessin calqué. (...) Ce dessin a probablement été réalisé en vue de la gravure ; on y retrouve, en effet, les différentes techniques utilisées par l'atelier lorsqu'il s'est agi de fournir à Simonneau, pour être gravés, les modèles des tableaux de la voûte de la Grande Galerie de Versailles.",
   },
   {
     title: "Christ à Gethsémani avec deux anges",
